@@ -1,9 +1,9 @@
-# moer-mpg-data-analysis
-Master level course in Physical Geography at the University of Marburg.
+# moer-bsc-base-r
+A introductory course in Physical Geography at the University of Marburg for BSc- and MSc-students who want to learn the basics of R.
 
 This course is brought to you as part of the [Open Educational Resources](https://oer.uni-marburg.de) initiative of the [University of Marburg, Germany](https://www.uni-marburg.de/de) from the [Lab of Environmental Informatics](https://www.uni-marburg.de/en/fb19/disciplines/physisch/environmentalinformatics) at the [Department of Geography](https://www.uni-marburg.de/fb19).
 
-The course content is developed and hosted on Github. Thus you find the completed version at Open Educational Resources ([OER release](https://oer.uni-marburg.de/ilias.php?ref_id=1655946&cmdClass=ilrepositorygui&cmdNode=w2&baseClass=ilrepositorygui)) while the cutting-edge development version resides on [Github](https://geomoer.github.io/moer-mpg-data-analysis/)
+The course content is developed and hosted on Github. 
 
 The responsibility for the content rests with the instructors. Statements, opinions and/or conclusions are the ones from the instructors and do not necessarily reflect the opinion of the representatives of Marburg University.
 
