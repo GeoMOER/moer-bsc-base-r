@@ -6,8 +6,9 @@ header:
   caption: '[Environmental Informatics Marburg](https://www.uni-marburg.de/en/fb19/disciplines/physisch/environmentalinformatics){:target="_blank"}'
 ---
 
-This course is intended as a blended learning module, although the provided introductions, explanations and examples might be useful for self-study only, too.
+*This course is intended as a blended learning module, although the provided introductions, explanations and examples might be useful for self-study only, too.*
 
+<!--more-->
 
 ## HTML learning environment
 

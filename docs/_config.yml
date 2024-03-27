@@ -24,12 +24,12 @@
 # Serve on GitHub
 url: https://geomoer.github.io
 baseurl: "/moer-mpg-data-analysis"
-
+github: [metadata]
 
 ##### Title ###################################################################
-title: Data Analysis
+title: Base R
 name: &name "Lab of Environmental Informatics" # &name is a YAML anchor which can be *referenced later
-email: zeussd@uni-marburg.de
+email: lea.heidrich@uni-marburg.de
 description: >- # this means to ignore newlines until next item
   course course-materials geography remote-sensing marburg-open-educational-resource 
   physical-geography environmental-science nature-conservation r
@@ -40,14 +40,14 @@ twitter:
 
 ##### Lecturer settings #######################################################
 author:
-  name             : "Dirk Zeuss"
-  avatar           : "/assets/images/instructors/zeuss.jpg"
+  name             : "Lea Heidrich"
+  avatar           : "/assets/images/instructors/heidrich.jpg"
   bio              : "University of Marburg"
   location         : "Marburg, DE"
-  email            : "dirk.zeuss@uni-marburg.de"
+  email            : "lea.heidrich@uni-marburg.de"
   uri              : "https://www.uni-marburg.de/en/fb19/disciplines/physisch/environmentalinformatics"
   home             : "https://www.uni-marburg.de/en/fb19/disciplines/physisch/environmentalinformatics"
-  researchgate     : "https://www.researchgate.net/profile/Dirk_Zeuss/stats" # to be included some day
+#  researchgate     : "https://www.researchgate.net/profile/Dirk_Zeuss/stats" # to be included some day
 #  flickr           : "https://www.flickr.com/environmentalinformatics-marburg/"
   github           : "GeoMOER"
 #  twitter          : "https://twitter.com/geographie_umr"
@@ -136,7 +136,7 @@ defaults:
       path: ""
       type: unit01
     values:
-      category: "01 First Things First"
+      category: "01 R Introduction"
       tags: "Unit 01"
       layout: single
       sidebar:
@@ -146,7 +146,7 @@ defaults:
       path: ""
       type: unit02
     values:
-      category: "02 First Things Second"
+      category: "02 Data Types"
       tags: "Unit 02"
       layout: single
       sidebar:
@@ -156,7 +156,7 @@ defaults:
       path: ""
       type: unit03
     values:
-      category: "03 Look at Your Data"
+      category: "03 Objects Types"
       tags: "Unit 03"
       layout: single
       sidebar:
@@ -166,7 +166,7 @@ defaults:
       path: ""
       type: unit04
     values:
-      category: "04 Clean Your Data"
+      category: "04 Indexing and Subsetting"
       tags: "Unit 04"
       layout: single
       sidebar:
@@ -176,7 +176,7 @@ defaults:
       path: ""
       type: unit05
     values:
-      category: "05 Describe Your Linear Data"
+      category: "05 In- and Output of data"
       tags: "Unit 05"
       layout: single
       sidebar:
@@ -186,8 +186,8 @@ defaults:
       path: ""
       type: unit06
     values:
-      category: "06 Predict Your Linear Data"
-      tags: "Unit 06"
+      category: "06 Selecting Data" 
+      tags: "Unit 06" 
       layout: single
       sidebar:
         nav: "course_unit" 
@@ -196,7 +196,7 @@ defaults:
       path: ""
       type: unit07
     values:
-      category: "07 Select Your Variables"
+      category: "07 Simple Visualizations"
       tags: "Unit 07"
       layout: single
       sidebar:
@@ -206,7 +206,7 @@ defaults:
       path: ""
       type: unit08
     values:
-      category: "08 Tune Your Models"
+      category: "08 Conditions"
       tags: "Unit 08"
       layout: single
       sidebar:
@@ -216,7 +216,7 @@ defaults:
       path: ""
       type: unit09
     values:
-      category: "09 Predict Time Series"
+      category: "09 Automation"
       tags: "Unit 09"
       layout: single
       sidebar:
@@ -226,7 +226,7 @@ defaults:
       path: ""
       type: unit10
     values:
-      category: "10 Analyse Time Series"
+      category: "10 Projects"
       tags: "Unit 10"
       layout: single
       sidebar:

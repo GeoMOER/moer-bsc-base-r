@@ -58,7 +58,7 @@ Please also seriously check and follow the [Information on the Coronavirus](http
 |---------|------|-------|---------|
 ||| **The basics** |
 | 01 | 19.04.2024 | R Introduction               | Introduction of R, R Studio and data types, getting help |
-| 02 | 26.04.2024 | Objects & Indexing           | create your own vector, indecing, other object types |
+| 02 | 26.04.2024 | Objects & Indexing           | create your own vector, indexing, other object types |
 | 03 | 03.05.2024 | Data frames                  | Reading, addressing and writing (tabulated) data |
 ||| **Data handling** |
 | 04 | 10.05.2024 | subsetting & sorting         | how to subset and sort your data by values |
