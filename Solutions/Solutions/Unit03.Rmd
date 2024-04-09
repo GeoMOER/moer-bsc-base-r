@@ -1,0 +1,82 @@
+---
+title: "Assignment: Vector Operations and Data Types in R"
+output:
+  html_document:
+    df_print: paged
+---
+In this exercise, we'll delve into vector creation, manipulation, and data type conversion in R, essential skills for data analysis.
+
+**1.** Create a vector named `Jahre_var1` using the `c()` function with even numbers from 1983 to 2012. Then, do the same using the `seq()` function, but name this vector `Jahre_var2`.
+```{r}
+Jahre_var1 <- c(1983:2012)
+Jahre_var1 <- Jahre_var1[Jahre_var1 %% 2 == 0]
+print(Jahre_var1)
+
+Jahre_var2 <- seq(1984, 2012, by = 2)
+print(Jahre_var2)
+```
+
+
+**2.** Determine the data type of each vector. Convert them if necessary to match the appropriate data type for their contents. <br/>
+```{r}
+is.integer(Jahre_var1)
+
+is.integer(Jahre_var2)
+Jahre_var2 <- as.integer(Jahre_var2)
+is.integer(Jahre_var2)
+```
+
+
+**3.** Now <br/>
+   **a)** Convert the `Jahre_var1` vector to a character type. <br/>
+```{r}
+Jahre_var1 <- as.character(Jahre_var1)
+str(Jahre_var1)
+```
+
+   **b)** After conversion, create two new vectors: `Massenzunahme` with values 4.52, 2, 12.04, 0, 8.432 and `AnzahlWochen` with values from 0 to 4. <br/>
+```{r}
+Massenzunahme <- c(4.52, 2, 12.04, 0, 8.432)
+AnzahlWochen  <- seq(0, 4, 1)
+```
+
+   **c)** Divide `Massenzunahme` by `AnzahlWochen` and observe the results.
+```{r}
+Massenzunahme/AnzahlWochen
+```
+
+
+
+**4**. Then <br/>
+**a)** Calculate the Shannon Index for a community of 4 species (A, B, C, D), where species A has 30 individuals, species B has 25 individuals, species C has 15 individuals, and species D has 10 individuals. The Shannon Index is calculated as follows:
+
+$$
+H = -\sum_{i=1}^{S} p_i \ln(p_i)
+$$
+
+with
+
+$$
+p_i = \frac{n_i}{N}
+$$
+
+where $n_i$ is the frequency of each species and $N$ is the total number of individuals across all species. Compare this with a community of 4 species, each having 12 individuals.
+
+```{r}
+N1 <- c(30, 25, 15, 10)
+N2 <- rep(12, 4)
+H1=-sum(N1/sum(N1)*log(N1/sum(N1)))
+H2=-sum(N2/sum(N2)*log(N2/sum(N2)))
+print(H1)
+print(H2)
+```
+  
+**b)** compare the result with a community of 4 species, each having 18 individuals.
+```{r}
+N3 <- rep(22, 4)
+H3=-sum(N3/sum(N3)*log(N3/sum(N3)))
+print(H3)
+```
+
+
+Please save your file as "FirstName_LastName_Task_Day2_Unit03.R".

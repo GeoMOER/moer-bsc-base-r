@@ -166,7 +166,7 @@ defaults:
       path: ""
       type: unit04
     values:
-      category: "04 Indexing and Subsetting"
+      category: "04 Indexing, Subsetting and Sorting"
       tags: "Unit 04"
       layout: single
       sidebar:
