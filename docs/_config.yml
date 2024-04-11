@@ -23,11 +23,11 @@
 
 # Serve on GitHub
 url: https://geomoer.github.io
-baseurl: "/moer-mpg-data-analysis"
+baseurl: "/moer-bsc-base-r"
 github: [metadata]
 
 ##### Title ###################################################################
-title: Base R
+title: Base R 2024
 name: &name "Lab of Environmental Informatics" # &name is a YAML anchor which can be *referenced later
 email: lea.heidrich@uni-marburg.de
 description: >- # this means to ignore newlines until next item
