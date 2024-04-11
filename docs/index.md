@@ -90,5 +90,9 @@ No preparation or prerequisites are needed for this course.
 
 
 
-# Instructor
-{% include author-profile.html %}
+## Team
+
+{% for author in site.data.authors %}
+  {% include author-profile.html %}
+ <br />
+{% endfor %}

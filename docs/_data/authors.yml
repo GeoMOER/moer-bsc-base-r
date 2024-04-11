@@ -1,0 +1,24 @@
+
+# /_data/authors.yml
+
+- heidrich:
+  name             : "Lea Heidrich"
+  avatar           : "/assets/images/instructors/heidrich.jpg"
+  bio              : "University of Marburg"
+  location         : "Marburg, DE"
+  email            : "lea.heidrich@uni-marburg.de"
+  uri              : "https://www.uni-marburg.de/en/fb19/disciplines/physisch/environmentalinformatics"
+  home             : "https://www.uni-marburg.de/en/fb19/disciplines/physisch/environmentalinformatics"
+  github           : "GeoMOER"
+- zeuss:
+  name             : "Dirk Zeuss"
+  avatar           : "/assets/images/instructors/zeuss.jpg"
+  email            : "dirk.zeuss@uni-marburg.de"
+  bio              : "Philipps-Universität Marburg"
+  location         : "Marburg, DE"
+  home             : "https://www.uni-marburg.de/de/fb19/fachbereich/staff/dirk-zeuss"
+  uri              : "https://www.uni-marburg.de/de/fb19/disciplines/physisch/umweltinformatik"
+
+
+  
+
