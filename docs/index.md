@@ -5,7 +5,7 @@ date: '2024-02-19 13:00:00 +0100'
 header:
   overlay_color: "#000"
   overlay_filter: 0.6
-  overlay_image: "/assets/images/title/curve.png"
+  overlay_image: "/assets/images/title/DALLE_R.png"
   caption: 'Image: [**Environmental Informatics Marburg**](https://www.uni-marburg.de/en/fb19/disciplines/physisch/environmentalinformatics)'
   cta_label: Go to course units
   cta_url: "/units.html"
@@ -38,7 +38,7 @@ At the end of this course you should be able to
 
 # Setting
 
-This course will take place in a synchronous setting in presence in room **F 14 | 00A19** every **Friday, 9:15-12:00.** 
+This course will take place in a synchronous setting in presence in room **F 14|00A19** every **Friday, 9:15-12:00.** 
 
 {: .notice--info}
 

@@ -56,6 +56,7 @@ Examples of mathematic operations in R. This is using R like a calculator.
 | x %% y    | Modulus (x mod y)                    | `x %% y` |
 | %/%       | Integer division                     | `x %/% y`|
 | **Math Functions** ||
+| sum()     | Sum                                  | `sum()`
 | log()     | Logarithms, by default natural       | `log(x)` |
 | exp()     | Exponential function                 | `exp(x)` |
 | sqrt()    | Square-root                          | `sqrt(x)`|

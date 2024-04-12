@@ -17,4 +17,4 @@ In this exercise, we'll start with the basics of R, focusing on installation and
   a) calculate the sum and product of the numbers 3, 7, 9, 12, and 21. Explore R's help features to find an alternative solutions. <br/>
   b) Calculate the square root of 2025.
 
-Please save your file as "FirstName_LastName_Task_Day1_Unit1.R".
+Please save your file as "FirstName_LastName_Task_Day1_Unit1.R" and upload it to the "Upload/Unit 1"-Folder in Ilias

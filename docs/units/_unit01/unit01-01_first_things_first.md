@@ -4,9 +4,7 @@ header:
   image: "/assets/images/title/title_1600_500.jpg"
   caption: 'Image: [**Environmental Informatics Marburg**](https://www.uni-marburg.de/en/fb19/disciplines/physisch/environmentalinformatics)'
 ---
-
 *Learn about R and R Studio*
-
 <!--more-->
 
 
@@ -24,7 +22,7 @@ At the end of this unit you should be able to
 
 ## Why  R ?
 
-{% include figure image_path="/assets/images/unit_images/u01/gui_r.png" caption="**User Interface of R:** *“the functional appearance of the interpreter, which in my experience has struck fear into the heart of so many an undergraduate, stays true zo the very nature of the software – a blank statistical canvas that can be used for any number of tasks”*- Tilman M. Davies, The book of R " %}
+{% include figure image_path="/assets/images/unit_images/u01/gui_r.png" caption="**User Interface of R:** *“the functional appearance of the interpreter, which in my experience has struck fear into the heart of so many an undergraduate, stays true to the very nature of the software – a blank statistical canvas that can be used for any number of tasks”*- Tilman M. Davies, The book of R " %}
 
 The *[r-project](https://www.r-project.org/)* describe their work as such:
 
