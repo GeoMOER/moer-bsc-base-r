@@ -88,3 +88,12 @@ Each group should note down 5 questions they would ask themselves about what the
     d) Which country's emissions have reduced more from 1990 to 2021 than the median change?<br/>
     e) Sort the dataset by emissions in 2020. Which country has the third-largest emissions?<br/>
     f) Name two variants that could be used to filter the data into a new data set called "relSmall", which only contains the countries that emitted less than the average (arothmetic mean).
+
+3. Now...<br/>
+    a) Create a project folder. Download and extract the .zip file "DataDay04" into this folder.<br/>
+    b) Download and load the "vegan" package.<br/>
+    c) Load the two datasets "specdat" and "envdat" into your environment. Name them accordingly as "specdat" and "envdat".<br/>
+    d) Transform "specdat" into a long format (named "speclong") so that the species (columns from the third column onwards) are in one column, and the corresponding coverage degrees are in a column named "CoverageDegrees".<br/>
+    e) Calculate the mean, sum, and standard deviation per plot.
+
+2. Merge "speclong" with "envdat" into "mergedat".
