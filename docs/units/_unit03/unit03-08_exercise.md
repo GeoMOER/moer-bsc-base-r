@@ -1,5 +1,5 @@
 ---
-title: "Assignment: Vector Operations and Data Types in R"
+title: "Exercise: Vector Operations and Data Types in R"
 toc: true
 toc_label: "In this example"
 header:

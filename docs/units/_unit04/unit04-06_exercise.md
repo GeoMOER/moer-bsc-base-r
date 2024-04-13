@@ -1,5 +1,5 @@
 ---
-title: "Assignment: Objects and indexing in R"
+title: "Exercise: Objects and indexing in R"
 toc: true
 toc_label: "In this example"
 header:

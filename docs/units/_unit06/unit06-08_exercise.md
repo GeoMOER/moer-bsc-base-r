@@ -1,5 +1,5 @@
 ---
-title: "Assignment: Greenhouse gases in CO₂ equivalents"
+title: "Exercise: Greenhouse gases in CO₂ equivalents"
 toc: true
 toc_label: "In this example"
 header:

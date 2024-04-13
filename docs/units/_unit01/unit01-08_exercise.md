@@ -1,5 +1,5 @@
 ---
-title: "Assignment: Introduction and Basic Functions in R"
+title: "Exercise: Introduction and Basic Functions in R"
 toc: true
 toc_label: In this example
 header:
