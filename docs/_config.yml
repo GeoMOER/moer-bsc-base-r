@@ -94,18 +94,9 @@ collections:
   unit09:
     output: true
     permalink: /:collection/:title.html
-  unit10:
-    output: true
-    permalink: /:collection/:title.html
-  unit11:
-    output: true
-    permalink: /:collection/:title.html
-  unit12:
-    output: true
-    permalink: /:collection/:title.html
-  worksheets:
-    output: true
-    permalink: /:collection/:title.html
+  #unit10:
+  #  output: false
+  #  permalink: /:collection/:title.html
 
 # Default settings
 defaults:
@@ -114,7 +105,7 @@ defaults:
       path: ""
       type: unit00
     values:
-      category: "How-to Data Analysis"
+      category: "How-to Base R"
       tags: "Unit 00"
       layout: single
       sidebar:
@@ -218,27 +209,7 @@ defaults:
       tags: "Unit 10"
       layout: single
       sidebar:
-        nav: "course_unit"         
-  # unit11
-  - scope:
-      path: ""
-      type: unit11
-    values:
-      category: "11 MOHA"
-      tags: "Unit 11"
-      layout: single
-      sidebar:
-        nav: "course_unit"
-  # unit12
-  - scope:
-      path: ""
-      type: unit12
-    values:
-      category: "12 Graphics"
-      tags: "Unit 12"
-      layout: single
-      sidebar:
-        nav: "course_unit"             
+        nav: "course_unit"                  
   # pages
   - scope:
       path: "_pages"
