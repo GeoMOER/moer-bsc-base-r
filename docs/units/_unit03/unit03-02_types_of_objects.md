@@ -1,13 +1,10 @@
 ---
 title: "Object Types"
 toc: TRUE
-toc_float: TRUE
 header:
   image: /assets/images/unit_images/u03/header.png
-  image_description: "neon data"
-  caption: "Photo by [Franki Chamaki](https://unsplash.com/@franki?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) [from unsplash](https://unsplash.com/s/photos/data?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)"
+  caption: "Image created with DALL E"
 ---
-
 <!--more-->
 
 You may like to store information of various data types like character, integer, floating point, Boolean etc. Based on the data type of a object, the operating system allocates memory and decides what can be stored in the reserved memory.
@@ -34,7 +31,7 @@ The simplest of these objects is the vector object and there are six data types 
 ------
 
 # Objects
-Objects are the core of any R program. They contain the information we calculate with and also the calculated results. They also offer the possibility to label data with meaningful names, so that the code is easier to understand. It is helpful to think of objects as containers that hold information. Their sole purpose is to label and store data which then can be used across the code.
+As already mentioned in unit 01, objects are the core of any R program. They contain the information we calculate with and also the calculated results. They also offer the possibility to label data with meaningful names, so that the code is easier to understand. It is helpful to think of objects as containers that hold information. Their sole purpose is to label and store data which then can be used across the code.
 
 **How to name an object?**
 

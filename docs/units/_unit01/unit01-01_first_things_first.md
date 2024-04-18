@@ -1,8 +1,8 @@
 ---
 title: R Introduction
 header:
-  image: "/assets/images/title/title_1600_500.jpg"
-  caption: 'Image: [**Environmental Informatics Marburg**](https://www.uni-marburg.de/en/fb19/disciplines/physisch/environmentalinformatics)'
+  image: "/assets/images/unit_images/u01/header.jpg"
+  caption: 'image by <a href="https://pixabay.com/de/users/athree23-6195572/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4855963">Adrian</a> on <a href="https://pixabay.com/de//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4855963">Pixabay</a>'
 ---
 *Learn about R and R Studio*
 <!--more-->
@@ -36,7 +36,7 @@ The *[r-project](https://www.r-project.org/)* describe their work as such:
 Examples from a very large and fast growing cosmos: [R-bloggers](https://www.r-bloggers.com/){:target="_blank"}.
 
 
-{% include figure image_path="/assets/images/unit_images/u01/Workshop.png" caption="R offers many tools (image generated with DALL E)" %}
+{% include figure image_path="/assets/images/unit_images/u01/workshop.png" caption="R offers many tools (image generated with DALL E)" %}
 
 ## Getting to know RStudio
 {% include figure image_path="/assets/images/unit_images/u01/gui_rstudio.png" caption="User Interface of RStudio" %}

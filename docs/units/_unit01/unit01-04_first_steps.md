@@ -1,10 +1,8 @@
 ---
 title: "First steps in R"
-toc: true
-toc_label: In this example
 header:
-  image: "/assets/images/title/title_1600_500.jpg"
-  caption: 'Image: [**Environmental Informatics Marburg**](https://www.uni-marburg.de/en/fb19/disciplines/physisch/environmentalinformatics)'
+  image: "/assets/images/unit_images/u01/header.jpg"
+  caption: 'image by <a href="https://pixabay.com/de/users/athree23-6195572/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4855963">Adrian</a> on <a href="https://pixabay.com/de//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4855963">Pixabay</a>'
 ---
 
 
@@ -68,27 +66,27 @@ Examples of mathematic operations in R. This is using R like a calculator.
 
 This is what it looks like in R:
 
-```
+```r
 > 1 + 2
 [1] 3
 ```
-```
+```r
 > 2 - 1
 [1] 1
 ```
-```
+```r
 > 2 * 3
 [1] 6
 ```
-```
+```r
 > 2 / 3
 [1] 0,6666666666666667‬
 ```
-```
+```r
 > 2 ^ 3
 [1] 8
 ```
-```
+```r
 > cos(2 ^ (3+2))
 [1] 0.8342234
 ```
@@ -103,14 +101,14 @@ That [1] next to your result is a reminder that this line begins with the first 
 And now you have reached the core concept of every object-based programming language: assigning objects. This fundamental operation is remarkably straightforward. You type in the name of the object-to-be, an assignment operator, and the content you'd like to assign. In R, there are two assignment operators: <- and =. The <- operator is the more common and recommended way to assign objects in R. It's considered good practice because it makes your code more readable and is less likely to be confused with the equality operator ==, which is used for comparison.
 
 
-```
+```r
 > # Assign values to objects
 > a <- 1+2 # addition/allocation, calculation is stored in object "a"
 > a        # show the result
 [1] 3
 ```
 
-```
+```r
 > # adding another object
 > b <- 2-1
 > b
@@ -123,4 +121,12 @@ And now you have reached the core concept of every object-based programming lang
 > c
 [1] 8
 ```
+
+If you want to store more than one value to an object you need a vector. It is a basic data structure and contains elements of the same type.
+When you want to create a vector with more than one element, you need to use the `c()` function which means to combine the elements into a vector (c for combine).
+
+```r
+> d <- c(1,2,3)
+```
+
 And that is how information is stored in objects in an object-oriented programming language.

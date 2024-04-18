@@ -1,29 +1,34 @@
 ---
-title: "Exercise: Vector Operations and Data Types in R"
+title: "Exercise: Object types in R"
 toc: true
 toc_label: "In this example"
 header:
-  image: "/assets/images/title/title_1600_500.jpg"
-  caption: 'Image: [**Environmental Informatics Marburg**](https://www.uni-marburg.de/en/fb19/disciplines/physisch/environmentalinformatics)'
+  image: /assets/images/unit_images/u03/header.png
+  caption: "Image created with DALL E"
 ---
 
-In this exercise, we'll delve into vector creation, manipulation, and data type conversion in R, essential skills for data analysis.
+1. <br/>
+   a) Create a vector named `vec1` with even numbers from 30 to 480, in steps of 3.<br/>
+   b) How long is this vector? <br/>
+   c) Access the last element in the vector. <br/>
+   d) Extend the vector `vec1` by values from 480 to 494.<br/>
+   e) Calculate the sum of `vec1`.
 
-1. Create a vector named `Jahre_var1` using the `c()` function with even numbers from 1983 to 2012. Then, do the same using the `seq()` function, but name this vector `Jahre_var2`.
-
-2. Determine the data type of each vector. Convert them if necessary to match the appropriate data type for their contents. <br/>
+2. <br/>
+   a) Create a matrix (named `mat1`) from `vec1` with 2 columns.<br/>
+   b) Calculate the sum of `mat1`.<br/>
+   c) Now create a matrix (named `mat2`) with 4 columns.<br/>
+   d) Calculate the sum of `mat2`.<br/>
+   e) What happened?<br/>
+   f) Calculate the length of `vec1` divided by 5.<br/>
+   g) Access the value at the 33rd row, 4th column of `mat2`.
 
 3. <br/>
-   a) Convert the `Jahre_var1` vector to a character type. <br/>
-   b) After conversion, create two new vectors: `Massenzunahme` with values 4.52, 2, 12.04, 0, 8.432 and `AnzahlWochen` with values from 0 to 4. <br/>
-   c) Divide `Massenzunahme` by `AnzahlWochen` and observe the results.
+   a) Create a vector (`vec2`) with the first 10 letters of the alphabet (capitalized), each occurring 4 times. The class of this vector should be a factor. The factor levels should be in reverse order to the sequence in the alphabet (i.e., `A` should be listed as the last factor level when, for example, viewing the structure of the vector).<br/>
+   b) Reverse the levels of `vec2`.
 
+4. Create a list named “list1” from `vec1`, `mat1`, `mat2`, and `vec2`. Assign appropriate names to the elements of the list. Access the 32th row, 3rd column, of the 3rd element of this list.
 
-4. Then <br/>
-  a) calculate the Shannon Index for a community of 4 species (A, B, C, D), where species A has 30 individuals, species B has 25 individuals, species C has 15 individuals, and species D has 10 individuals. The Shannon Index is calculated as follows: <br/>
-  <img src="https://latex.codecogs.com/svg.image?H=-\sum_{i=1}^{S}p_i\ln(p_i)"/>&nbsp;&nbsp;&nbsp;with
-  <img src="https://latex.codecogs.com/svg.image?p_i=\frac{n_i}{N}"/> <br/>
-  where <img src="https://latex.codecogs.com/svg.image?n_i\;"> is the frequency of each species and <img src="https://latex.codecogs.com/svg.image?N\;"/> is the total number of individuals across all species. Compare this with a community of 4 species, each having 12 individuals.<br/>
-  b) compare the result with a community of 4 species, each having 22 individuals.
-
-Please save your file as "FirstName_LastName_Task_Day2_Unit03.R".
+5. <br/>
+    a) Create a matrix that has as many columns and rows as `vec2` and name it `Dist`. It should be filled row-wise with values starting at 20.5, in steps of 1.<br/>
+    b) In the lower half of the matrix, for odd columns, divide the individual values by 2, and for even columns, subtract 100. Name the result Dist2.

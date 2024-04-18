@@ -57,9 +57,9 @@ Please also seriously check and follow the [Information on the Coronavirus](http
 | Session | Date | Topic | Content |
 |---------|------|-------|---------|
 ||| **The basics** |
-| 01 | 19.04.2024 | R Introduction               | Introduction of R, R Studio and data types, getting help |
-| 02 | 26.04.2024 | Objects & Indexing           | create your own vector, indexing, other object types |
-| 03 | 03.05.2024 | Data frames                  | Reading, addressing and writing (tabulated) data |
+| 01 | 19.04.2024 | R Introduction               | introduction of R, R Studio and data types, getting help |
+| 02 | 26.04.2024 | objects & indexing           | create your own vector, indexing, other object types |
+| 03 | 03.05.2024 | data frames                  | reading, addressing and writing (tabulated) data |
 ||| **Data handling** |
 | 04 | 10.05.2024 | subsetting & sorting         | how to subset and sort your data by values |
 | 05 | 17.05.2024 | characters                   | how to deal with characters and regular expressions |
@@ -69,13 +69,13 @@ Please also seriously check and follow the [Information on the Coronavirus](http
 | 08 | 07.06.2024 | histograms, points and Co    | make beautiful graphs|
 | 09 | 14.06.2024 | point and line               | make even more beautiful graphs |
 ||| **Project I**|
-| 10 | 21.06.2024 | Recap + Project I            | use R to answer a first question from start to finish
+| 10 | 21.06.2024 | recap + project I            | use R to answer a first question from start to finish
 ||| **Automation** |
 | 11 | 28.06.2024 | for /if / else               | automate your script |
 | 12 | 05.07.2024 | functions & apply            | automate your script even further |
 ||| **Master R** |
-| 13 | 12.07.2024 | Project II                   | use R to answer a more complicated question from start to finish  |
-| 14 | 19.07.2024 | Project III, Wrap up         | Time for questions and feedback, individual data analysis problems, goodbye |
+| 13 | 12.07.2024 | project II                   | use R to answer a more complicated question from start to finish  |
+| 14 | 19.07.2024 | project III, wrap up         | time for questions and feedback, individual data analysis problems, goodbye |
 
 
 
