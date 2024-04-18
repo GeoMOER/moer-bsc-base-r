@@ -2,8 +2,8 @@
 title: Learning Environment
 toc: true
 header:
-  image: '/assets/images/title/curve2.png'
-  caption: '[Environmental Informatics Marburg](https://www.uni-marburg.de/en/fb19/disciplines/physisch/environmentalinformatics){:target="_blank"}'
+  image: '/assets/images/title/DALLE_R.png'
+  caption: 'Image generated with DALL E: [**Environmental Informatics Marburg**](https://www.uni-marburg.de/en/fb19/disciplines/physisch/environmentalinformatics)'
 ---
 
 *This course is intended as a blended learning module, although the provided introductions, explanations and examples might be useful for self-study only, too.*
@@ -25,7 +25,7 @@ Please also not that the HTML learning environment has a FAQ page for recurring 
 During the asynchronous phase, you'll work at your own pace to master the basics of the material provided in the HTML learning environment(s). Then, our synchronous sessions will start by query what you've learned in the asynchronous phase and serve as collaborative hubs where we'll delve deeper into real-world applications and complex tasks. These interactive discussions require your attendance.
 
 Note that you are flexible in solving your assignment tasks using the material provided in the HTML learning environment (and beyond), but the deadlines for submitting your solutions must be met.
-For details see the ["Deliverables*](/moer-bsc-base-r/unit00/unit00-02_deliverables.html) section.-->
+For details see the [Deliverables](/moer-bsc-base-r/unit00/unit00-02_deliverables.html) section.-->
 
 ## Virtual meeting room
 
@@ -37,7 +37,7 @@ The link to our classroom can be found in Ilias.
 
 Ilias is the course space offered by the University of Marburg. 
 We will use Ilias mainly for the administration of the course and for providing small static documents and data sharing.
-<!--The link to the Ilias space for this course can be found [here](https://ilias.uni-marburg.de/goto.php?target=crs_3388027&client_id=UNIMR){:target="_blank"}.-->
+The link to the Ilias space for this course can be found [here](https://ilias.uni-marburg.de/goto.php?target=crs_3897469&client_id=UNIMR){:target="_blank"}.
 Note that you have to log in with your student account. There is also a forum in Ilias, which you can use for getting in touch with your fellow students.
 You will use Ilias for uploading your assignments. Please always add your full name and your student account name to your assignments.
 This makes it easier for the course instructors to match the uploaded assignments to the students.

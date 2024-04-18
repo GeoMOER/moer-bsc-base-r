@@ -6,7 +6,7 @@ header:
   overlay_color: "#000"
   overlay_filter: 0.6
   overlay_image: "/assets/images/title/DALLE_R.png"
-  caption: 'Image: [**Environmental Informatics Marburg**](https://www.uni-marburg.de/en/fb19/disciplines/physisch/environmentalinformatics)'
+  caption: 'Image generated with DALL E: [**Environmental Informatics Marburg**](https://www.uni-marburg.de/en/fb19/disciplines/physisch/environmentalinformatics)'
   cta_label: Go to course units
   cta_url: "/units.html"
 excerpt: Learn the essentials for working with R.

@@ -1,10 +1,10 @@
 ---
 title: Frequently Asked Questions
 header:
-  image: '/assets/images/title/curve2.png'
-  caption: '[Environmental Informatics Marburg](https://www.uni-marburg.de/en/fb19/disciplines/physisch/environmentalinformatics){:target="_blank"}'
-toc: true
+  image: '/assets/images/title/DALLE_R.png'
+  caption: 'Image generated with DALL E: [**Environmental Informatics Marburg**](https://www.uni-marburg.de/en/fb19/disciplines/physisch/environmentalinformatics)'
 ---
+
 
 This is a continuously updated collection of frequently asked questions.
 

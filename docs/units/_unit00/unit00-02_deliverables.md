@@ -2,48 +2,28 @@
 title: Deliverables
 toc: true
 header:
-  image: '/assets/images/title/curve2.png'
-  caption: '[Environmental Informatics Marburg](https://www.uni-marburg.de/en/fb19/disciplines/physisch/environmentalinformatics){:target="_blank"}'
+  image: '/assets/images/title/DALLE_R.png'
+  caption: 'Image generated with DALL E: [**Environmental Informatics Marburg**](https://www.uni-marburg.de/en/fb19/disciplines/physisch/environmentalinformatics)'
 ---
-
 
 ## Assignments
 We distinguish between unmarked and marked deliverables ("Studien- und Prüfungsleistung"). 
 Both are required for passing the course but only the latter are marked.
-Students will need to deliver unmarked assignments on a regular basis ("homework") within one week. 
-The submissions generally encompass R or R markdown.
-You are allowed to use ChatGPT or similar AIs to solve the assignments. 
-However, you need to present your solution to make sure you understand what you have done.
+Students will need to deliver unmarked assignments in form of coding exercises on a regular basis within one week. The majority of these exercises will be worked on during the course, but if you do not complete them, you must do so by the end of the following Wednesday. 
 
-You are allowed and encouraged to use ChatGPT or similar AIs to solve the assignments.
-However, you need to present the solutions to your assignements to make sure you understand what you have done.
+You are allowed to use ChatGPT or similar AIs to solve the assignments. However, you need to present your solution to make sure you understand what you have done.
 {: .notice--info}
 
+You'll also be asked to read the new unit and take the quiz on the new units by Wednesday. Don't worry, they won't be part of your grade - it's just a tool to see if there are any general problems with understanding.
 
-<!--
-### Overview
-will be added later
 
-| Assignment | Name and link               | marked / unmarked  |
-|------------|-----------------------------|--------------------|
-| 01         | Title + link                | marked             |
-| 02         | Title + link                | unmarked           |
-| 03         | Title + link                | marked             |
-| 04         | Title + link                | unmarked           |
-| 05         | Title + link                | marked             |
-| 06         | Title + link                | unmarked           |
-| 07         | Title + link                | marked             |
-| 08         | Title + link                | unmarked           |
-| 09         | Title + link                | marked             |
-| 10         | Title + link                | marked             |
-| 11         | Title + link                | marked             |
 
--->
+| Assignment | Exercise           | Read & take quiz to chapter  |
+|------------|--------------------|--------------------|
+| 01         | Exercise Unit01    | Units01-03         |
 
-Be aware that it will NOT be sufficient to start working on the assignments the day before the deadline.
-It will be necessary to solve a lot of disturbing and time-consuming problems in the programming world.
-So start early!!!
-{: .notice--warning}
+... more will follow
+
 
 
 

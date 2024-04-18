@@ -36,6 +36,8 @@ The *[r-project](https://www.r-project.org/)* describe their work as such:
 Examples from a very large and fast growing cosmos: [R-bloggers](https://www.r-bloggers.com/){:target="_blank"}.
 
 
+{% include figure image_path="/assets/images/unit_images/u01/Workshop.png" caption="R offers many tools (image generated with DALL E)" %}
+
 ## Getting to know RStudio
 {% include figure image_path="/assets/images/unit_images/u01/gui_rstudio.png" caption="User Interface of RStudio" %}
 
