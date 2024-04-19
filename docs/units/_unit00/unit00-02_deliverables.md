@@ -20,7 +20,7 @@ You'll also be asked to read the new unit and take the quiz on the new units by 
 
 | Assignment | Exercise           | Read & take quiz to chapter  |
 |------------|--------------------|--------------------|
-| 01         | Exercise Unit01    | Units01-03         |
+| 01         | Exercise Unit01    | Units01-02         |
 
 ... more will follow
 
