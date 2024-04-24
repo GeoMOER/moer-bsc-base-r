@@ -58,4 +58,4 @@ You can use R without using RStudio, but you can't use RStudio without using R, 
 You can leave comments below if you have questions or remarks about any of the text or code in this unit. 
 Please copy the corresponding line into your comment to make it easier to answer your question.
 
-<script src="https://utteranc.es/client.js" repo="GeoMOER/moer-mpg-data-analysis" issue-term="moer-mpg-data-analysis_unit01" theme="github-light" crossorigin="anonymous" async> </script> 
+<script src="https://utteranc.es/client.js" repo="GeoMOER/moer-mpg-data-analysis" issue-term="moer-bsc_base_r_unit01" theme="github-light" crossorigin="anonymous" async> </script> 
