@@ -7,6 +7,6 @@ header:
 
 Check here for the dates of the tutorium:
 
-Friday, 26.04.24 - no tutorium
+Friday, 26.04.24 - no tutorium  
 Friday, 03.05.24 - tutorium at 14:00 in 00A19
 ...
