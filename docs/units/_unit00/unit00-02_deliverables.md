@@ -18,10 +18,11 @@ You'll also be asked to read the new unit and take the quiz on the new units by 
 
 
 
-| Assignment | Exercise             | Read & take quiz to chapter  |
-|------------|----------------------|------------------------------|
-| 01         | Exercise Unit01      | Units01-02                   |
-| 02         | Exercise Unit 02-03  | Units03-04                   |
+| Assignment | Exercise              | Read & take quiz to chapter  |
+|------------|-----------------------|------------------------------|
+| 01         | Exercise Unit01       | Units01-02                   |
+| 02         | Exercise Unit 02-03   | Units03-04                   |
+| 03         | Exercise Unit 03 (1-2)| Units05                      |
 
 ... more will follow
 
