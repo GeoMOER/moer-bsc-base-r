@@ -15,7 +15,7 @@ In this exercise, we'll start with the basics of R, focusing on installation and
   a) calculate the sum and product of the numbers 3, 7, 9, 12, and 21. Explore R's help features to find an alternative solutions. <br/>
   b) Calculate the square root of 2025.
 
-Please save your file as "FirstName_LastName_Task_Day1_Unit1.R" and upload it to the "Upload/Unit 1"-Folder in Ilias
+Please save your file as "FirstName_LastName_Task_Day1_Unit01.R" and upload it to the "Upload/2024-04-19"-Folder in Ilias
 
 3. Then <br/>
   a) calculate the Shannon Index for a community of 4 species (A, B, C, D), where species A has 30 individuals, species B has 25 individuals, species C has 15 individuals, and species D has 10 individuals. The Shannon Index is calculated as follows: <br/>
