@@ -32,3 +32,5 @@ header:
 5. <br/>
     a) Create a matrix that has as many columns and rows as `vec2` and name it `Dist`. It should be filled row-wise with values starting at 20.5, in steps of 1.<br/>
     b) In the lower half of the matrix, for odd columns, divide the individual values by 2, and for even columns, subtract 100. Name the result Dist2.
+
+Please save your file as “FirstName_LastName_Task_Day4_Unit04.R”.
