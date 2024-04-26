@@ -33,7 +33,7 @@ group :jekyll_plugins do
   gem "jekyll-include-cache"
   gem "jekyll-algolia"
   gem "rack"
-  gem "rackup" 
+  gem "rackup"
   gem "faraday-retry"
 end
 

@@ -8,10 +8,10 @@ header:
 ---
 
 1. <br/>
-   a) Create a vector named `vec1` with even numbers from 30 to 480, in steps of 3.<br/>
+   a) Create a vector named `vec1` with even numbers from 40 to 450, in steps of 4.<br/>
    b) How long is this vector? <br/>
    c) Access the last element in the vector. <br/>
-   d) Extend the vector `vec1` by values from 480 to 494.<br/>
+   d) Extend the vector `vec1` by values from 450 to 494.<br/>
    e) Calculate the sum of `vec1`.
 
 2. <br/>
