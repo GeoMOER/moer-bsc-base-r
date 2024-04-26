@@ -19,4 +19,4 @@ In this exercise, we'll delve into vector creation, manipulation, and data type 
    c) Divide `Massenzunahme` by `AnzahlWochen` and observe the results.
 
 
-Please save your file as "FirstName_LastName_Task_Day1_Unit02.R".
+Please save your file as "FirstName_LastName_Task_Day2_Unit02.R".
