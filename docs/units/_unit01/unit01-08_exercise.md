@@ -17,31 +17,30 @@ In this exercise, we'll start with the basics of R, focusing on installation and
 
 <details>
   <summary>Solution Task 2</summary>
-  
-  ```r
-  # a)
-  # Define the vector of numbers
-  numbers <- c(3, 7, 9, 12, 21)
-
-  # Calculate sum
-  sum_result <- sum(numbers)
-
-  # Calculate product
-  product_result <- prod(numbers)
-
-  # Print results
-  print(paste("Sum:", sum_result))
-  print(paste("Product:", product_result))
-
-  # b)
-  # Calculate square root
-  sqrt_result <- sqrt(2025)
-
-  # Print result
-  print(paste("Square root of 2025:", sqrt_result))
-  ```
+    <code>
+    # a) <br>
+    # Define the vector of numbers <br>
+    numbers <- c(3, 7, 9, 12, 21) <br>
+    <br>
+    # Calculate sum <br>
+    sum_result <- sum(numbers) <br>
+    <br>
+    # Calculate product <br>
+    product_result <- prod(numbers) <br>
+    <br>
+    # Print results <br>
+    print(paste("Sum:", sum_result)) <br>
+    print(paste("Product:", product_result)) <br>
+    <br>
+    # b) <br>
+    # Calculate square root <br>
+    sqrt_result <- sqrt(2025) <br>
+    <br>
+    # Print result <br>
+    print(paste("Square root of 2025:", sqrt_result))
+    </code>
 </details>
-
+<br>
 
 Please save your file as "FirstName_LastName_Task_Day1_Unit1.R" and upload it to the "Upload/Unit 1"-Folder in Ilias
 
@@ -53,20 +52,19 @@ Please save your file as "FirstName_LastName_Task_Day1_Unit1.R" and upload it to
   b) compare the result with a community of 4 species, each having 22 individuals.
 
 <details>
-  <summary>Solutions Task 3</summary>
-
-  ```r
-  # a)
-  N1 <- c(30, 25, 15, 10)
-  N2 <- rep(12, 4)
-  H1=-sum(N1/sum(N1)*log(N1/sum(N1)))
-  H2=-sum(N2/sum(N2)*log(N2/sum(N2)))
-  print(H1)
-  print(H2)
-
-  # b)
-  N3 <- rep(22, 4)
-  H3=-sum(N3/sum(N3)*log(N3/sum(N3)))
-  print(H3)
-  ```
+  <summary>Solution Task 3</summary>
+    <code>
+    # a) <br>
+    N1 <- c(30, 25, 15, 10) <br>
+    N2 <- rep(12, 4) <br>
+    H1=-sum(N1/sum(N1)*log(N1/sum(N1))) <br>
+    H2=-sum(N2/sum(N2)*log(N2/sum(N2))) <br>
+    print(H1) <br>
+    print(H2) <br>
+    <br>
+    # b) <br>
+    N3 <- rep(22, 4) <br>
+    H3=-sum(N3/sum(N3)*log(N3/sum(N3))) <br>
+    print(H3)
+    </code>
 </details>
