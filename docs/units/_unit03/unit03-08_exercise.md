@@ -30,7 +30,7 @@ header:
 4. Create a list named “list1” from `vec1`, `mat1`, `mat2`, and `vec2`. Assign appropriate names to the elements of the list. Access the 32th row, 3rd column, of the 3rd element of this list.
 
 5. <br/>
-    a) Create a matrix that has as many columns and rows as `vec2` and name it `Dist`. It should be filled row-wise with values starting at 20.5, in steps of 1.<br/>
+    a) Create a matrix that has as many columns and rows as the length of `vec2` and name it `Dist`. It should be filled row-wise with values starting at 20.5, in steps of 1.<br/>
     b) In the lower half of the matrix, for odd columns, divide the individual values by 2, and for even columns, subtract 100. Name the result Dist2.
 
 Please save your file as “FirstName_LastName_Task_Day3_Unit03.R”.
