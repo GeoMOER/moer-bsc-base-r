@@ -7,7 +7,7 @@ header:
   caption: 'Image: [**Environmental Informatics Marburg**](https://www.uni-marburg.de/en/fb19/disciplines/physisch/environmentalinformatics)'
 ---
 
-1. Download the .rds file "Day3_Task1" from "Exercise - Data". When you click on the folder icon in your Environment and navigate to this file, you can load the `Emission_per_Country` dataset into your workspace. <br/>
+1. Download the .rds file "Day4_Task1" from "Exercise - Data". When you click on the folder icon in your Environment and navigate to this file, you can load the `Emission_per_Country` dataset into your workspace. <br/>
     a) How many countries are there in total in the dataset? <br/>
     b) How many countries appear more than once?<br/>
     c) Which countries produced more emissions in 2021 than the average? Note: at this point, we ignore that some countries appear twice and thus are counted twice in the calculation - that's a topic for another day.<br/>
