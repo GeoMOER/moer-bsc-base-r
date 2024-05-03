@@ -1,5 +1,5 @@
 ---
-title: "Exercise: Greenhouse gases in CO₂ equivalents"
+title: "Exercise: binding and merging"
 toc: true
 toc_label: "In this example"
 header:
