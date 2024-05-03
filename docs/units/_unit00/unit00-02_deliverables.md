@@ -18,11 +18,12 @@ You'll also be asked to read the new unit and take the quiz on the new units by 
 
 
 
-| Assignment | Exercise                   | Read & take quiz to chapter  |
-|------------|----------------------------|------------------------------|
-| 01         | Exercise Unit01            | Units01-02                   |
-| 02         | Exercise Unit 02-03        | Units03-04                   |
-| 03         | Exercise Unit 03 (Task 1-2)| Units04 again                |
+| Assignment | Exercise                   | Read & take quiz to chapter  | To be finish until |
+|------------|----------------------------|------------------------------|--------------------|
+| 01         | Exercise Unit01            | Units01-02                   | 19.04.2024         |
+| 02         | Exercise Unit 02-03        | Units03-04                   | 26.04.2024         |
+| 03         | Exercise Unit 03 (Task 1-2)| Unit04 again                 | 03.05.2024         |
+| 04         | Exercise Unit 03 (Task 3-5)| Unit04 again                 | 10.05.2024         |
 
 ... more will follow
 
