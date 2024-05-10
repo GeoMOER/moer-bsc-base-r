@@ -83,6 +83,13 @@ header:
       <code>
       list1 <- list(vec1 = vec1, mat1 = mat1, mat2 = mat2, vec2 = vec2) <br>
       value <- list1$mat2[32, 3]
+
+      # or
+
+      list1 <- list(vec1, mat1, mat2, vec2)>
+      names(list1) <- c("vec1", "mat1", "mat2", "vec2")
+      value <-  list[[3]][32,3]
+
       </code>
 </details>
 <br>
