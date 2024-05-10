@@ -65,10 +65,52 @@ header:
    a) Create a vector (`vec2`) with the first 10 letters of the alphabet (capitalized), each occurring 4 times. The class of this vector should be a factor. The factor levels should be in reverse order to the sequence in the alphabet (i.e., `A` should be listed as the last factor level when, for example, viewing the structure of the vector).<br/>
    b) Reverse the levels of `vec2`.
 
+<details>
+   <summary>Solution Task 3</summary>
+      <code>
+      vec2 <- factor(rep(LETTERS[1:10], each = 4), levels = rev(LETTERS[1:10]))
+      </code>
+</details>
+<br>
+
 **4.** Create a list named “list1” from `vec1`, `mat1`, `mat2`, and `vec2`. Assign appropriate names to the elements of the list. Access the 32th row, 3rd column, of the 3rd element of this list.
+
+<details>
+   <summary>Solution Task 4</summary>
+      <code>
+      list1 <- list(vec1 = vec1, mat1 = mat1, mat2 = mat2, vec2 = vec2)
+      value <- list1$mat2[32, 3]
+      </code>
+</details>
+<br>
+
 
 **5.** <br/>
     a) Create a matrix that has as many columns and rows as the length of `vec2` and name it `Dist`. It should be filled row-wise with values starting at 20.5, in steps of 1.<br/>
     b) In the lower half of the matrix, for odd columns, divide the individual values by 2, and for even columns, subtract 100. Name the result Dist2.
+
+<details>
+   <summary>Solution Task 5</summary>
+      <code>
+      Dist <- matrix(seq(20.5, by = 1, length.out = length(vec2) * length(vec2)), 
+               nrow = length(vec2), 
+               ncol = length(vec2), 
+               byrow = TRUE)
+      <br/>
+      <br/>
+      Dist2 <- Dist<br/>
+      rows <- nrow(Dist2)<br/>
+      cols <- ncol(Dist2)<br/>
+      <br/>
+      lower_half_rows <- (rows/2 + 1):rows<br/>
+      <br/>
+      # For odd columns in the lower half, divide values by 2<br/>
+      Dist2[lower_half_rows, seq(1, cols, 2)] <- Dist2[lower_half_rows, seq(1, cols, 2)] / 2<br/>
+      <br/>
+      # For even columns in the lower half, subtract 100 <br/>
+      Dist2[lower_half_rows, seq(2, cols, 2)] <- Dist2[lower_half_rows, seq(2, cols, 2)] - 100
+      </code>
+</details>
+<br>
 
 Please save your file as “FirstName_LastName_Task_Day3_Unit03.R”.
