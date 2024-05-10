@@ -81,7 +81,7 @@ header:
 <details>
    <summary>Solution Task 4</summary>
       <code>
-      list1 <- list(vec1 = vec1, mat1 = mat1, mat2 = mat2, vec2 = vec2)
+      list1 <- list(vec1 = vec1, mat1 = mat1, mat2 = mat2, vec2 = vec2) <br>
       value <- list1$mat2[32, 3]
       </code>
 </details>
