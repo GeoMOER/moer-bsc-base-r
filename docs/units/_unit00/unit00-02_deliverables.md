@@ -24,6 +24,7 @@ You'll also be asked to read the new unit and take the quiz on the new units by 
 | 02         | Exercise Unit 02-03        | Units03-04                   | 26.04.2024         |
 | 03         | Exercise Unit 03 (Task 1-2)| Unit04 again                 | 03.05.2024         |
 | 04         | Exercise Unit 03 (Task 3-5)| Unit04 again                 | 10.05.2024         |
+| 05         | Exercise Unit 04           | Unit05                       | 17.05.2024         |
 
 ... more will follow
 

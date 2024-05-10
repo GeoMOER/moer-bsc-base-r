@@ -10,7 +10,8 @@ header:
 
 
 
-Copy the code snippets provided bellow into your script and create a combined dataset named `Emission_per_Country` using rbind(). That code has some errors. Note all necessary corrections you must apply to the code.
+Copy the code snippets provided bellow into your script and create a combined dataset named `Emission_per_Country` using rbind(). That code has some errors. Note all necessary corrections you must apply to the code.<br>
+Write out the dataframe `Emission_per_Country` to your local drive using the `write.csv2()` and the `write.table()` function. Compare both results. What are the differences?
 
 ```
 # Data Frame 1: Belgium, Bulgaria, Denmark, Germany
