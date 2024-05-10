@@ -68,7 +68,10 @@ header:
 <details>
    <summary>Solution Task 3</summary>
       <code>
-      vec2 <- factor(rep(LETTERS[1:10], each = 4), levels = rev(LETTERS[1:10]))
+      # a) <br>
+      vec2 <- factor(rep(LETTERS[1:10], each = 4), levels = rev(LETTERS[1:10]))<br>
+      # b) <br>
+      vec2 <- factor(vec2, levels = rev(levels(vec2)))
       </code>
 </details>
 <br>
@@ -92,12 +95,14 @@ header:
 <details>
    <summary>Solution Task 5</summary>
       <code>
+      # a) <br>
       Dist <- matrix(seq(20.5, by = 1, length.out = length(vec2) * length(vec2)), 
                nrow = length(vec2), 
                ncol = length(vec2), 
                byrow = TRUE)
       <br/>
       <br/>
+      # b)<br>
       Dist2 <- Dist<br/>
       rows <- nrow(Dist2)<br/>
       cols <- ncol(Dist2)<br/>
