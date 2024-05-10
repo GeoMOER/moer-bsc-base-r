@@ -262,14 +262,12 @@ print(M)
 [2,] "a"  "c"  "a" 
 
 ```
-When we execute the above code, it produces the following result − Notice that by default, the first column is first filled from top to button, then the second column and so on.
+When we execute the above code, it produces the following result − Notice that by default, the first column is first filled from top to button, then the second column and so on, as you can see on the left side of the image:
 
 
-it follows this pattern:
+{% include figure image_path="/assets/images/unit_images/u03/matrices_byrow.png" %}
 
-{% include figure image_path="/assets/images/unit_images/u03/matrix_direction.png" %}
-
-If you want to change this, set byrow=FALSE
+If you want to change this, set byrow=FALSE (right side)
 
 ```r
 
