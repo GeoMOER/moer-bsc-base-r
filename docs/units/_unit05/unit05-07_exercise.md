@@ -84,7 +84,7 @@ df_6 <- data.frame(
 
 Exercise II: For this excersise, please refer to Unit 06-02 beforehand.
 
-1) load the data called "SO2_measures.txt"
-2) Find all entries from "StationA".
-3) Replace all occurrences of "CO2" with "CarbonDioxide".
-3) Separate the strings into their components: stationname, date, hour, CO2, and SO2 using `strsplit()` function to create a dataframe. Make sure that every column has a suitable data type.
+1) load the data called "SO2_measures.txt" which is located in the data-folder in Ilias.
+2) Find all entries from "StationA".  
+3) Replace all occurrences of "CO2" with "CarbonDioxide".  
+3) Separate the strings into their components: stationname, date, hour, CO2, and SO2 using `strsplit()`   function to create a dataframe. Make sure that every column has a suitable data type.
