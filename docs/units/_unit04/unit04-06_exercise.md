@@ -12,7 +12,7 @@ header:
     <details>
     <summary>Solution Task a)</summary>
       <code>
-      total_countries <- length(unique(Emission_per_Country$Country))
+      total_countries <- length(unique(Emission_per_Country$Country))<br/>
       print(total_countries)
       </code>
     </details>
@@ -21,7 +21,7 @@ header:
     <details>
     <summary>Solution Task b)</summary>
       <code>
-      duplicate_countries <- sum(duplicated(Emission_per_Country$Country))
+      duplicate_countries <- sum(duplicated(Emission_per_Country$Country))<br/>
       print(duplicate_countries)
       </code>
     </details>
@@ -30,8 +30,8 @@ header:
     <details>
     <summary>Solution Task c)</summary>
       <code>
-      avg_emissions_2021 <- mean(Emission_per_Country$CO2_2021_MT)
-      high_emitters_2021 <- Emission_per_Country$Country[Emission_per_Country$CO2_2021_MT > avg_emissions_2021]
+      avg_emissions_2021 <- mean(Emission_per_Country$CO2_2021_MT)<br/>
+      high_emitters_2021 <- Emission_per_Country$Country[Emission_per_Country$CO2_2021_MT > avg_emissions_2021]<br/>
       print(high_emitters_2021)
       </code>
     </details>
@@ -40,8 +40,8 @@ header:
     <details>
     <summary>Solution Task d)</summary>
       <code>
-      median_change <- median(Emission_per_Country$Change_1990_2021_Percent)
-      more_than_median <- Emission_per_Country$Country[Emission_per_Country$Change_1990_2021_Percent < median_change]
+      median_change <- median(Emission_per_Country$Change_1990_2021_Percent)<br/>
+      more_than_median <- Emission_per_Country$Country[Emission_per_Country$Change_1990_2021_Percent < median_change]<br/>
       print(more_than_median)
       </code>
     </details>
@@ -50,8 +50,8 @@ header:
     <details>
     <summary>Solution Task e)</summary>
       <code>
-      Emission_per_Country <- Emission_per_Country[order(-Emission_per_Country$CO2_2020_MT),]
-      third_largest_emitter <- Emission_per_Country$Country[3]
+      Emission_per_Country <- Emission_per_Country[order(-Emission_per_Country$CO2_2020_MT),]<br/>
+      third_largest_emitter <- Emission_per_Country$Country[3]<br/>
       print(third_largest_emitter)
       </code>
     </details>
@@ -60,11 +60,11 @@ header:
     <details>
     <summary>Solution Task f)</summary>
       <code>
-      avg_emissions <- mean(Emission_per_Country$CO2_2021_MT)
-      relSmall1 <- subset(Emission_per_Country, CO2_2021_MT < avg_emissions)
-      print(relSmall1)
-
-      relSmall2 <- Emission_per_Country[Emission_per_Country$CO2_2021_MT < avg_emissions,]
+      avg_emissions <- mean(Emission_per_Country$CO2_2021_MT)<br/>
+      relSmall1 <- subset(Emission_per_Country, CO2_2021_MT < avg_emissions)<br/>
+      print(relSmall1)<br/>
+      <br/>
+      relSmall2 <- Emission_per_Country[Emission_per_Country$CO2_2021_MT < avg_emissions,]<br/>
       print(relSmall2)
       </code>
     </details>
