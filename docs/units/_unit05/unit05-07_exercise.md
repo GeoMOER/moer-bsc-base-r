@@ -12,6 +12,7 @@ header:
 
 Copy the code snippets provided bellow into your script and create a combined dataset named `Emission_per_Country` using rbind(). That code has some errors. Note all necessary corrections you must apply to the code.<br>
 Write out the dataframe `Emission_per_Country` to your local drive using the `write.csv2()` and the `write.table()` function. Compare both results. What are the differences?
+Create a folder called "Output". Now, writeout the dataframes again, but this time, they shall be saved within the folder "output".
 
 ```
 # Data Frame 1: Belgium, Bulgaria, Denmark, Germany
@@ -80,3 +81,10 @@ df_6 <- data.frame(
   Change_1990_2021_Percent = c(-33.1, -44.1, -14.3, 0.4)
   )
 ```
+
+Exercise II: For this excersise, please refer to Unit 06-02 beforehand.
+
+1) load the data called "SO2_measures.txt"
+2) Find all entries from "StationA".
+3) Replace all occurrences of "CO2" with "CarbonDioxide".
+3) Separate the strings into their components: stationname, date, hour, CO2, and SO2 using `strsplit()` function to create a dataframe. Make sure that every column has a suitable data type.
