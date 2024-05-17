@@ -90,3 +90,5 @@ Exercise II: For this excersise, please refer to Unit 06-02 beforehand.
 3) Separate the strings into their components: stationname, date, hour, CO2, and SO2 using `strsplit()`   function. Use the results to create a dataframe with the help of `do.call(rbind, x)` and `as.data.frame()`. 
 
 Make sure that every column has a suitable data type.
+
+Please save your file as “FirstName_LastName_Task_Assignment6_Unit05.R”.
