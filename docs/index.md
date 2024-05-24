@@ -64,9 +64,9 @@ Please also seriously check and follow the [Information on the Coronavirus](http
 | 04 | 10.05.2024 | subsetting & sorting         | how to subset and sort your data by values |
 | 05 | 17.05.2024 | characters                   | how to deal with characters and regular expressions |
 | 06 | 24.05.2024 | merge & transform            | merge data, transfrom from long to wide format and back |
-| 07 | 31.05.2024 | data checks, boxplots        | some general descriptive statistics, handy data checks and a first peak into graphs|
+| 07 | 31.05.2024 | merge & transform            | it's project day! the course today is NOT mandatory - we'll do a recap of last session instead |
 ||| **Plotting** |
-| 08 | 07.06.2024 | histograms, points and Co    | make beautiful graphs|
+| 08 | 07.06.2024 | data checks, boxplots,histograms | some general descriptive statistics, handy data checks and a first peak into graphs|
 | 09 | 14.06.2024 | point and line               | make even more beautiful graphs |
 ||| **Project I**|
 | 10 | 21.06.2024 | recap + project I            | use R to answer a first question from start to finish

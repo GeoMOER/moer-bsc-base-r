@@ -15,3 +15,8 @@ header:
     e) Calculate the mean, sum, and standard deviation per plot.
 
 2. Merge "speclong" with "envdat" into "mergedat" without any information loss ;).
+
+<details>
+   <summary>TIP</summary>
+use %in% to see whether all plots of one data frame occur in the other e.g. Plots1[Plots1%in%Plots2]
+</details>      
