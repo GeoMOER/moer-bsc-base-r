@@ -11,8 +11,8 @@ header:
     c) Record the frequency of forecasts of the different sources. <br/>
     d) Now calculate the frequency of each party's mentions across all forecasts (Tip: You can use the is.na() function to exclude any NA values.)<br/>
     e) Create a bar chart displaying the frequency of the parties over all forecasts.<br/>
-    g) Calculate the mean forecast for each party for the year 2024. Create a pie chart to display the average forecasts of the elections for 2024.<br/>
-    h) Create a histogram to show the distribution of percentages of SPD in 2024.<br/>
-    i) Create a boxplot to compare the distribution of percentages of CDU between all forecasts of 2024.<br/>
+    f) Calculate the mean forecast for each party for the year 2024. Create a pie chart to display the average forecasts of the elections for 2024.<br/>
+    g) Create a histogram to show the distribution of percentages of SPD in 2024.<br/>
+    h) Create a boxplot to compare the distribution of percentages of CDU/CSU between all forecasts of 2024.<br/>
 <br/>
 2. First, create a simple scatter plot where you plot percentage of AFD votes (Y-axis) against time (X-axis) in 2024. Then change the plot type to a plot where the points are sensibly connected with lines. What step is essential in this process?
