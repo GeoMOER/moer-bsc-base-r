@@ -11,7 +11,8 @@ header:
     c) Record the frequency of forecasts of the different sources. <br/>
     d) Now calculate the frequency of each party's mentions across all forecasts (Tip: You can use the is.na() function to exclude any NA values.)<br/>
     e) Create a bar chart displaying the frequency of the parties over all forecasts.<br/>
-    f) Calculate the mean forecast for each party for the year 2024. Create a pie chart to display the average forecasts of the elections for 2024. (Tip: You can subset the data for 2024 like this: data_2024 <- subset(data, format(Datum, "%Y") == "2024"))<br/>
+    f) Calculate the mean forecast for each party for the year 2024. Create a pie chart to display the average forecasts of the elections for 2024. (Tip: You can subset the data for 2024 like this: <br>data_2024 <- subset(data, format(as.Date(data$Datum, format="%d.%m.%Y"), "%Y") == "2024")
+<br/>
     g) Create a histogram to show the distribution of percentages of SPD in 2024.<br/>
     h) Create a boxplot to compare the distribution of percentages of CDU/CSU between all forecasts of 2024.<br/>
 <br/>
