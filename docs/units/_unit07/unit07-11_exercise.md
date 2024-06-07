@@ -6,29 +6,13 @@ header:
 ---
 
 1. <br/>
-    a) Download the dataset "CharacterValues" and read it into R. <br/>
-
-    b) What hair and eye colors are present in the dataset? Perform adjustments such as converting uppercase to lowercase, etc., so that 1) grey and white hair are combined into one category (grey), yellow and blonde are combined, and hair color spelling is standardized ("Gelb" counts as blonde in this case) 2) for eye colors, combine "schwarz" (black), "hazel", and "brown" into brown, combine "grey" and "blue" into "bluegrey," and all other eye colors not categorized as brown, bluegrey, or green are combined into "other." <br/>
-    c) Record the frequency of entries for gender, hair color, and eye color. Note: remove one entry for characters that appear twice. First check if other entries (age, eye color/hair color, and gender, etc.) differ. If so, keep the entry that makes more sense to you.<br/>
-    d) Now capture the frequency of eye color per hair color.<br/>
-    e) Create a bar chart displaying the frequency of each eye color and hair color.<br/>
-    f) Create a "stacked" bar chart showing eye colors for hair colors "black", "brown", and "blonde".<br/>
-    g) Create a pie chart that displays the gender ratio.<br/>
-    h)  Create a histogram to show the distribution of age.<br/>
-    i) Create a box plot to compare the distribution of height between worldly and otherworldly characters.<br/>
+    a) Download the dataset "eu_election_forecast" and read it into R. Convert the Column "Quelle" to "Source". Make sure that each column as the correct data type. <br/>
+    b) What Sources of the forecasts are present in the dataset? Perform adjustments such as converting uppercase to lowercase, etc., so that there is only one way of spelling for each source (e.g convert all "insa" to "INSA"). Convert the "Source" column to factor. <br/>
+    c) Record the frequency of forecasts of the different sources. <br/>
+    d) Now calculate the frequency of each party's mentions across all forecasts (Tip: You can use the is.na() function to exclude any NA values.)<br/>
+    e) Create a bar chart displaying the frequency of the parties over all forecasts.<br/>
+    f) Calculate the mean forecast for each party for the year 2024. Create a pie chart to display the average forecasts of the elections for 2024. (Tip: You can subset the data for 2024 like this: data_2024 <- subset(data, format(Datum, "%Y") == "2024"))<br/>
+    g) Create a histogram to show the distribution of percentages of SPD in 2024.<br/>
+    h) Create a boxplot to compare the distribution of percentages of CDU/CSU between all forecasts of 2024.<br/>
 <br/>
-2. First, create a simple scatter plot where you plot body height (Y-axis) against shoe size (X-axis). Then change the plot type to a plot where the points are sensibly connected with lines. What step is essential in this process?
-
-3. Consider the following plot, which represents the beautified plot from today and the box plot from last week (or this week):
-
-{% include figure image_path="/assets/images/unit_images/u07/Unit07_plot.png" %}
-
-Try to recreate this plot.
-
-Note: the "stars" in the example plot represent data from animal-like characters (such as Goofy, Donald Duck, Pluto, and Scrooge McDuck).
-
-Refer to the "Graphic-Example" script for changing axes, etc.
-
-Useful tips for arranging plots can be found here: https://bookdown.org/ndphillips/YaRrr/arranging-plots-with-par-mfrow-and-layout.html
-
-You can save the plot later by running png("Output/Scatterplot_Boxplot.png") before your plot command and executing dev.off() after you have executed your plot command. Do this only when you are satisfied with your plot.
+2. First, create a simple scatter plot where you plot percentage of AFD votes (Y-axis) against time (X-axis) in 2024. Then change the plot type to a plot where the points are sensibly connected with lines. What step is essential in this process?
