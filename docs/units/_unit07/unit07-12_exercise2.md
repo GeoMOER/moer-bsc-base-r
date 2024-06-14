@@ -8,10 +8,13 @@ published: true
 
 Consider the following plot:
 
+
 {% include figure image_path="/assets/images/unit_images/u07/EU_Election.png" %}
 
-Download the data "HessenErgebnisse" from Ilias. The last two lines contain the information for whole Hessia, and the city of Marburg respectively. 
+The left plot is based on a subset of the data used in Exercise one (2024 and INSA only). To create the right plot, download the data "HessenErgebnisse" from Ilias. IMPORTANT: The last two lines contain the information for whole Hessia, and the city of Marburg respectively - handle them accordingly. 
+
 Try to recreate the shown plot.
+
 
 Useful tips for arranging plots can be found here: [https://bookdown.org/ndphillips/YaRrr/arranging-plots-with-par-mfrow-and-layout.html](https://bookdown.org/ndphillips/YaRrr/arranging-plots-with-par-mfrow-and-layout.html)
 
