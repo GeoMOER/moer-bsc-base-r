@@ -11,7 +11,7 @@ Imagine you have been hired as a data analyst for a research institute focusing 
 ### Objectives
 
 - Prepare the data.  
-- Plot trends in seats per party (EPP, S&D, RE, Greens/EFA, ID, ECR, GUE/NGL, NI), gender balance, and voter turnout over time/per election period.  
+- Plot trends in seats per party (European level!), gender balance, and voter turnout over time/per election period.  
 - Prepare a report documenting the data preparation and visualization process.  
 
 
