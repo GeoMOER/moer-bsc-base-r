@@ -13,10 +13,10 @@ header:
 ## Project Overview
 
 ### Project I:
-use R to answer a first question from start to finish
+use R to analyse the voter turnout, distribution of seats and gender balance in the EU parliament
 
 ### Project II:
-use R to answer a more complicated question from start to finish
+tba
 
 ### Project III:
-...
+tba
