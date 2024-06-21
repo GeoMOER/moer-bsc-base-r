@@ -24,7 +24,7 @@ IDs, Acronyms and Labels for all political groups, one for each language
 - Label: long group name, in different languages
 
 #### _gender_balance_turnout.csv
-The estimates of gender balance and turnout for your specific nation provided by provided by Verian for the European Parliament.
+The estimates of gender balance and turnout for your specific nation provided by Verian for the European Parliament.
 - Year
 - Men (Gender Balance): % of male voters
 - Women (Gender Balance): % of female voters
