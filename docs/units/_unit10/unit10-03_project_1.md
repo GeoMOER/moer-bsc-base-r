@@ -23,6 +23,14 @@ IDs, Acronyms and Labels for all political groups, one for each language
 - Acronym: short group name
 - Label: long group name, in different languages
 
+#### _gender_balance_turnout.csv
+The estimates of gender balance and turnout for your specific nation provided by provided by Verian for the European Parliament.
+- Year
+- Men (Gender Balance): % of male voters
+- Women (Gender Balance): % of female voters
+- Turnout (your nation): % of turnout of your nation
+- Turnout (EU): % turnout on EU level
+
 There are also overview graphs, which can be used to check information such as party-group associations.
 
 All data was taken from https://results.elections.europa.eu/en/tools/download-datasheets/
