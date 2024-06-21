@@ -94,9 +94,9 @@ collections:
   unit09:
     output: true
     permalink: /:collection/:title.html
-  #unit10:
-  #  output: false
-  #  permalink: /:collection/:title.html
+  unit10:
+    output: true
+    permalink: /:collection/:title.html
 
 # Default settings
 defaults:
