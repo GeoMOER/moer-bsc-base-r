@@ -29,8 +29,8 @@ You'll also be asked to read the new unit and take the quiz on the new units by 
 | 07         | Exercise Unit 06           | Unit07                       | 07.06.2024         |
 | 08         | Exercise Unit 07, Task 1   | Unit 07 again                | 13.06.2024         | 
 | 09         | Exercise Unit 07, Task 2   | Skim all Units, Questions?   | 21.06.2024         | 
-
-... more will follow
+|Project I   | Project I                  | Project I                    | 03.07.2024         |
+| 10         | Exercise Unit 08 (Task1, 2)| Unit09                       | 28.06.2024         |
 
 
 
