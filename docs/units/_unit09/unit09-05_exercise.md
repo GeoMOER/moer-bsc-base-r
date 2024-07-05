@@ -92,11 +92,6 @@ toc_label: "In this example"
    - Modify it so that the number of insects is also stored.
 
 ## Part 3
-1. **Task 1:**
-    - Load the data "ArtMatrixFalter.RData" (object called moth_wide0). In it, each plot (row) lists the number of each species (column).
-    - Create a function that calculates the Shannon Index (Hint: refer back to the materials from the first day of the course).
-    - Now calculate the Shannon Index for each plot. Do not use the vegan package for this task!
 
-2. **Task 2:**
     - Create a function "niceplot" that attractively plots the number of individuals (y-axis) against the elevation (x-axis) as a point plot and execute this function using lapply over the data.list (mothlist.RData).
     - Include as a possible specification in this function whether a line should be drawn through the points: niceplot(x, line=TRUE) or niceplot(x, line=FALSE).
