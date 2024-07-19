@@ -17,7 +17,7 @@ Download your assigned .csv from the “Insects” folder. Download the zip 2260
 ##### Your supervisor is now asking you to do the following:
 
 1. Prepare a general overview over the data and to document your steps
-2. Calculate the average abundance and species richness as well as total species richness per year and plot
+2. Calculate the average abundance and species richness per year and plot
 3. **For each plot**, extract the decline in the number of individuals and species per year, aka the slope of a simple linear model as shown in this code for the number of individuals:
 
 ```{r}
@@ -33,8 +33,8 @@ decline_abundance <-  exp(slope) - 1
 
 Alternatively, if you can't get that to work,  calculate for each plot the difference in mean abundance and species richness between 2008 and 2018.
 
-4. Now plot the decline against the proportion of arable field in the nearest environment.
-5. Create a map of the plots using the dataset 1000_9, which contains the coordinates of the plot (Longitude on the X axis, latitude on the Y axis). Make it as informative as possible, i.e. by scaling the size of the points according to species richness. Feel free to use packages and help from the internet to gain an extra point.
+4. Now plot the decline against the proportion of arable field in the nearest environment.  
+5. Create a map of the plots using the dataset 1000_9, which contains the coordinates of the plot (Longitude on the X axis, latitude on the Y axis). Make it as informative as possible, i.e. by scaling the size of the points according to species richness. Feel free to use packages and help from the internet to gain an extra point.  
 
 Remember, 
 For your upcoming meeting with your supervisor, you have two main deliverables to prepare:
