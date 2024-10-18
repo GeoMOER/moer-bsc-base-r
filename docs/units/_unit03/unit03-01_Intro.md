@@ -10,9 +10,6 @@ header:
 <!--more-->
 
 
-*You will learn about different types of data storing in objects.*
-
-<!--more-->
 
 Data types are used within type systems, which offer various ways of defining, implementing and using them. Different type systems ensure varying degrees of type safety. Almost all programming languages explicitly include the notion of data type, though different languages may use different terminology.
 
