@@ -1,5 +1,6 @@
 ---
 title: "Exercise: Object types in R"
+published: false
 toc: true
 toc_label: "In this example"
 header:
@@ -7,7 +8,27 @@ header:
   caption: "Image created with DALL E"
 ---
 
-**1.** <br/>
+
+The learning aim of this exercise is to introduce and reinforce key concepts related to data structures and data transformation in R.
+
+
+**1.**
+a) Create a vector named vec1 with even numbers from 40 to 200, in steps of 4.
+b) Determine the length of this vector.
+c) Convert this vector into a matrix with 3 columns named mat1.
+d) Access the last value of this matrix.
+e) Create a matrix (named mat2) using vec1, filling it with 2 columns. Explain why the total number of elements in mat2 is the same as in mat1, but the structure is different.
+
+**2.**
+a) Create a factor vector named vec3 with the letters A, B, and C repeated 3 times each.
+b) Convert the factor into a character vector.
+c) Turn the character vector back into a factor, but in reverse alphabetical order.
+
+
+
+
+
+ <!-- **1.** <br/>
    a) Create a vector named `vec1` with even numbers from 40 to 450, in steps of 4.<br/>
    b) How long is this vector? <br/>
    c) Access the last element in the vector. <br/>
@@ -126,3 +147,4 @@ header:
 <br>
 
 Please save your file as “FirstName_LastName_Task_Day3_Unit03.R”.
+ -->

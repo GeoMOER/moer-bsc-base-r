@@ -1,6 +1,11 @@
 ---
 title: "Project Guidelines"
+header:
+  image: "/assets/images/unit_images/u01/header.jpg"
+  image_description: "project"
+  caption: 'image by <a href="https://pixabay.com/de/users/athree23-6195572/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4855963">Adrian</a> on <a href="https://pixabay.com/de//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4855963">Pixabay</a>'
 ---
+<!--more-->
 
 ## Writing Project Reports
 
@@ -40,3 +45,5 @@ Ability to highlight key trends and insights through visualizations.
 
 
 For more information or questions, please refer to the FAQ section or leave a comment below.
+
+<script src="https://utteranc.es/client.js" repo="GeoMOER/moer-bsc-base-r" issue-term="Projects" theme="github-light" crossorigin="anonymous" async> </script> 

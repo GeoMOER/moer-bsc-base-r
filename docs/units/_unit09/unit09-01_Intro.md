@@ -19,13 +19,7 @@ By the end of this unit, you will be able to:
 You can leave comments below if you have questions or remarks about any of the text or code in this unit.
 Please copy the corresponding line into your comment to make it easier to answer your question.
 
-<script src="https://utteranc.es/client.js"
-        repo="GeoMOER/moer-base-r"
-        issue-term="moer-base-r_unit07"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script>
+<script src="https://utteranc.es/client.js" repo="GeoMOER/moer-bsc-base-r" issue-term="moer-bsc_base_r_unit09" theme="github-light" crossorigin="anonymous" async> </script> 
 
 
 <!--

@@ -6,18 +6,19 @@ header:
   caption: 'Image generated with DALL E: [**Environmental Informatics Marburg**](https://www.uni-marburg.de/en/fb19/disciplines/physisch/environmentalinformatics)'
 ---
 
-*This course is intended as a blended learning module, although the provided introductions, explanations and examples might be useful for self-study only, too.*
+*Find out how this course is supposed to work*
 
 <!--more-->
+
 
 ## HTML learning environment
 
 Your primary learning environment is this public homepage, which was created on GitHub.
-Here you find all learning materials, assignment tasks, and help.
+Here you find all learning materials, assignment tasks, and help. 
 The structure is linear, so just work your way through it. 
 Of course you can also jump freely between units, but this is not recommended for beginners.
 
-Please also not that the HTML learning environment has a FAQ page for recurring questions and a comment functionality on the first page of each unit.
+Please also note that the HTML learning environment has a FAQ page for recurring questions and a comment functionality on the first page of each unit.
 
 
 ## Flexible learning with deadlines
@@ -37,10 +38,10 @@ The link to our classroom can be found in Ilias.
 
 Ilias is the course space offered by the University of Marburg. 
 We will use Ilias mainly for the administration of the course and for providing small static documents and data sharing.
-The link to the Ilias space for this course can be found [here](https://ilias.uni-marburg.de/goto.php?target=crs_3897469&client_id=UNIMR){:target="_blank"}.
 Note that you have to log in with your student account. There is also a forum in Ilias, which you can use for getting in touch with your fellow students.
-You will use Ilias for uploading your assignments. Please always add your full name and your student account name to your assignments.
-This makes it easier for the course instructors to match the uploaded assignments to the students.
+You will use Ilias for uploading your assignments. Please always add your full name to your assignments, e.g. "Assignment01_Heidrich_Lea".
+This makes it easier for the course instructors to match the uploaded assignments to the students. If it can't be matched, it won't be considered.
+
 
 
 

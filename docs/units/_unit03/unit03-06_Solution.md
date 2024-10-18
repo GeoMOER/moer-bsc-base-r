@@ -1,5 +1,6 @@
 ---
 title: "Solution to Exercise 1"
+published: false
 toc: TRUE
 toc_float: TRUE
 header:

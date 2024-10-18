@@ -1,11 +1,13 @@
 ---
 title: "Exercise: binding and merging"
+published: false
 toc: true
 toc_label: "In this example"
 header:
   image: "/assets/images/title/title_1600_500.jpg"
   caption: 'Image: [**Environmental Informatics Marburg**](https://www.uni-marburg.de/en/fb19/disciplines/physisch/environmentalinformatics)'
 ---
+<!--more-->
 
 1. <br/>
     a) Create a project folder. Download and extract the .zip file "DataUnit06" into this folder.

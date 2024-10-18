@@ -123,7 +123,7 @@ And now you have reached the core concept of every object-based programming lang
 ```
 
 If you want to store more than one value to an object you need a vector. It is a basic data structure and contains elements of the same type.
-When you want to create a vector with more than one element, you need to use the `c()` function which means to combine the elements into a vector (c for combine).
+When you want to create a **vector**, the basic data structure which contains elements of the same type with more than one element, you need to use the `c()` function which means to combine the elements into a vector (c for combine).
 
 ```r
 > d <- c(1,2,3)

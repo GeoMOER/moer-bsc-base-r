@@ -5,6 +5,7 @@ header:
   image_description: "noodle"
   caption: "Photo by [congerdesign](https://pixabay.com/de/users/congerdesign-509903/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1312384) [from Pixabay](https://pixabay.com/de/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1312384)"
 ---
+<!--more-->
 
 R allows you to manipulate character strings. This is a great. After all, no one is free from mistakes, and typos can creep into your strings. Or maybe you have changed your mind and want to use a different spelling. Or you have information as a block of text and want to extract information automatically. These are all cases where string manipulation is useful.
 
@@ -79,7 +80,6 @@ As an example, we turn to a Terry Pratchett quote, namely the “Sam Vimes Boots
 
 > "The reason that the rich were so rich, Vimes reasoned, 
 was because they managed to spend less money. Take boots, for example. ... A man who could afford 50 dollars had a pair of boots that'd still be keeping his feet dry in ten years' time, while a poor man who could only afford cheap boots would have spent 100 dollars on boots in the same time and would still have wet feet"
-<!--more-->
 
 Let’s see what happens if this Quote sould have been put into a single characterstring (called "Quote" do to lack of creativity), and we use our functions to find the expression “boot”:
 

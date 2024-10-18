@@ -97,6 +97,9 @@ collections:
   unit10:
     output: true
     permalink: /:collection/:title.html
+  unit11:
+    output: true
+    permalink: /:collection/:title.html
 
 # Default settings
 defaults:
@@ -205,8 +208,18 @@ defaults:
       path: ""
       type: unit10
     values:
-      category: "10 Projects"
+      category: "Assignments"
       tags: "Unit 10"
+      layout: single
+      sidebar:
+        nav: "course_unit"  
+  # unit11
+  - scope:
+      path: ""
+      type: unit11
+    values:
+      category: "Projects"
+      tags: "Unit 11"
       layout: single
       sidebar:
         nav: "course_unit"                  

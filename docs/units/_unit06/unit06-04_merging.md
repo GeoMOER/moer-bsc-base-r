@@ -5,6 +5,8 @@ header:
   image_description: "noodle"
   caption: "Photo by [congerdesign](https://pixabay.com/de/users/congerdesign-509903/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1312384) [from Pixabay](https://pixabay.com/de/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1312384)"
 ---
+<!--more-->
+
 To merge data frames based on identifiers rather than the order of the rows, we utilize the merge() function. When merging two data frames, it's essential to designate the column that contains the identifiers for matching by using the by= argument. This is a crucial step; failing to specify the column can result in R handling the task in one of two ways:
 
 1. If there is a column with the same name in both data frames, R will automatically use that column for merging. However, it is not always certain that this column contains matching information across both data frames, which can lead to erroneous results.

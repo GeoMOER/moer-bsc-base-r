@@ -38,6 +38,13 @@ Examples from a very large and fast growing cosmos: [R-bloggers](https://www.r-b
 
 {% include figure image_path="/assets/images/unit_images/u01/workshop.png" caption="R offers many tools (image generated with DALL E)" %}
 
+
+&#x1F914;  
+One might ask, especially those with a computer science background, *Why not Python?* While both Python and R are widely used in data science, the choice often comes down to personal preference and the specific nature of the tasks at hand. R was specifically designed with statistical analysis, data manipulation, and visualization in mind, making it more intuitive for these types of tasks right out of the box, with *packages* specifically designed for the various tasks of data manipulation and analysis in science. Python, on the other hand, is a more general-purpose language, whose initial design did not focus solely on data science, which can make certain statistical procedures and visualizations less seamless compared to R, but can come in handy for tasks such as image recognition. Ultimately, both Python and R have their own merits, and it's up to your personal choice. That said, it's worth noting that both languages can be integrated, and you can now also use Python within RStudio. If you’re a programming enthusiast who wants to explore more, feel free to check out our ghtml-course on Python [here](https://geomoer.github.io/moer-base-python/).
+{: .notice--info}
+
+ 
+
 ## Getting to know RStudio
 {% include figure image_path="/assets/images/unit_images/u01/gui_rstudio.png" caption="User Interface of RStudio" %}
 
@@ -58,4 +65,4 @@ You can use R without using RStudio, but you can't use RStudio without using R, 
 You can leave comments below if you have questions or remarks about any of the text or code in this unit. 
 Please copy the corresponding line into your comment to make it easier to answer your question.
 
-<script src="https://utteranc.es/client.js" repo="GeoMOER/moer-mpg-data-analysis" issue-term="moer-bsc_base_r_unit01" theme="github-light" crossorigin="anonymous" async> </script> 
+<script src="https://utteranc.es/client.js" repo="GeoMOER/moer-bsc-base-r" issue-term="moer-bsc_base_r_unit01" theme="github-light" crossorigin="anonymous" async> </script> 

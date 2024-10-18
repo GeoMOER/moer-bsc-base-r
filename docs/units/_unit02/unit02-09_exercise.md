@@ -9,6 +9,18 @@ header:
 
 In this exercise, we'll delve into vector creation, manipulation, and data type conversion in R, essential skills for data analysis.
 
+
+**1.** Create a vector named Temperatures using the c() function with five random temperature values between 10 and 30 (you can choose the values). 
+
+**2.** Create a new vector named Days containing the day numbers from 1 to 5 using the `seq()` function
+
+**3.** Determine the data type of each vector.
+
+
+
+<!-- 
+Sose24
+
 **1.** Create a vector named `Jahre_var1` using the `c()` function with even numbers from 1983 to 2012. Then, do the same using the `seq()` function, but name this vector `Jahre_var2`.
 
  <details>
@@ -51,4 +63,4 @@ In this exercise, we'll delve into vector creation, manipulation, and data type 
   </details>
 <br>
 
-Please save your file as "FirstName_LastName_Task_Day2_Unit02.R".
+ -->

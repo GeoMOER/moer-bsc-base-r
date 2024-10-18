@@ -1,5 +1,6 @@
 ---
 title: "Exercise 1"
+published: FALSE
 toc: TRUE
 toc_float: TRUE
 header:
