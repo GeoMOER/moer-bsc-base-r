@@ -1,150 +1,69 @@
 ---
 title: "Exercise: Object types in R"
-published: false
-toc: true
-toc_label: "In this example"
+published: true
 header:
   image: /assets/images/unit_images/u03/header.png
   caption: "Image created with DALL E"
 ---
 
 
-The learning aim of this exercise is to introduce and reinforce key concepts related to data structures and data transformation in R.
+The learning aim of this exercise is to reinforce key concepts related to data structures and data transformation in R.
 
 
-**1.**
-a) Create a vector named vec1 with even numbers from 40 to 200, in steps of 4.
-b) Determine the length of this vector.
-c) Convert this vector into a matrix with 3 columns named mat1.
-d) Access the last value of this matrix.
-e) Create a matrix (named mat2) using vec1, filling it with 2 columns. Explain why the total number of elements in mat2 is the same as in mat1, but the structure is different.
+**1.**  
+a) Create a vector named vec1 with even numbers from 40 to 200, in steps of 4.  
+b) Determine the length of this vector.  
+c) Convert this vector into a matrix with 3 columns named mat1.  
+d) Access the last value of this matrix.  
 
-**2.**
-a) Create a factor vector named vec3 with the letters A, B, and C repeated 3 times each.
-b) Convert the factor into a character vector.
-c) Turn the character vector back into a factor, but in reverse alphabetical order.
+**2.**  
+a) Create a factor vector named vec2 with the letters A, B, and C repeated 3 times each.  
+b) Convert the factor into a character vector.  
+c) Turn the character vector back into a factor, but in reverse alphabetical order.  
 
+**3.**  
+You have two separate data frames, each representing a different set of cities with population data. Combine the two data frames.
 
+```
+cities1 <- data.frame(
+  City = c("City A", "City B"),
+  Population = c(500000, 700000)
+)
 
-
-
- <!-- **1.** <br/>
-   a) Create a vector named `vec1` with even numbers from 40 to 450, in steps of 4.<br/>
-   b) How long is this vector? <br/>
-   c) Access the last element in the vector. <br/>
-   d) Extend the vector `vec1` by values from 450 to 494.<br/>
-   e) Calculate the sum of `vec1`.
-
-<details>
-   <summary>Solution Task 1</summary>
-      <code>
-      # a) <br>
-      vec1 <- seq(40,450, by = 4)<br>
-      # b) <br>
-      length(vec1)<br>
-      # c) <br>
-      vec1[length(vec1)]<br>
-      # d) <br>
-      vec1 <- c(vec1, 450:494)<br>
-      # e) <br>
-      sum(vec1)<br>
-      </code>
-</details>
-<br>
-
-**2.** <br/>
-   a) Create a matrix (named `mat1`) from `vec1` with 2 columns.<br/>
-   b) Calculate the sum of `mat1`.<br/>
-   c) Now create a matrix (named `mat2`) with 4 columns.<br/>
-   d) Calculate the sum of `mat2`.<br/>
-   e) What happened?<br/>
-   f) Calculate the length of `vec1` divided by 5.<br/>
-   g) Access the value at the 33rd row, 4th column of `mat2`.
-
-<details>
-   <summary>Solution Task 2</summary>
-      <code>
-      # a) <br>
-      mat1 <- matrix(vec1, ncol = 2)<br>
-      # b) <br>
-      sum_mat1 <- sum(mat1)<br>
-      # c) <br>
-      mat2 <- matrix(vec1, ncol = 4)<br>
-      # d) <br>
-      sum_mat2 <- sum(mat2)<br>
-      # e) <br>
-      Different sums because vector doesn't fit perfectly inside the matrix.<br>
-      # f) <br>
-      length(vec1) / 5<br>
-      # g) <br>
-      value_33_4 <- mat2[33, 4]<br>
-      </code>
-</details>
-<br>
-
-**3.** <br/>
-   a) Create a vector (`vec2`) with the first 10 letters of the alphabet (capitalized), each occurring 4 times. The class of this vector should be a factor. The factor levels should be in reverse order to the sequence in the alphabet (i.e., `A` should be listed as the last factor level when, for example, viewing the structure of the vector).<br/>
-   b) Reverse the levels of `vec2`.
-
-<details>
-   <summary>Solution Task 3</summary>
-      <code>
-      # a) <br>
-      vec2 <- factor(rep(LETTERS[1:10], each = 4), levels = rev(LETTERS[1:10]))<br>
-      # b) <br>
-      vec2 <- factor(vec2, levels = rev(levels(vec2)))
-      </code>
-</details>
-<br>
-
-**4.** Create a list named “list1” from `vec1`, `mat1`, `mat2`, and `vec2`. Assign appropriate names to the elements of the list. Access the 32th row, 3rd column, of the 3rd element of this list.
-
-<details>
-   <summary>Solution Task 4</summary>
-      <code>
-      list1 <- list(vec1 = vec1, mat1 = mat1, mat2 = mat2, vec2 = vec2) <br>
-      value <- list1$mat2[32, 3]
-
-      # or
-
-      list1 <- list(vec1, mat1, mat2, vec2)>
-      names(list1) <- c("vec1", "mat1", "mat2", "vec2")
-      value <-  list[[3]][32,3]
-
-      </code>
-</details>
-<br>
+cities2 <- data.frame(
+  City = c("City C", "City D"),
+  Population = c(1200000, 900000)
+)
+```
 
 
-**5.** <br/>
-    a) Create a matrix that has as many columns and rows as the length of `vec2` and name it `Dist`. It should be filled row-wise with values starting at 20.5, in steps of 1.<br/>
-    b) In the lower half of the matrix, for odd columns, divide the individual values by 2, and for even columns, subtract 100. Name the result Dist2.
+**Vectorization - this task will be developed together**
 
-<details>
-   <summary>Solution Task 5</summary>
-      <code>
-      # a) <br>
-      Dist <- matrix(seq(20.5, by = 1, length.out = length(vec2) * length(vec2)), 
-               nrow = length(vec2), 
-               ncol = length(vec2), 
-               byrow = TRUE)
-      <br/>
-      <br/>
-      # b)<br>
-      Dist2 <- Dist<br/>
-      rows <- nrow(Dist2)<br/>
-      cols <- ncol(Dist2)<br/>
-      <br/>
-      lower_half_rows <- (rows/2 + 1):rows<br/>
-      <br/>
-      # For odd columns in the lower half, divide values by 2<br/>
-      Dist2[lower_half_rows, seq(1, cols, 2)] <- Dist2[lower_half_rows, seq(1, cols, 2)] / 2<br/>
-      <br/>
-      # For even columns in the lower half, subtract 100 <br/>
-      Dist2[lower_half_rows, seq(2, cols, 2)] <- Dist2[lower_half_rows, seq(2, cols, 2)] - 100
-      </code>
-</details>
-<br>
+You have current population figures for multiple cities called "A", "B", "C", "D", "E" and "F".
 
-Please save your file as “FirstName_LastName_Task_Day3_Unit03.R”.
- -->
+| city | current population |
+|------|--------------------|
+|  A   |            500,000 |
+|  B   |            700,000 |
+|  C   |            900,000 |
+|  D   |          1,200,000 |
+|  E   |             20,000 |
+|  F   |            100,000 |
+
+Cities A, C, and E have a growth rate of 1.5% per year.
+
+Cities B, D, and F experience a population decline of 1% per year.
+
+Calculate the projected population for each city after 6 years using the formula:
+
+<p>Future Population = Current Population × (1 + Growth Rate)<sup>6</sup></p>
+
+
+Use vectorization and vector recycling.
+
+What problems could arise?
+
+
+
+
+> “Thou shalt never assume that simply because the computer code ran and spit out data of the right shape you have the right answer.” — [Brian McGill](https://dynamicecology.wordpress.com/2016/08/22/ten-commandments-for-good-data-management/)

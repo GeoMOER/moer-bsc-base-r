@@ -7,6 +7,7 @@ header:
 
 During the course, you are encouraged to use every freely available ressource besides the information provided here. Nevertheless, you might end up in a "dead end" or have questions regarding the course organization.
 The HTML learning environment has a FAQ page for recurring questions and a comment functionality on the first page of each unit - it needs to be used to be of use, so do not hesitate to ask. There's no such thing as a stupid question.
- 
+
+Alternatively, visit the **tutorium** by Alex each **friday, 16:00-18:00 o'clock** in Room **00A19** or [**online**](https://webconf.hrz.uni-marburg.de/n/rooms/yzb-ih5-vk6-fke/join) 
 
 
