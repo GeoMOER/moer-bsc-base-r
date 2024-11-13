@@ -59,10 +59,10 @@ Please also seriously check and follow the [Information on the Coronavirus](http
 ||| **The basics** |
 | 01 | 25.10.2024 | R Introduction               | introduction of R, R Studio and data types |
 | 02 | 01.11.2024 | objects & indexing           | object types & indexing |
-| 03 | 08.11.2024 | data frames                  | reading, addressing and writing (tabulated) data |
+| 03 | 08.11.2024 | --                | no course  |
 ||| **Data handling** |
-| 04 | 15.11.2024 | characters                   | getting help / how to deal with characters and regular expressions |
-| 05 | 22.11.2024 | subsetting & sorting         | how to subset and sort your data by values |
+| 04 | 15.11.2024 | subsetting & sorting, data frames              | how to subset and sort your data by values, reading and writing tabulated data  |
+| 05 | 22.11.2024 | characters                   | how to deal with characters and regular expressions |
 | 06 | 29.11.2024 | merge & transform            | merge data, transfrom from long to wide format and back |
 | 07 | 06.12.2024 | data checks                  | use handy data checks to see whether your data and script are ok |
 ||| **Plotting** |

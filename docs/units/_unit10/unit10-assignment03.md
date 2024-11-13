@@ -1,0 +1,37 @@
+---
+title: Unmarked Assignment 03 - reading in and writing data
+published: true
+header:
+  image: "/assets/images/unit_images/u01/header.jpg"
+  caption: 'image by <a href="https://pixabay.com/de/users/athree23-6195572/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4855963">Adrian</a> on <a href="https://pixabay.com/de//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4855963">Pixabay</a>'
+---
+
+The data for this exercise was downloaded from [Ourworldindata](https://ourworldindata.org/co2-and-greenhouse-gas-emissions),   
+Friedlingstein et al.: Global Carbon Budget 2023, Earth Syst. Sci. Data, 15, 5301-5369, https://doi.org/10.5194/essd-15-5301-2023 
+
+#### 1. Create a template for how you want to organize your future projects (folderstructure) and rules on how to name your files (both data and R-Scripts). Submit this in form of an .txt file
+  This example shows how you *could* structure it - it's by no means perfect and shall just illustrate what is meant by this task. Adapt it to your specific style and requirements. At the end of the course, we'll discuss whether your structure and naming rules worked out or not.
+
+  ```
+  Folderstructure
+
+  └── my_awesome_project          | Name of the project, see rules
+      ├── data                    | all data files go here
+      │   ├── raw                 | raw data will be saved here. It shall never be overwritten. Metadata & ownership information shall be added to README.txt.
+      │   └── processed           | save R-processed data here. Add versioning etc
+      ├── output                  | output of R
+      ├── README.txt              | contains description of all files, including what steps have been done   
+      ├── run_analyses.R          | Script to run your super analysis, add versioning numbers etc
+
+
+  Name rules
+  - rawdata: leave names of raw data unchanged
+  - processed: include information on project, rawdata and script which processed it
+  - scripts: projectname, what it does, always add a versionnumber
+  ```
+
+#### 2. Create a folder structure accordingly for this assignment, download the files "emission1", "emission2", "emission3" and "emission4" and save them in the folder of your choice.  
+
+#### 3. Read in all emission-dataframes (1-4) using a suitable function-argument combination. Check with **str()** whether the data is in the right format.  
+
+#### 4. Extract from one of the dataframes the C02 emissions of the year 2020 and safe it as a .csv in your folder structure.

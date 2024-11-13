@@ -82,14 +82,3 @@ df_6 <- data.frame(
   Change_1990_2021_Percent = c(-33.1, -44.1, -14.3, 0.4)
   )
 ```
-
-Exercise II: For this excersise, please refer to Unit 06-02 beforehand.
-
-1) load the data called "SO2_measures.txt" which is located in the data-folder in Ilias.
-2) Find all entries from "StationA". 
-3) Replace all occurrences of "CO2" with "CarbonDioxide".  
-3) Separate the strings into their components: stationname, date, hour, CO2, and SO2 using `strsplit()`   function. Use the results to create a dataframe with the help of `do.call(rbind, x)` and `as.data.frame()`. 
-
-Make sure that every column has a suitable data type.
-
-Please save your file as “FirstName_LastName_Task_Assignment6_Unit05.R”.
