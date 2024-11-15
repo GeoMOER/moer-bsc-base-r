@@ -351,6 +351,8 @@ j %in% x
 which(j %in% x)
 ## [1] 3 4
 ```
+
+
 Another handy similar function is match:
 
 ```

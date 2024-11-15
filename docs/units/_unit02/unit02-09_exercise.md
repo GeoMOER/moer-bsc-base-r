@@ -10,9 +10,36 @@ In this exercise, we'll delve into vector creation, manipulation, and data type 
 
 **1.** Create a vector named Temperatures using the c() function with five random temperature values between 10 and 30 (you can choose the values). 
 
+
+  <details>
+   <summary>Solution Task 1</summary>
+      <code>
+      Temperatures <- c(10,14,16,18,20)
+      </code>
+  </details>
+  
+
 **2.** Create a new vector named Days containing the day numbers from 1 to 5 using the `seq()` function
 
+
+ <details>
+   <summary>Solution Task 2</summary>
+      <code>
+      Days <- seq(from=1,to=5)
+      </code>
+  </details>
+
+
 **3.** Determine the data type of each vector.
+
+
+ <details>
+   <summary>Solution Task 3 </summary>
+      <pre><code>
+      class(Temperatures)  
+      class(Days)
+      </code></pre>
+  </details>
 
 
 

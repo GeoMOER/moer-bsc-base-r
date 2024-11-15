@@ -44,7 +44,59 @@ manual2  <- mtcars[c(mtcars$am == 1),-c(2,3,5:9, 11)]
 automatic2 <- mtcars[c(mtcars$am == 0),-c(2,3,5:9, 11)]
 ```
 
+#### %in% - operator
+
+The %in%-operator, which has been introduced in the former chapter, can also be applied to character-vectors. For example, you have a information about the gross-domestic product on the one hand and a list of countries on the other:
+```
+# ChatGPT: Create a dataframe with GDP data for 10 countries in 2010 and 2020 (created with ChatGPT)
+gdp_data <- data.frame(
+  Country = c("United States", "Germany", "Japan", "France", "India", 
+              "Canada", "Italy", "China", "Spain", "Poland"),  # Mixed order
+  GDP_2010 = c(14900, 3400, 5700, 2600, 1700, 
+               1610, 2100, 6080, 1400, 480),  # GDP values in billions USD
+  GDP_2020 = c(21100, 3800, 5000, 2900, 2900, 
+               1650, 1900, 14700, 1600, 600)   # GDP values in billions USD
+)
+
+# ChatGPT: Create a vector containing all EU countries, including those not in the dataframe
+eu_countries <- c("Germany", "France", "Italy", "Spain", "Poland", 
+                  "Austria", "Belgium", "Bulgaria", "Croatia", "Cyprus", 
+                  "Czech Republic", "Denmark", "Estonia", "Finland", 
+                  "Greece", "Hungary", "Ireland", "Latvia", "Lithuania", 
+                  "Luxembourg", "Malta", "Netherlands", "Portugal", 
+                  "Romania", "Slovakia", "Slovenia", "Sweden")
+```
+
+You can use the **%in%**-operator to extract the rows of the data frame whose country is present in your vector (here: eu_countries)
+
+```
+gdp_data$Country%in%eu_countries
+ [1] FALSE  TRUE FALSE  TRUE FALSE FALSE  TRUE FALSE  TRUE  TRUE
+
+# use the TRUE FALSE to index your TRUE rows:
+
+gdp_data[gdp_data$Country%in%eu_countries,]
+   Country GDP_2010 GDP_2020
+2  Germany     3400     3800
+4   France     2600     2900
+7    Italy     2100     1900
+9    Spain     1400     1600
+10  Poland      480      600
+```
+
+You can negate it by using **!** in front of your query:
+
+```
+!gdp_data$Country%in%eu_countries
+ [1]  TRUE FALSE  TRUE FALSE  TRUE  TRUE FALSE  TRUE FALSE FALSE
+```
+
 ---
+
+
+
+
+
 
 ## subset-function
 There is another basic function in R that allows us to subset a data frame without knowing the row and column references: `subset()`.

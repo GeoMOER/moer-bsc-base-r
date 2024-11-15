@@ -24,6 +24,7 @@ You are allowed to use ChatGPT or similar AIs to solve the assignments. However,
 |------------|------------------------------------------------------------------------------|-------|--------------------|
 | 01         | [Data & Object types](/moer-bsc-base-r/unit10/unit10-assignment01.html)      | 1-3   | 30.10.2024         |
 | 02         | [Sorting & subsetting](/moer-bsc-base-r/unit10/unit10-assignment02.html)     | 4     | 06.11.2024         |
+| 03         | [writing & reading data](/moer-bsc-base-r/unit10/unit10-assignment03.html)   | 5     | 20.11.2024         |
 
 <!-- | Assignment | Exercise                   | Read & take quiz to chapter  | To be finish until |
 |------------|----------------------------|------------------------------|--------------------|

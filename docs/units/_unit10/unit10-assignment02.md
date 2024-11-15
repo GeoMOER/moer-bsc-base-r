@@ -27,6 +27,13 @@ exclude <- c("Upper-middle-income countries", "European Union (27)","European Un
 
 (if you can't make it work, continue without removing them)
 
+ <details>
+   <summary>Hint </summary>
+     read [this]() carefully
+  </details>
+
+
+
 b) Sort the dataset by emissions. In which year, in which country and from which source did the largest annual CO2 emissions per capita originate?
 
 c) What country produced the 10 greatest oil emissions in 2020? 

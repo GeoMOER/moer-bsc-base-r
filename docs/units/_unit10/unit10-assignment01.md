@@ -22,3 +22,5 @@ If something does not work on the first try, document all the steps you took, in
 # Submission
 Upload this assignment by 30.10.24 under the "Assignment" folder in Ilias in the following format:
 A01_Lastname_Firstname.R
+
+
