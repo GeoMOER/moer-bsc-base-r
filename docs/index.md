@@ -63,7 +63,7 @@ Please also seriously check and follow the [Information on the Coronavirus](http
 ||| **Data handling** |
 | 04 | 15.11.2024 | subsetting & sorting, data frames              | how to subset and sort your data by values, reading and writing tabulated data  |
 | 05 | 22.11.2024 | characters                   | how to deal with characters and regular expressions |
-| 06 | 29.11.2024 | merge & transform            | merge data, transfrom from long to wide format and back |
+| 06 | 29.11.2024 | transform & aggregate        | transfrom from long to wide format and back |
 | 07 | 06.12.2024 | data checks                  | use handy data checks to see whether your data and script are ok |
 ||| **Plotting** |
 | 08 | 13.12.2024 | graphs & projects            | generate some graphs, start with your first (graded) project |
