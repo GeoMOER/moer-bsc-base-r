@@ -29,7 +29,7 @@ exclude <- c("Upper-middle-income countries", "European Union (27)","European Un
 
  <details>
    <summary>Hint </summary>
-     read [this]() carefully
+     read [this chapter](/moer-bsc-base-r/unit04/unit04-03_subsetting.html) carefully
   </details>
 
 
