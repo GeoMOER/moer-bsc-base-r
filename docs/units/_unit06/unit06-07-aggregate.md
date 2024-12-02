@@ -11,11 +11,17 @@ header:
 
 Aggregate functions in R are used to perform operations on subsets of data, summarizing multiple values into a single value. Common aggregate functions include **sum()**, **mean()**, **min()**, **max()**, and **length()**. These functions are often used in conjunction with the **aggregate(x, by, FUN)** function. X stands for the data frae, by is the list of grouping elements, often factors, and FUN is the function to be applied (e.g., mean, sum).
 
+{% include figure image_path="/assets/images/unit_images/u06/aggregate.png" %}
+
+
 Let's take the dataset mtcars, which comes with R. This calculates the average mpg for each group of cyl (cylinders)
 
 ```
 aggregate(mpg ~ cyl, data = mtcars, FUN = mean)
 ```
+
+
+
 #### Reshaping Data: Wide to Long and Vice Versa
 
 In R, data can be transformed between wide and long formats using functions such as **melt()** and **dcast()** from the **reshape2 package**. There are other packages available, but here we will focus on the functions provided by reshape2. **dcast(data, columns.keep ~ columns.spread, value.var)** converts long data to wide, creating separate columns for different values. Important arguments are, of course, the data object and the formula, where all columns left of the **"~"** are columns to keep as they are (green columns in the image below), while those right of the **"~"** are spread, i.e. they form the new column header (orange cells in the image below). Meanwhile, *value.var* specifies the values to be used to fill these new columns (here: "Anzahl Individuen").
