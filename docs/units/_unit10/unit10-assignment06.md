@@ -6,7 +6,7 @@ header:
   caption: 'image by <a href="https://pixabay.com/de/users/athree23-6195572/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4855963">Adrian</a> on <a href="https://pixabay.com/de//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4855963">Pixabay</a>'
 ---
 
-1.) Please download the Project (Ilias) which was developed in parts together in the course based on the ([Example in "good practices"](/moer-bsc-base-r/unit12/unit12-good_practices_0engl.html)).  
+1.) Please download the Project (Ilias-> Data -> "Microclimate-landuse") which was developed in parts together in the course based on the ([Example in "good practices"](/moer-bsc-base-r/unit12/unit12-good_practices_0engl.html)).  
 
 2.) Open the project and locate the script titled 'microclimate_datacleaning.' In the section '1. Read in data + data checks,' conduct any additional data checks (e.g., handling missing values, identifying outliers) or make changes you deem necessary. Describe all changes and their rationale in the README.txt file.  
 
