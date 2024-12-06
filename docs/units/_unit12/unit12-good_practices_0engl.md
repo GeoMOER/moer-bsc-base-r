@@ -28,11 +28,11 @@ Create a flowchart or similar visual aid for clarity.
 
 Ask yourself the following questions:
 
-1.1 What is the object of your investigation?
-1.2 What effect are you testing?
-1.3 What variables do you have, and what data types should they have?
-1.4 What aspects can you analyze?
-1.5 Are there additional factors to consider?
+1.1) What is the object of your investigation?  
+1.2) What effect are you testing?  
+1.3) What variables do you have, and what data types should they have? 
+1.4) What aspects can you analyze?  
+1.5) Are there additional factors to consider?  
 
 By asking these questions, you can evaluate the various options, whether you're using the classical frequentist approach, Bayesian statistics, machine learning, or you "just" want to visualize something.
 
@@ -41,25 +41,25 @@ In this course, we will stay on the level of descriptive statistics and simple c
 # Step 2: Setting Up the Project, Checking Raw Data, and Making Adjustments
 *“Prepare your palette and brushes.”*
 
-2.1 Use a [template](/moer-bsc-base-r/unit10/unit10-assignment03.html) for your folder structure, README file, and script whenever possible.
-2.2 Download the raw data. Record important metadata in the README file:
-    Where did the data come from?
-    When did you receive it?
-    What does it contain?
-    How many data points are included?
-2.3 Load the data and check using **str()** to see if they match the expected data types (see 1.4).
-2.4 Perform a raw data check. Useful functions include **summary()**, **length()**, **unique()**, and **tapply()**, especially if you have grouping factors.
-2.5 Visualizing the data can also be helpful, particularly with spatially or temporally structured data.
-2.6 If your checks in 2.4 revealed problems, fix them in your script. Never modify the raw data directly!
-2.7 Document the changes and how they impact your data.
+2.1) Use a [template](/moer-bsc-base-r/unit10/unit10-assignment03.html) for your folder structure, README file, and script whenever possible.  
+2.2) Download the raw data. Record important metadata in the README file:  
+    Where did the data come from?  
+    When did you receive it?  
+    What does it contain?  
+    How many data points are included?  
+2.3) Load the data and check using **str()** to see if they match the expected data types (see 1.4).  
+2.4) Perform a raw data check. Useful functions include **summary()**, **length()**, **unique()**, and **tapply()**, especially if you have grouping factors.  
+2.5) Visualizing the data can also be helpful, particularly with spatially or temporally structured data.   
+2.6) If your checks in 2.4 revealed problems, fix them in your script. Never modify the raw data directly!   
+2.7) Document the changes and how they impact your data.  
 
 # Step 3: Preparing the Data
 *“Sketch your outlines.”*
 
 You now know what your data looks like. The two questions to ask (again) are:
 
-3.1 What is your unit of analysis?
-3.2 What structure must the data have for the chosen analysis to be performed?
+3.1) What is your unit of analysis?  
+3.2) What structure must the data have for the chosen analysis to be performed?  
 
 You can determine this by consulting the help function of the method (e.g., ?t.test or help(t.test)), reading its arguments, and reviewing examples. Alternatively, you can often find vignettes or handbooks explaining the functions and underlying concepts in more detail.
 
@@ -68,8 +68,8 @@ Visualize the current structure of your raw data and compare it to the structure
 # Step 4: Writing and Checking the Script
 *“Fill in your sketch and refine the details until the picture meets both the overall vision and the finer demands.”*
 
-4.1 The necessary steps for data transformation and analysis have already been outlined in the previous steps. Now gather the appropriate functions—whether from this handbook, hardcover textbooks, or the vast resources of the internet.
-4.2 Always verify whether the result of a function—whether it’s for data transformation, analysis, or visualization—is correct. After transformations, does the number of individual values still match the logical expectation? Have any data been lost? Are the calculation results correct? If necessary, check them manually. Does the visualization make sense?
+4.1) The necessary steps for data transformation and analysis have already been outlined in the previous steps. Now gather the appropriate functions—whether from this handbook, hardcover textbooks, or the vast resources of the internet.  
+4.2) Always verify whether the result of a function—whether it’s for data transformation, analysis, or visualization—is correct. After transformations, does the number of individual values still match the logical expectation? Have any data been lost? Are the calculation results correct? If necessary, check them manually. Does the visualization make sense?
 
 If you can confidently answer "yes" to these questions, congratulations—you’ve reached the course goal.
 
