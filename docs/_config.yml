@@ -100,7 +100,9 @@ collections:
   unit11:
     output: true
     permalink: /:collection/:title.html
-
+  unit12:
+    output: true
+    permalink: /:collection/:title.html
 # Default settings
 defaults:
   # unit00
@@ -222,7 +224,17 @@ defaults:
       tags: "Unit 11"
       layout: single
       sidebar:
-        nav: "course_unit"                  
+        nav: "course_unit" 
+  # unit12
+  - scope:
+      path: ""
+      type: unit12
+    values:
+      category: "Good practices"
+      tags: "Unit 112"
+      layout: single
+      sidebar:
+        nav: "course_unit"                       
   # pages
   - scope:
       path: "_pages"
