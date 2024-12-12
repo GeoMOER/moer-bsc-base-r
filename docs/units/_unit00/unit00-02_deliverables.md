@@ -27,7 +27,7 @@ You are allowed to use ChatGPT or similar AIs to solve the assignments. However,
 | 03         | [writing & reading data](/moer-bsc-base-r/unit10/unit10-assignment03.html)   | 5     | 20.11.2024         |
 | 04         | [Characters, merge & transform](/moer-bsc-base-r/unit10/unit10-assignment04.html) | 6| 27.11.2024         |
 | 05         | [ merge & transform](/moer-bsc-base-r/unit10/unit10-assignment05.html)       | 6     | 04.12.2024         |
-| 05         | [starting projects](/moer-bsc-base-r/unit10/unit10-assignment06.html)       | -      | 12.12.2024         |
+| 06         | [starting projects](/moer-bsc-base-r/unit10/unit10-assignment06.html)        | -     | 12.12.2024         |
 
 <!-- | Assignment | Exercise                   | Read & take quiz to chapter  | To be finish until |
 |------------|----------------------------|------------------------------|--------------------|
