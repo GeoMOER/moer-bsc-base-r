@@ -20,15 +20,19 @@ The three projects are the marked deliverables. They challange you with a real-w
 You are allowed to use ChatGPT or similar AIs to solve the assignments. However, you need to present your solution to make sure you understand what you have done.
 {: .notice--info}
 
-| Assignment | Topic                                                                        | Units | To be finish until |
-|------------|------------------------------------------------------------------------------|-------|--------------------|
-| 01         | [Data & Object types](/moer-bsc-base-r/unit10/unit10-assignment01.html)      | 1-3   | 30.10.2024         |
-| 02         | [Sorting & subsetting](/moer-bsc-base-r/unit10/unit10-assignment02.html)     | 4     | 06.11.2024         |
-| 03         | [writing & reading data](/moer-bsc-base-r/unit10/unit10-assignment03.html)   | 5     | 20.11.2024         |
-| 04         | [Characters, merge & transform](/moer-bsc-base-r/unit10/unit10-assignment04.html) | 6| 27.11.2024         |
-| 05         | [ merge & transform](/moer-bsc-base-r/unit10/unit10-assignment05.html)       | 6     | 04.12.2024         |
-| 06         | [starting projects](/moer-bsc-base-r/unit10/unit10-assignment06.html)        | -     | 12.12.2024         |
-| --         | Prepare your first project                                                   | -     | 20.12.2024         |
+| Assignment | Topic                                                                             | Units | To be finish until |
+|------------|-----------------------------------------------------------------------------------|-------|---------------------|
+| 01         | [Data & Object types](/moer-bsc-base-r/unit10/unit10-assignment01.html)           | 1-3   | 30.10.2024         |
+| 02         | [Sorting & subsetting](/moer-bsc-base-r/unit10/unit10-assignment02.html)          | 4     | 06.11.2024         |
+| 03         | [Writing & Reading Data](/moer-bsc-base-r/unit10/unit10-assignment03.html)        | 5     | 20.11.2024         |
+| 04         | [Characters, Merge & Transform](/moer-bsc-base-r/unit10/unit10-assignment04.html) | 6     | 27.11.2024         |
+| 05         | [Merge & Transform](/moer-bsc-base-r/unit10/unit10-assignment05.html)             | 6     | 04.12.2024         |
+| 06         | [Starting Projects](/moer-bsc-base-r/unit10/unit10-assignment06.html)             | -     | 12.12.2024         |
+| --         | Prepare Your First Project                                                       | -     | 20.12.2024         |
+| Project 1  | [Project 1](/moer-bsc-base-r/unit11/unit11-02_project1.html)                      | -     | 15.01.2024         |
+
+
+
 <!-- | Assignment | Exercise                   | Read & take quiz to chapter  | To be finish until |
 |------------|----------------------------|------------------------------|--------------------|
 | 01         | Exercise Unit01            | Units01-02                   | 19.04.2024         |
