@@ -58,7 +58,7 @@ Variable `c` has to be reseted to its initial value every time the inner loop is
 
 ----
 
-One couls also use the *repeat* statement, which creates  a loop that repeats an action or a set of actions indefinitely until a certain condition is met. The loop continues executing until an explicit break statement is encountered within the loop. Here's how it works:
+One could also use the *repeat* statement, which creates  a loop that repeats an action or a set of actions indefinitely until a certain condition is met. The loop continues executing until an explicit break statement is encountered within the loop. Here's how it works:
 
 ```r
 repeat {
