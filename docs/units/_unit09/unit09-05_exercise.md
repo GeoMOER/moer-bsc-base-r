@@ -1,6 +1,6 @@
 ---
 title: "Exercise: Loops and if/else"
-published: false
+published: true
 toc: true
 toc_label: "In this example"
 ---
