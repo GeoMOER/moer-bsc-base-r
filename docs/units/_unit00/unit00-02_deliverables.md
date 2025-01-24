@@ -30,8 +30,8 @@ You are allowed to use ChatGPT or similar AIs to solve the assignments. However,
 | 06         | [Starting Projects](/moer-bsc-base-r/unit10/unit10-assignment06.html)             | -     | 12.12.2024         |
 | --         | Prepare Your First Project                                                        | -     | 20.12.2024         |
 | Project 1  | [Project 1](/moer-bsc-base-r/unit11/unit11-02_project1.html)                      | -     | 15.01.2024         |
-| 07         | [ifelse](/moer-bsc-base-r/unit10/unit10-assignment07.html)                        | -     | 23.01.2024         |
-
+| 07         | [ifelse](/moer-bsc-base-r/unit10/unit10-assignment07.html)                        | 8     | 23.01.2024         |
+| --         | for loops - no assignment                                                         |       |                    |
 
 
 <!-- | Assignment | Exercise                   | Read & take quiz to chapter  | To be finish until |
