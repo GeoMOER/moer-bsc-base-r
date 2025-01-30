@@ -2,7 +2,10 @@
 title: "Exercise: Loops and if/else"
 published: true
 toc: true
-toc_label: "In this example"
+header:
+  image: /assets/images/unit_images/u08/header.png
+  image_description: "loop"
+  caption: "Photo by [Christopher Kuszajewski](https://pixabay.com/de/users/kuszapro-369349/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=583537) [from Pixabay](https://pixabay.com/de/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=583537)"
 ---
 ## Part 1
 1. - Copy the following lines:
@@ -19,3 +22,11 @@ toc_label: "In this example"
 Background: Within the project "Nature 4.0", an "Automated Moth Trap" (AMT) was tested, which attracts moths using UV light and photographs them at regular intervals. Ideally, the resulting images are analyzed by AI, which requires considerable training. The annotations (bounding boxes) made by the AI are stored in .yaml files. 
 
 Engage in teams (online and offline group - see Ilias) with your respective code snippets and try to answer the respective questions. Present the code snippet and it's functionality to the class afterwards.
+
+
+    
+
+
+
+
+
