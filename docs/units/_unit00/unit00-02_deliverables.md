@@ -31,8 +31,10 @@ You are allowed to use ChatGPT or similar AIs to solve the assignments. However,
 | --         | Prepare Your First Project                                                        | -     | 20.12.2024         |
 | Project 1  | [Project 1](/moer-bsc-base-r/unit11/unit11-02_project1.html)                      | -     | 15.01.2024         |
 | 07         | [ifelse](/moer-bsc-base-r/unit10/unit10-assignment07.html)                        | 8     | 23.01.2024         |
-| --         | for loops - no assignment                                                         |       |                    |
-
+| --         | for loops - no assignment                                                         | 9     |                    |
+| --         | apply functions - no assignment                                                   | 9     |                    |
+| Project 2  | Project 2                                                                         | -     | 13.03.2024         |
+| Project 3  | Project 3                                                                         | -     | 13.03.2024         |
 
 <!-- | Assignment | Exercise                   | Read & take quiz to chapter  | To be finish until |
 |------------|----------------------------|------------------------------|--------------------|
