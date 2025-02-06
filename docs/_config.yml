@@ -103,6 +103,9 @@ collections:
   unit12:
     output: true
     permalink: /:collection/:title.html
+  unit13:
+    output: true
+    permalink: /:collection/:title.html
 # Default settings
 defaults:
   # unit00
@@ -220,18 +223,28 @@ defaults:
       path: ""
       type: unit11
     values:
-      category: "Projects"
+      category: "Excursion: Maps"
       tags: "Unit 11"
       layout: single
       sidebar:
-        nav: "course_unit" 
+        nav: "course_unit"
   # unit12
   - scope:
       path: ""
       type: unit12
     values:
+      category: "Projects"
+      tags: "Unit 12"
+      layout: single
+      sidebar:
+        nav: "course_unit" 
+  # unit13
+  - scope:
+      path: ""
+      type: unit13
+    values:
       category: "Good practices"
-      tags: "Unit 112"
+      tags: "Unit 13"
       layout: single
       sidebar:
         nav: "course_unit"                       
