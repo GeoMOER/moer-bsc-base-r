@@ -85,3 +85,6 @@ All data was taken from the [open-data of the Bundeswahlleiterin](https://www.bu
 | Total_population_in_tsd     | Population in thousands                                                   |
 | Percentage_of_foreigners    | Percentage of people who are not German within the meaning of Article 116 (1) of the GG. |
 | Disposable_income_pP        | Disposable income (Euro per head)                                         |
+
+
+### Please submit your project folder as zip until 13.03.2025 in Ilias

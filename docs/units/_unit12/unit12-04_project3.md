@@ -8,7 +8,7 @@ header:
 
 ## Project Task: Analyzing Disturbance Patterns in Forests Using R
 
-This project is inspired by the study ["Landscape patterns in stand-replacing disturbances across the world’s forests"](https://www.nature.com/articles/s41893-024-01450-3) by Acil, Sadler, Senf, Suvanto & Pugh in *Nature Sustainability*, **8**, 86-98 (2005)
+This project is inspired by the study ["Landscape patterns in stand-replacing disturbances across the world’s forests"](https://www.nature.com/articles/s41893-024-01450-3) by Acil, Sadler, Senf, Suvanto & Pugh in *Nature Sustainability*, **8**, 86-98 (2025)
 
 Stand-replacing disturbances are natural or human-caused events that lead to the sudden death of a group of trees, significantly impacting carbon cycling and habitat diversity. They vary greatly in size, shape, and spatial arrangement. Which patterns are formed depends on a complex interplay of factors, including the forest's condition, the broader environmental context, and the disturbance agent.
 
@@ -41,3 +41,5 @@ Contains the patch ID (Gap_ID) and the assigned patch type (si = small-isolated 
 Includes the patch ID (Gap_ID), the biome type ("Boreal forests and taiga", "Mangroves", "Mediterranean forests, woodlands and scrubs","Temperate broadleaf and mixed forests","Temperate conifer forests", "Tropical and subtropical coniferous forests", "Tropical and subtropical dry broadleaf forests","Tropical and subtropical moist broadleaf forests"), the disturbance agent ("Other", "Urban", "Tree Farms", "Shifting Agriculture", "Harvest", "Fire"), and information on whether the majority of the patch lies within an intact forest ("inside") or outside of it ("outside").
 
 The folder also contains a reference table (Assigned_Biome.csv) to help you identify your assigned biome.
+
+#### Please submit your project folder as zip until 13.03.2025 in Ilias
