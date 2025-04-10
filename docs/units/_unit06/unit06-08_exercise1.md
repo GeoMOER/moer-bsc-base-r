@@ -1,6 +1,6 @@
 ---
 title: "Exercise: working with characters"
-published: true
+published: false
 toc: true
 toc_label: "In this example"
 header:

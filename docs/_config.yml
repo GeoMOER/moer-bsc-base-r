@@ -208,16 +208,6 @@ defaults:
       layout: single
       sidebar:
         nav: "course_unit"         
-  # unit10
-  - scope:
-      path: ""
-      type: unit10
-    values:
-      category: "Assignments"
-      tags: "Unit 10"
-      layout: single
-      sidebar:
-        nav: "course_unit"  
   # unit11
   - scope:
       path: ""
@@ -228,16 +218,6 @@ defaults:
       layout: single
       sidebar:
         nav: "course_unit"
-  # unit12
-  - scope:
-      path: ""
-      type: unit12
-    values:
-      category: "Projects"
-      tags: "Unit 12"
-      layout: single
-      sidebar:
-        nav: "course_unit" 
   # unit13
   - scope:
       path: ""

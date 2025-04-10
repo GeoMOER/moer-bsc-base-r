@@ -1,6 +1,6 @@
 ---
 title: "Exercise: apply"
-published: true
+published: false
 toc: true
 header:
   image: /assets/images/unit_images/u08/header.png

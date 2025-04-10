@@ -20,6 +20,7 @@ The three projects are the marked deliverables. They challange you with a real-w
 You are allowed to use ChatGPT or similar AIs to solve the assignments. However, you need to present your solution to make sure you understand what you have done.
 {: .notice--info}
 
+<!--
 | Assignment | Topic                                                                             | Units | To be finish until |
 |------------|-----------------------------------------------------------------------------------|-------|---------------------|
 | 01         | [Data & Object types](/moer-bsc-base-r/unit10/unit10-assignment01.html)           | 1-3   | 30.10.2024         |

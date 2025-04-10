@@ -1,5 +1,6 @@
 ---
 title: "Exercise: Vector Operations and Data Types in R"
+published: false
 header:
   image: "/assets/images/unit_images/u02/header.jpg"
   caption: 'image by <a href="https://pixabay.com/de/users/arielrobin-2483349/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1509707">Ariel</a> on <a href="https://pixabay.com/de//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1509707">Pixabay</a>'
