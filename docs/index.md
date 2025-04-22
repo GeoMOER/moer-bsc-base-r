@@ -66,7 +66,7 @@ Please also seriously check and follow the [Information on the Coronavirus](http
 ||| **Plotting** |
 | 06 | 02.06.2025    | graphs  I                    | generate some graphs |
 | 07 | ~~09.06.2025~~| public holiday            | no course today  |
-| 08 | ~~16.06.2024~~| project week              | no course today  |
+| 08 | ~~16.06.2025~~| project week              | no course today  |
 ||| **Project I**|
 | 09 | 23.06.2025 | graphs II, feedback project 1 | let's make some more graphs |
 ||| **Automation** |
