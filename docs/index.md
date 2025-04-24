@@ -38,7 +38,7 @@ At the end of this course you should be able to
 
 # Setting
 
-This course will take place in a synchronous setting in presence in room **F 14|00A19** every **Friday, 9:15-11:45.** 
+This course will take place in a synchronous setting in presence in room **F 14|00A19** every **Monday, 9:15-11:45.** 
 
 {: .notice--info}
 
