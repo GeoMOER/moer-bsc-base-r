@@ -211,10 +211,10 @@ defaults:
   # unit10
   - scope:
       path: ""
-      type: unit09
+      type: unit10
     values:
       category: "Exercises"
-      tags: ""
+      tags: "Unit 10"
       layout: single
       sidebar:
         nav: "course_unit"    
