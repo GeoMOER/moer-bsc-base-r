@@ -207,7 +207,17 @@ defaults:
       tags: "Unit 09"
       layout: single
       sidebar:
-        nav: "course_unit"         
+        nav: "course_unit"      
+  # unit10
+  - scope:
+      path: ""
+      type: unit09
+    values:
+      category: "Exercises"
+      tags: ""
+      layout: single
+      sidebar:
+        nav: "course_unit"    
   # unit11
   - scope:
       path: ""

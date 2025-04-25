@@ -6,9 +6,26 @@ header:
   caption: 'image by <a href="https://pixabay.com/de/users/arielrobin-2483349/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1509707">Ariel</a> on <a href="https://pixabay.com/de//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1509707">Pixabay</a>'
 ---
 
-In this exercise, we'll delve into vector creation, manipulation, and data type conversion in R, essential skills for data analysis.
+In this exercise, we'll delve into vector creation and data type conversion in R, essential skills for data analysis.
+
+**1.** Apply this command:  
+```{r}
+set.seed(1234)
+```
+
+**2.** Now, create a vector named "precipitation", measured as mm with 10 random values using the **runif**-function. Values should lie between 0 and 250. 
+
+**3.** Look up the code table for [precipitatiopn type](https://codes.ecmwf.int/grib/format/grib2/ctables/4/201/) provided by the European Centre for Medium-Range Weather Forecasts (ECMWF) and generate a vector called "p_type"
+
+**4.** Create a vector called "years", with  **even** numbers from 1990 to 2012.
+
+**5.** What classes do the vectors have? Which classes should they have?
 
 
+
+
+<!--
+WiSe 24
 **1.** Create a vector named Temperatures using the c() function with five random temperature values between 10 and 30 (you can choose the values). 
 
 

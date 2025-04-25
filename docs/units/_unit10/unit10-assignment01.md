@@ -1,5 +1,6 @@
 ---
 title: Unmarked Assignment 01
+published: true
 header:
   image: "/assets/images/unit_images/u01/header.jpg"
   image_description: "assignment"
@@ -20,7 +21,7 @@ List: Create a list that contains all three vectors.
 If something does not work on the first try, document all the steps you took, including any trial and error, so that you can reflect on the process.
 
 # Submission
-Upload this assignment by 30.10.24 under the "Assignment" folder in Ilias in the following format:
+Upload this assignment by 02.05.25 under the "Assignment" folder in Ilias in the following format:
 A01_Lastname_Firstname.R
 
 
