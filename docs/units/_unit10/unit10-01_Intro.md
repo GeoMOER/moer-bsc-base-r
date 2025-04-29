@@ -23,6 +23,24 @@ Either by klicking the disk symbol right above your script or via the drop-down 
 
 {% include figure image_path="/assets/images/unit_images/u10/Assignment_03_cut.png" caption="Options for saving an R-Script " %}
 
-Name your assignment and save it at a preffered folder. Notice that the Script-Name changes from a red "Untitled" to a black "YourName.R".
+Name your assignment and save it at a preferred folder. Notice that the Script-Name changes from "Untitled1*" to "YourName.R".
 
 {% include figure image_path="/assets/images/unit_images/u10/Assignment_06_cut.png" caption="Saving your script" %}
+
+## How to upload your assignment
+
+As a student of the University of Marburg, you are supposed to upload your assignments into ILIAS.
+Do so by opening the "Assignment" folder on the course page and choose the matching subfolder.
+
+{% include figure image_path="/assets/images/unit_images/u10/Assignment_10_cut.png" caption="Folder structure in ILIAS" %}
+
+Insight this folder use the drop-down menu from "Neues Objekt hinzufügen" to choose "Datei".
+
+{% include figure image_path="/assets/images/unit_images/u10/Assignment_09_cut.png" caption="Use upload otion *Datei* " %}
+
+Click onto "Dateien wählen" to find your assignment R-Script. The scripts name will show above the button.
+Now klick "Dateien hochladen" on the right hand side.
+
+{% include figure image_path="/assets/images/unit_images/u10/Assignment_11_cut.png" caption="1. Upload; 2. Submit" %}
+
+Congratulations! You have submitted your Assignment.
