@@ -11,7 +11,7 @@ We distinguish between unmarked and marked deliverables ("Studien- und Prüfungs
 Both are required for passing the course but only the latter are marked.
 
 ### Coding exercises, tasks
-Students will need to deliver [unmarked assignments](/moer-bsc-base-r/unit10/unit10-01_Intro.html) in form of coding exercises and different tasks on a regular basis within one week. The majority of these exercises will be worked on during the course, but if you do not complete them, you must do so by the end of the following Wednesday.
+Students will need to deliver [unmarked assignments](/moer-bsc-base-r/unit10/unit10-01_Intro.html) in form of coding exercises and different tasks on a regular basis within one week. The majority of these exercises will be worked on during the course, but if you do not complete them, you must do so by the end of the following Friday.
 
 ### Projects
 The three projects are the marked deliverables. They challange you with a real-world example. <!--They will be marked based on the evaluation criteria [here](/moer-bsc-base-r/unit11/unit11-01_project_guidelines.html).--> They need to be delivered by the deadlines and there will be time in the course syllabus to work on them together. It might make sense for you to do single bits of them in parallel to the units.
