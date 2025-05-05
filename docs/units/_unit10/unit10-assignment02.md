@@ -12,7 +12,7 @@ Choose your favorite book, movie, or game as a theme. Based on this theme, creat
 Extract the 4th element
 
 # 2. working with other object types
-After reading Unit 02, perform the following tasks:
+Perform the following tasks:
 
 Matrix: Try to create a matrix using one of the vectors you created earlier. Extract the 3rd element and the 2nd element of the 2nd column.
 
