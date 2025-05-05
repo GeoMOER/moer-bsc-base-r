@@ -16,6 +16,7 @@ b) Determine the length of this vector.
 c) Convert this vector into a matrix with 3 columns named mat1.  
 d) Access the last value of this matrix.  
 
+<!--
   <details>
    <summary>Solution Task 1</summary>
       <pre><code>
@@ -25,13 +26,15 @@ d) Access the last value of this matrix.
       mat1[length(mat1)]
       </code></pre>
   </details>
+-->
 
 **2.**  
 a) Create a factor vector named vec2 with the letters A, B, and C repeated 3 times each.  
 b) Convert the factor into a character vector.  
 c) Turn the character vector back into a factor, but in reverse alphabetical order.  
 
-  <details>
+<!--
+ <details>
    <summary>Solution Task 2</summary>
       <pre><code>
       vec2 <- factor(rep(c("A","B","C"), each=3))
@@ -39,6 +42,7 @@ c) Turn the character vector back into a factor, but in reverse alphabetical ord
       vec2 <- factor(vec2, levels=rev(LETTERS[1:3]))
       </code></pre>
   </details>
+-->
 
 **3.**  
 You have two separate data frames, each representing a different set of cities with population data. Combine the two data frames.
@@ -53,7 +57,9 @@ cities2 <- data.frame(
   City = c("City C", "City D"),
   Population = c(1200000, 900000)
 )
+
 ```
+<!--
   <details>
    <summary>Solution Task 3</summary>
       <pre><code>
@@ -64,6 +70,7 @@ cities2 <- data.frame(
       cities <- rbind(cities1, cities2)
       </code></pre>
   </details>
+  -->
 
 **Vectorization - this task will be developed together**
 
@@ -91,6 +98,7 @@ Use vectorization and vector recycling.
 
 What problems could arise?
 
+<!--
   <details>
    <summary>Solution Task 4</summary>
       <pre><code>
@@ -101,5 +109,6 @@ What problems could arise?
       </code></pre>
   </details>
 
+-->
 
 > “Thou shalt never assume that simply because the computer code ran and spit out data of the right shape you have the right answer.” — [Brian McGill](https://dynamicecology.wordpress.com/2016/08/22/ten-commandments-for-good-data-management/)

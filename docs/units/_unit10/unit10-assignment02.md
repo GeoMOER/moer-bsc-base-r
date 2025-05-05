@@ -1,10 +1,34 @@
 ---
-title: Unmarked Assignment 02 - indexing and subsetting
-published: false
+title: Unmarked Assignment 02 - Object types
+published: true
 header:
   image: "/assets/images/unit_images/u01/header.jpg"
   caption: 'image by <a href="https://pixabay.com/de/users/athree23-6195572/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4855963">Adrian</a> on <a href="https://pixabay.com/de//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4855963">Pixabay</a>'
 ---
+
+# 1. Creating vectors
+Choose your favorite book, movie, or game as a theme. Based on this theme, create three vectors (vec1, vec2, and vec3) of different data types (e.g., numeric, character, logical). Each vector should contain at least 6 elements.
+
+Extract the 4th element
+
+# 2. working with other object types
+After reading Unit 02, perform the following tasks:
+
+Matrix: Try to create a matrix using one of the vectors you created earlier. Extract the 3rd element and the 2nd element of the 2nd column.
+
+Dataframe: Combine all three vectors (vec1, vec2, vec3) into a dataframe. Extrect the 2nd element of the 2nd column using two different ways. Subset the first two rows.
+
+List: Create a list that contains all three vectors. Extract the 3rd value of the 2nd element.
+
+If something does not work on the first try, document all the steps you took, including any trial and error, so that you can reflect on the process.
+
+
+
+
+Upload this assignment by 09.05.25 under the "Assignment" folder in Ilias in the following format:
+A02_Lastname_Firstname.R
+
+<!--
 
 The data for this exercise was downloaded from [Ourworldindata](https://ourworldindata.org/co2-and-greenhouse-gas-emissions),   
 Friedlingstein et al.: Global Carbon Budget 2023, Earth Syst. Sci. Data, 15, 5301-5369, https://doi.org/10.5194/essd-15-5301-2023 
@@ -42,3 +66,5 @@ d) How many countries produced fewer gas emissions in 2020 than the average (mea
 
 Upload this assignment by 06.11.24 under the "Assignment" folder in Ilias in the following format:
 A02_Lastname_Firstname.R
+
+-->
