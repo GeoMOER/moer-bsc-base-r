@@ -15,13 +15,47 @@ set.seed(1234)
 
 **2.** Now, create a vector named "precipitation", measured as mm with 10 random values using the **runif**-function. Values should lie between 0 and 250. 
 
-**3.** Look up the code table for [precipitatiopn type](https://codes.ecmwf.int/grib/format/grib2/ctables/4/201/) provided by the European Centre for Medium-Range Weather Forecasts (ECMWF) and generate a vector called "p_type"
+<details>
+  <summary>Solution Task 2</summary>
+    <code>
+    precipitation <- runif(10,0,255)
+    </code>
+</details>
+  
+  
+
+
+
+**3.** Look up the code table for [precipitation type](https://codes.ecmwf.int/grib/format/grib2/ctables/4/201/) provided by the European Centre for Medium-Range Weather Forecasts (ECMWF) and generate a vector called "p_type"
+
+<details>
+  <summary>Solution Task 3</summary>
+    <code>
+    p_type <- c(0:14,255)
+    </code>
+</details>
+  
 
 **4.** Create a vector called "years", with  **even** numbers from 1990 to 2012.
+<details>
+  <summary>Solution Task 4</summary>
+    <code>
+    years <- seq(1990,2012,by=2)
+    </code>
+</details>
+  
 
 **5.** What classes do the vectors have? Which classes should they have?
 
+<details>
+  <summary>Solution Task 5</summary>
+    <code>
+    class(precipitation)  
+    class(p_type)  
+    class(years)  
 
+    </code>
+</details>
 
 
 <!--
