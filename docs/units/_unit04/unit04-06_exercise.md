@@ -1,5 +1,5 @@
 ---
-title: "Folder structures and data"
+title: "Exercise: sorting & subsetting"
 published: true
 header:
   image: "/assets/images/title/title_1600_500.jpg"
