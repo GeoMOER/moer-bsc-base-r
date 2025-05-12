@@ -13,7 +13,7 @@ Download the file "Emission" from "Exercise - Data". When you click on the folde
 {% include figure image_path="/assets/images/unit_images/u10/loaddata.png" caption="You need to click here" %}
 
 
-a) The dataset comprises information on the entity (e.g. country or continent), it's respective code, the year, the annual CO2 emission per capita and the source of the emission. First, use the vector given below to remove some non-country entities.
+a) The dataset comprises information on the entity (e.g. country or continent), it's respective code, the year, the annual CO2 emission per capita and the source of the emission. First, use the vector given below to remove some non-country entities (notify me if you find more than those listed).
 
 ```
 exclude <- c("Upper-middle-income countries", "European Union (27)","European Union (28)", 
@@ -28,6 +28,6 @@ exclude <- c("Upper-middle-income countries", "European Union (27)","European Un
 
 b) Sort the dataset by emissions. In which year, in which country and from which source did the largest annual CO2 emissions per capita originate?
 
-c) What country produced the 10 greatest oil emissions in 2020? 
+c) Which countries produced the 10 greatest oil emissions in 2020? 
     
 d) How many countries produced fewer gas emissions in 2020 than the average (mean)? 
