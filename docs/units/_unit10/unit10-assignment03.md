@@ -30,4 +30,4 @@ Friedlingstein et al.: Global Carbon Budget 2023, Earth Syst. Sci. Data, 15, 530
 
 
 Upload this assignment by 16.05.25 under the "Assignment" folder in Ilias in the following format:
-A03_Lastname_Firstname.R
+A03_Lastname_Firstname.zip
