@@ -1,6 +1,6 @@
 ---
 title: "Exercise: Greenhouse gases in CO₂ equivalents"
-published: false
+published: true
 toc: TRUE
 toc_float: TRUE
 header:
@@ -8,8 +8,6 @@ header:
   image_description: "computer"
   caption: "Photo by [Free-Photos](https://pixabay.com/photos/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=336373) [Pixabay](https://pixabay.com/de/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=336373)"
 ---
-
-
 
 Copy the code snippets provided bellow into your script and create a combined dataset named `Emission_per_Country` using rbind(). That code has some errors. Note all necessary corrections you must apply to the code.<br>
 Write out the dataframe `Emission_per_Country` to your local drive using the `write.csv2()` and the `write.table()` function. Compare both results. What are the differences?

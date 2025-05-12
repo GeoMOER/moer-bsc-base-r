@@ -1,111 +1,33 @@
 ---
-title: "Exercise: Indexing in R"
-published: false
+title: "Folder structures and data"
+published: true
 header:
   image: "/assets/images/title/title_1600_500.jpg"
   caption: 'Image: [**Environmental Informatics Marburg**](https://www.uni-marburg.de/en/fb19/disciplines/physisch/environmentalinformatics)'
 ---
 
-**1)**  
+The data for this exercise was downloaded from [Ourworldindata](https://ourworldindata.org/co2-and-greenhouse-gas-emissions),   
+Friedlingstein et al.: Global Carbon Budget 2023, Earth Syst. Sci. Data, 15, 5301-5369, https://doi.org/10.5194/essd-15-5301-2023 
 
-given this vector
-
-```
-numbers <- c(rep(c(1,4,5), each=4), seq(8,30,2))
-```
-
-extract the 6 to 10th and the 15th element
-
-try to extract the 25th element
-
-  <details>
-   <summary>Solution Task 1</summary>
-      <pre><code>
-      numbers <- c(rep(c(1,4,5), each=4), seq(8,30,2))  
-      numbers[c(6:10,15)]
-      </code></pre>
-  </details>
+Download the file "Emission" from "Exercise - Data". When you click on the folder icon in your Environment and navigate to this file, you can load the `emission` dataset into your workspace. 
+{% include figure image_path="/assets/images/unit_images/u10/loaddata.png" caption="You need to click here" %}
 
 
-**2)**  
-
-given the dataframe:
+a) The dataset comprises information on the entity (e.g. country or continent), it's respective code, the year, the annual CO2 emission per capita and the source of the emission. First, use the vector given below to remove some non-country entities.
 
 ```
-df <- data.frame(
-  City = c("City A", "City B", "City C"),
-  Population = c(500000, 700000, 1200000),
-  Area = c(450, 700, 1000)
-)
+exclude <- c("Upper-middle-income countries", "European Union (27)","European Union (28)", 
+             "Europe (excl. EU-27)",  "Europe (excl. EU-28)",
+ "Europe", "Africa", "Asia", "Asia (excl. China and India)", "High-income countries", 
+ "Lower-middle-income countries", "North America", "North America (excl. USA)", 
+ "South Africa","South America",  "Upper-middle-income countries")
 ```
 
-a) Extract the data for the second row of df using indexing by position.
-b) Extract the value in the third row and second column of df.
+(if you can't make it work, continue without removing them)
 
-  <details>
-   <summary>Solution Task 2</summary>
-      <pre><code>
-      df <- data.frame(
-              City = c("City A", "City B", "City C"),
-              Population = c(500000, 700000, 1200000),
-              Area = c(450, 700, 1000)
-            )
-      df[2,]
-      df[3,2]
-      </code></pre>
-  </details>
 
-**3)**
+b) Sort the dataset by emissions. In which year, in which country and from which source did the largest annual CO2 emissions per capita originate?
 
-Given the matrix "scores":
-
-```
-scores <- matrix(c(85, 90, 78, 92, 88, 95), nrow = 2, ncol = 3, byrow = TRUE)
-colnames(scores) <- c("Math", "Science", "History")
-rownames(scores) <- c("Student1", "Student2")
-```
-Extract the Science score for Student 2 using row and column positions.
-
-  <details>
-   <summary>Solution Task 3</summary>
-      <pre><code>
-        scores <- matrix(c(85, 90, 78, 92, 88, 95), nrow = 2, ncol = 3, byrow = TRUE)
-        colnames(scores) <- c("Math", "Science", "History")
-        rownames(scores) <- c("Student1", "Student2")
-        scores[2,2]
-        scores["Student2","Science"] # Alternative using names
-      </code></pre>
-  </details>
-
-**4)**
-Given this list:
-
-```
-person_info <- list(
-  name = "Alice",
-  age = 25,
-  hobbies = c("Reading", "Hiking", "Cooking"),
-  scores = c(Math = 85, Science = 90, History = 88),
-  contact_info = list(
-    email = "alice@example.com",
-    phone = "123-456-7890"
-  ),
-  favorite_books = list(
-    Fiction = c("Pride and Prejudice", "To Kill a Mockingbird"),
-    Non_Fiction = c("Sapiens", "Educated")
-  )
-)
-```
-
-Extract Alice’s hobbies from the person_info list using name indexing, and then retrieve her second hobby from the result.
-Retrieve Alice’s Science score from the scores element by name.
-Retrieve the first book from her favourite fiction list
-
-  <details>
-   <summary>Solution Task 4</summary>
-      <pre><code>
-      person_info$hobbies[2]
-      person_info$scores["Science"]
-      person_info$favorite_books$Fiction[1]
-      </code></pre>
-  </details>
+c) What country produced the 10 greatest oil emissions in 2020? 
+    
+d) How many countries produced fewer gas emissions in 2020 than the average (mean)? 

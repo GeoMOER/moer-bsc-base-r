@@ -1,6 +1,6 @@
 ---
 title: Unmarked Assignment 03 - reading in and writing data
-published: false
+published: true
 header:
   image: "/assets/images/unit_images/u01/header.jpg"
   caption: 'image by <a href="https://pixabay.com/de/users/athree23-6195572/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4855963">Adrian</a> on <a href="https://pixabay.com/de//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4855963">Pixabay</a>'
@@ -34,4 +34,8 @@ Friedlingstein et al.: Global Carbon Budget 2023, Earth Syst. Sci. Data, 15, 530
 
 #### 3. Read in all emission-dataframes (1-4) using a suitable function-argument combination. Check with **str()** whether the data is in the right format.  
 
-#### 4. Extract from one of the dataframes the C02 emissions of the year 2020 and safe it as a .csv in your folder structure.
+#### 4. Extract from one of the dataframes the C02 emissions of the year 2020 and safe it as a .csv in your folder structure. Zip your whole folder and upload it
+
+
+Upload this assignment by 16.05.25 under the "Assignment" folder in Ilias in the following format:
+A03_Lastname_Firstname.R
