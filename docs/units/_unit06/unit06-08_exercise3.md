@@ -1,6 +1,6 @@
 ---
 title: "Exercise: binding and merging"
-published: false
+published: true
 toc: true
 toc_label: "In this example"
 header:
@@ -10,9 +10,6 @@ header:
 <!--more-->
 
 
-
-Exercise II: For this excersise, please refer to Unit 06-02 beforehand.
-
 1.  load the data called "SO2_measures.txt" which is located in the data-folder in Ilias.
 2.  Find all entries from "StationA". 
 3.   Replace all occurrences of "CO2" with "CarbonDioxide".  
@@ -20,12 +17,10 @@ Exercise II: For this excersise, please refer to Unit 06-02 beforehand.
 
 Make sure that every column has a suitable data type.
 
-Please save your file as “FirstName_LastName_Task_Assignment6_Unit05.R”.
-
 
 1. <br/>
     a) Create a project folder. Download and extract the .zip file "DataUnit06" into this folder.
-    <details>
+    <!--<details>
     <summary>Solution Task 1a)</summary>
       <code>
       dir.create("../gesammelteWerke/ProjectFolder")   <br>
@@ -33,17 +28,10 @@ Please save your file as “FirstName_LastName_Task_Assignment6_Unit05.R”.
       </code>
     </details>
     <br>
-    b) Download and load the "vegan" package.
-    <details>
-    <summary>Solution Task 1b)</summary>
-      <code>
-      install.packages("vegan")<br/>
-      library("vegan")
-      </code>
-    </details>
-    <br>
-    c) Load the two datasets "specdat" and "envdat" into your environment. Name them accordingly as "specdat" and "envdat".
-    <details>
+    -->
+    
+    b) Load the two datasets "specdat" and "envdat" into your environment. Name them accordingly as "specdat" and "envdat".
+    <!--<details>
     <summary>Solution Task 1c)</summary>
       <code>
       specdat <- read.csv("../gesammelteWerke/ProjectFolder/DataDay04/specdat.csv") <br>
@@ -51,8 +39,9 @@ Please save your file as “FirstName_LastName_Task_Assignment6_Unit05.R”.
       </code>
     </details>
     <br>
-    d) Transform "specdat" into a long format (named "speclong") so that the species (columns from the third column onwards) are in one column, and the corresponding coverage degrees are in a column named "CoverageDegrees".
-    <details>
+    -->
+    c) Transform "specdat" into a long format (named "speclong") so that the species (columns from the third column onwards) are in one column, and the corresponding coverage degrees are in a column named "CoverageDegrees".
+    <!--<details>
     <summary>Solution Task 1d)</summary>
       <code>
       library(tidyr)  # Load tidyr for data transformation <br>
@@ -60,8 +49,9 @@ Please save your file as “FirstName_LastName_Task_Assignment6_Unit05.R”.
       </code>
     </details>
     <br>
-    e) Calculate the mean, sum, and standard deviation per plot.
-    <details>
+    -->
+    d) Calculate the mean, sum, and standard deviation per plot.
+  <!--  <details>
     <summary>Solution Task 1e)</summary>
       <code>
       library(dplyr)  # Load dplyr for data manipulation <br>
@@ -77,6 +67,7 @@ Please save your file as “FirstName_LastName_Task_Assignment6_Unit05.R”.
     <br>
 
 2. Merge "speclong" with "envdat" into "mergedat" without any information loss ;).
+<!--
 <details>
     <summary>Solution Task 2)</summary>
       <code>
@@ -88,8 +79,9 @@ Please save your file as “FirstName_LastName_Task_Assignment6_Unit05.R”.
       mergedat <- merge(speclong, envdat, by = c("Plot", "Runde"))
       </code>
     </details>
-
+<!--
 <details>
    <summary>TIP</summary>
 use %in% to see whether all plots of one data frame occur in the other e.g. Plots1[Plots1%in%Plots2]
 </details>      
+-->
