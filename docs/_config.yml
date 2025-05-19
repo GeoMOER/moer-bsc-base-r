@@ -173,7 +173,7 @@ defaults:
       path: ""
       type: unit06
     values:
-      category: "06 Selecting Data" 
+      category: "06 Manipulating Data" 
       tags: "Unit 06" 
       layout: single
       sidebar:
