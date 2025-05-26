@@ -231,6 +231,16 @@ defaults:
   # unit13
   - scope:
       path: ""
+      type: unit12
+    values:
+      category: "Marked Assignments/Projects"
+      tags: "Unit 1112"
+      layout: single
+      sidebar:
+        nav: "course_unit"
+  # unit13
+  - scope:
+      path: ""
       type: unit13
     values:
       category: "Good practices"
