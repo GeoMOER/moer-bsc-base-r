@@ -18,9 +18,9 @@ Deviation (plot, month) = AvgTemp (plot, month, 2024) − OverallAvgTemp (month,
 ```
 
 Data was taken from: : Biodiversity Exploratories Instrumentation Project (BExIS dataset ID 24766).​
-The data given is  made publicly available under the Creative Commons Attribution License (CC BY). Add the citations and License reference in your Project
+The data given is  made publicly available under the Creative Commons Attribution License (CC BY). Add the citations and License reference in your Project.
 
-***tip: the data you got came straight from the sensors. These sensors can fail to accurately capture the temperature.***
+***Tip: the data you got came straight from the sensors. These sensors can fail to accurately capture the temperature.***
 
 
 
