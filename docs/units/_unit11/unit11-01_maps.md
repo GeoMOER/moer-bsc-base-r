@@ -8,6 +8,7 @@ header:
 ## Introduction
 
 Here, we will process, visualize, and transform spatial data. 
+
 ### **Raster Data and Common Formats**
 
 Raster data represents spatial data as a grid of cells or pixels, where each cell has a specific value. This type of data is typically used for continuous variables such as elevation, temperature, or satellite imagery. Raster data is particularly useful for analyzing large-scale spatial patterns and performing environmental modeling.

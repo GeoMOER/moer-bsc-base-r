@@ -31,7 +31,7 @@ Please note that although the CDU and CSU are independent parties, they act as s
 ```{r}
 parties <- c("CDU", "CSU", "AfD","FDP", "DIE LINKE","SPD","GRUeNE")
 ```
-3) Voluntary extra task (improvement by max. 1.5 grade points): provides a map with the voter turnout per constituency.
+3) Voluntary extra task (improvement by max. 1.5 grade points): provide a map with the voter turnout per constituency.
 Tip: it might be necessary to define the data types while reading in the data via *colClasses* (see help of read.csv). The the number of district should be a character.
 
 ## Provided data
