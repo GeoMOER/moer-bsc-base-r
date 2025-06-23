@@ -16,7 +16,7 @@ Consider the following plot:
 Try to recreate the shown plot.
 
 
-Useful tips for arranging plots can be found here: [https://bookdown.org/ndphillips/YaRrr/arranging-plots-with-par-mfrow-and-layout.html](https://bookdown.org/ndphillips/YaRrr/arranging-plots-with-par-mfrow-and-layout.html)
+Useful tips for arranging plots can be found here: [YaRrr](https://bookdown.org/ndphillips/YaRrr/arranging-plots-with-parmfrow-and-layout.html)
 
 Also look here for the cheat sheet about margins with base R. [https://r-graph-gallery.com/74-margin-and-oma-cheatsheet.html](https://r-graph-gallery.com/74-margin-and-oma-cheatsheet.html)
 
