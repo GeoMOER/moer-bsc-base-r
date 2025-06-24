@@ -24,16 +24,18 @@ You are allowed to use ChatGPT or similar AIs to solve the assignments. However,
 | Assignment | Topic                                                                             | Units | To be finish until |
 |------------|-----------------------------------------------------------------------------------|-------|---------------------|
 | 01         | [Data & Object types](/moer-bsc-base-r/unit10/unit10-assignment01.html)           | 1-3   | 02.05.2025         |
-| 02         | [Sorting & subsetting](/moer-bsc-base-r/unit10/unit10-assignment02.html)          | 4     | 09.05.2024         |
-| 03           | [Reading & structuring data](/moer-bsc-base-r/unit10/unit10-assignment03.html) | 5      | 16.05.2024       |
+| 02         | [Sorting & subsetting](/moer-bsc-base-r/unit10/unit10-assignment02.html)          | 4     | 09.05.2025         |
+| 03           | [Reading & structuring data](/moer-bsc-base-r/unit10/unit10-assignment03.html) | 5      | 16.05.2025       |
+| 04         | [Characters, Merge & Transform](/moer-bsc-base-r/unit10/unit10-assignment04.html) | 6     | 23.05.2025         |
+| Project 1  | [Project 1](/moer-bsc-base-r/unit12/unit12-02_project1.html)                      | -     | 09.06.2025         |
+| 05         | [Vizualizations](/moer-bsc-base-r/unit10/unit10-assignment05.html)                | 7     | 04.07.2025         |
+
 
 <!--
 | 03         | [Writing & Reading Data](/moer-bsc-base-r/unit10/unit10-assignment03.html)        | 5     | 16.05.2024         |
-| 04         | [Characters, Merge & Transform](/moer-bsc-base-r/unit10/unit10-assignment04.html) | 6     | 23.05.2024         |
-| 05         | [Merge & Transform](/moer-bsc-base-r/unit10/unit10-assignment05.html)             | 6     | 30.05.2024         |
+| 05         | [Merge & Transform](/moer-bsc-base-r/unit10/unit10-assignment05.html)             | 6     | 30.05.2025         |
 | 06         | [Starting Projects](/moer-bsc-base-r/unit10/unit10-assignment06.html)             | -     | 02.06.2024         |
 | --         | Prepare Your First Project                                                        | -     | ??.??.2024         |
-| Project 1  | [Project 1](/moer-bsc-base-r/unit12/unit12-02_project1.html)                      | -     | ??.??.2025         |
 | 07         | [ifelse](/moer-bsc-base-r/unit10/unit10-assignment07.html)                        | 8     | ??.??.2025         |
 | --         | for loops - no assignment                                                         | 9     |                    |
 | --         | apply functions - no assignment                                                   | 9     |                    |
