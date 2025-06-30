@@ -1,6 +1,6 @@
 ---
 title: Exercise If/Else and While-loops
-published: false
+published: true
 header:
   image: /assets/images/unit_images/u08/header.png
   image_description: "loop"
