@@ -6,9 +6,8 @@ header:
   image_description: "assignment"
   caption: 'image by <a href="https://pixabay.com/de/users/athree23-6195572/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4855963">Adrian</a> on <a href="https://pixabay.com/de//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4855963">Pixabay</a>'
 ---
-<!--
-*This marked assignment must be submitted by 9th of June 2025.*
--->
+
+*This marked assignment must be submitted by the 30th of August 2025.*
 
 The Deutscher Wetterdienst (DWD) provides comprehensive climate and weather data, including both recent and historical records from various weather stations across Germany. These data are publicly available and can be accessed at the [DWD Climate Data Center](https://opendata.dwd.de/)(take note of the readme.txt).
 
