@@ -1,13 +1,104 @@
 ---
 title: Marked Assignment - Project 2
-published: false
+published: true
 header:
   image: "/assets/images/unit_images/u01/header.jpg"
   image_description: "assignment"
   caption: 'image by <a href="https://pixabay.com/de/users/athree23-6195572/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4855963">Adrian</a> on <a href="https://pixabay.com/de//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4855963">Pixabay</a>'
 ---
+<!--
+*This marked assignment must be submitted by 9th of June 2025.*
+-->
+
+The Deutscher Wetterdienst (DWD) provides comprehensive climate and weather data, including both recent and historical records from various weather stations across Germany. These data are publicly available and can be accessed at the [DWD Climate Data Center](https://opendata.dwd.de/)(take note of the readme.txt).
+
+In this project, we focus on long-term temperature changes in the federal state of Hesse (Hessen). Specifically, we analyze historical daily weather data from stations that have been operational continuously up to the present day. 
+
+The historical daily data are provided in ZIP archives named tageswerte_*.zip, which contain daily observations such as temperature, precipitation, and other variables. The station ID used to identify each weather station is embedded in the file names (the 6 numbers after "tageswerte_KL_" and metadata. A full list of stations, along with their metadata, can be found [here](https://opendata.dwd.de/climate_environment/CDC/observations_germany/climate/daily/kl/historical/KL_Tageswerte_Beschreibung_Stationen.txt)
+
+## Objectives
+
+1) Identify free stations in Hesse that have been recording daily data up to the present day.  
+2) Summarize for each station and temperature sensor:
+ a) The start and end date of available data.  
+ b) The total number of days in the covered period.  
+ c) The actual number of data entries available (to assess completeness).  
+
+3) Visualize temperature trends over the years for one of the sensors.  
+4) Count the number if days with temperature above 30°C.  
+5) Compare (visually) the year 2024 to your year of birth in terms of mean, min, max and extreme heat days.  
+
+The data can be found [here](https://opendata.dwd.de/climate_environment/CDC/observations_germany/climate/daily/kl/historical/)
 
 
+Tip: the function **diff()** can deal with dates, the results are given in days
+
+You receive an extra point for utilizing self-written functions and/or for loops (adaptation of the loop/function below not included).
+
+One can automize the download of data, as an example here for NRW :
+
+```r
+install.packages(c("rvest", "httr", "stringr"))
+library(rvest)
+library(httr)
+library(stringr)
+
+# 1. Define URL and destination paths
+
+stations <- read.table("stations.txt", header=T, sep="\t") #downloaded from the DWD page
+st_nrw   <- stations[stations$Bundesland=="Nordrhein-Westfalen"&stations$Abgabe=="Frei",]
+
+base_url <- "https://opendata.dwd.de/climate_environment/CDC/observations_germany/climate/daily/kl/historical/"
+webpage <- read_html(base_url)
+
+# Extract links to ZIP files
+zip_links <- webpage %>%
+  html_nodes("a") %>%
+  html_attr("href") %>%
+  str_subset("\\.zip$")   # only ZIP files
+
+zip_path <- tempfile(fileext = ".zip") # temporary file to save ZIP
+
+unzip_dir <- "data_raw/historical"
+dir.create(unzip_dir, showWarnings = FALSE)
+
+for(i in st_nrw$Stations_id){
+  cat(i, "\n")
+  
+  keyword <- sprintf("%05d", i)
+  matching_links <- zip_links[str_detect(zip_links, paste0("tageswerte_KL_",keyword,"_"))]
+  
+  for(link in matching_links){
+    for (link in matching_links) {
+      file_url <- paste0(base_url, link)
+      zip_path <- file.path(tempdir(), basename(link))
+      
+      # Download ZIP
+      download.file(file_url, destfile = zip_path, mode = "wb")
+      
+      # Unzip to output folder
+      unzip(zip_path, exdir = unzip_dir)
+      
+      message("Downloaded and extracted: ", link)
+    } 
+    
+  }
+  
+}
+
+
+# 2. List all relevant files
+files <- list.files("data_raw/historical", pattern = "produkt_klima_tag.*\\.txt$", 
+                    full.names = TRUE, recursive = TRUE)
+
+# 3. Read and combine all into one data frame
+all_data <- do.call(rbind, lapply(files, function(f) {
+  read.table(f, header = TRUE, sep = ";", stringsAsFactors = FALSE)
+}))
+```
+
+
+<!--
 On 23 February there will be federal elections in Germany. We will take this as an opportunity to process the data on the last election (2021) provided by the Federal Electoral Administration in our Project 2.
 
 
@@ -89,3 +180,4 @@ All data was taken from the [open-data of the Bundeswahlleiterin](https://www.bu
 
 
 ### Please submit your project folder as zip until 13.03.2025 in Ilias
+-->
