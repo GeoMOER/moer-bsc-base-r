@@ -16,6 +16,8 @@ In this project, we focus on long-term temperature changes in the federal state 
 
 The historical daily data are provided in ZIP archives named tageswerte_*.zip, which contain daily observations such as temperature, precipitation, and other variables. The station ID used to identify each weather station is embedded in the file names (the 6 numbers after "tageswerte_KL_" and metadata. A full list of stations, along with their metadata, can be found [here](https://opendata.dwd.de/climate_environment/CDC/observations_germany/climate/daily/kl/historical/KL_Tageswerte_Beschreibung_Stationen.txt)
 
+The data can be found [here](https://opendata.dwd.de/climate_environment/CDC/observations_germany/climate/daily/kl/historical/)
+
 ## Objectives
 
 1) Identify free stations in Hesse that have been recording daily data up to the present day.  
@@ -28,7 +30,7 @@ The historical daily data are provided in ZIP archives named tageswerte_*.zip, w
 4) Count the number if days with temperature above 30°C.  
 5) Compare (visually) the year 2024 to your year of birth in terms of mean, min, max and extreme heat days.  
 
-The data can be found [here](https://opendata.dwd.de/climate_environment/CDC/observations_germany/climate/daily/kl/historical/)
+
 
 
 Tip: the function **diff()** can deal with dates, the results are given in days
