@@ -20,7 +20,7 @@ The data can be found [here](https://opendata.dwd.de/climate_environment/CDC/obs
 
 ## Objectives
 
-1) Identify free stations in Hesse that have been recording daily data up to the present day.  
+1) Download the "stations.txt" document form the "Project-Data" folder on Illias. Identify free stations in Hesse that have been recording daily data up to the present day.  
 2) Summarize for each station and temperature sensor:
  a) The start and end date of available data.  
  b) The total number of days in the covered period.  
