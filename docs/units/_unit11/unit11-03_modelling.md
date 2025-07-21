@@ -18,7 +18,7 @@ In other words, environmental modelling is the process of using mathematical or 
 
 Environmental models differ in how they represent the relationship between a response variable Y and explanatory variables. The three main types are:
 
-1) Mechanistic Models
+## 1. Mechanistic Models
 
 Physical (mechanistic) models are based on known laws of physics, chemistry, or biology. They describe processes using equations derived from theoretical principles (e.g., energy balance, fluid flow, mass conservation). They are used when the underlying mechanisms are well understood — for example, modelling how temperature changes with elevation using the adiabatic lapse rate. 
 
@@ -36,7 +36,7 @@ plot(elevation, temperature, type = "l",
 ```
 
 
-2. Statistical Models
+## 2. Statistical Models
 Statistical models use observed data to estimate a mathematical relationship between Y (the dependent variable) and one or more predictors (independent variables). The model form is specified by the user (e.g., linear, logistic), and model parameters such as intercept and slope are estimated from data. There are different types of models you can use, see the chapter [Modeling](https://bookdown.org/igisc/EnvDataSci/modeling.html) by *Environmental Data Science* for a nice summary and explanation.
 
 ```{r}
@@ -66,7 +66,7 @@ Statistical models can include many more variables and interactions. For example
 
 In both mechanistic and statistical models, the estimated coefficients and model structure can be used to make predictions for new combinations of predictor values.
 
-3. Machine Learning Models
+## 3. Machine Learning Models
 Machine learning (ML) models learn patterns from data without requiring the user to specify a functional form. These models focus on prediction and can capture complex, nonlinear interactions, often at the cost of interpretability.
 
 In supervised ML, the algorithm is trained on a dataset with known outcomes (X and Y), and adjusts internal rules or weights to minimize prediction error. Performance is typically evaluated using techniques like cross-validation to avoid overfitting. Once validated, the trained model can be used to predict Y for new data.
