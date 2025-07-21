@@ -1,11 +1,68 @@
 ---
 title: Marked Assignment - Project 3
-published: false
+published: true
 header:
   image: "/assets/images/unit_images/u01/header.jpg"
   image_description: "assignment"
   caption: 'image by <a href="https://pixabay.com/de/users/athree23-6195572/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4855963">Adrian</a> on <a href="https://pixabay.com/de//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4855963">Pixabay</a>'
 ---
+
+The  salamander *Salamandra salamandra* is an amphibian native to central and southern Europe. In Germany, it predominantly inhabits humid, deciduous and mixed forests in mid-elevation mountain regions, where cool streams provide suitable breeding habitats for its aquatic larvae.
+
+The species is classified as “specially protected” under the German Federal Nature Conservation Act (BNatSchG).
+
+Thanks to extensive contributions from state environmental agencies, the Federal Agency for Nature Conservation (BfN), and numerous working groups and regional committees of NABU, the German Society for Herpetology and Herpetoculture (DGHT e.V.) compiled detailed distribution records. These data have been published in the "DGHT e.V. (Ed. 2018): Verbreitungsatlas der Amphibien und Reptilien Deutschlands"
+
+The data were provided as presence-absence maps for two time periods, 1980–1999 and 2000–2018.
+
+These records were spatially aggregated per TK25 map sheet (1:25,000 topographic map grid, by the [BKG](https://www.bkg.bund.de/), [dl-de/by-2-0](https://www.govdata.de/dl-de/by-2-0)).
+
+Additionally, per map grid there Forest cover data was also added, specifically the percentage of broadleaf/mixed forest per grid cell, derived from   Copernicus High-Resolution Layers (provided for two time periods; see: https://land.copernicus.eu/).
+
+Lastly, Worldclim data on elevation and total annual precipitation (WorldClim version 2.1 climate data for 1970-2000) was averaged for each grid cell.
+
+# Task 1 - required for all
+
+1) What were the average environmental conditions (elevation, forest cover, precipitation) in grid cells where fire salamanders were present during 1980–1999? 
+
+2) Analyze the change in the distribution of the fire salamander between the two time periods.
+
+3) Did the forest cover change significantly in grid cells where fire salamanders were present in 1980–1999, but absent in 2000–2018?
+
+# Task 2 - MSc required, BSc bonus
+
+Given a logistic regression model:
+
+```{r}
+model <- glm(presence ~ elevation + I(elevation^2) + precip + forest_pct,
+             data = model_data, family = "binomial")
+
+```
+Use this model to predict occurrence probability using new forest cover data and evaluate predictions vs. observed presence in 2000–2018.
+
+How many quadrants have a > 70% occurrence probability?
+
+How many of the high-probability quadrants also have confirmed presence in 2000-2018?
+
+
+
+# Task 3 - not required / Bonus points 
+Create a map showing the probability of distribution based on the model in task 2. Add a detailed description.
+
+
+
+
+
+
+Data Sources:
+DGHT e.V. (Hrsg. 2018): Verbreitungsatlas der Amphibien und Reptilien Deutschlands, auf Grundlage der Daten der Länderfachbehörden, Facharbeitskreise und NABU Landesfachausschüsse der Bundesländer sowie des Bundesamtes für Naturschutz. (Stand: 1. Aktualisierung August 2018)
+
+Fick, S.E. and R.J. Hijmans, 2017. WorldClim 2: new 1km spatial resolution climate surfaces for global land areas. International Journal of Climatology 37 (12): 4302-4315.
+
+
+
+
+<!--
 
 ## Project Task: Analyzing Disturbance Patterns in Forests Using R
 
@@ -44,3 +101,5 @@ Includes the patch ID (Gap_ID), the biome type ("Boreal forests and taiga", "Man
 The folder also contains a reference table (Assigned_Biome.csv) to help you identify your assigned biome.
 
 #### Please submit your project folder as zip until 13.03.2025 in Ilias
+
+-->
