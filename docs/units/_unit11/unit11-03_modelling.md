@@ -37,6 +37,7 @@ plot(elevation, temperature, type = "l",
 
 
 ## 2. Statistical Models
+
 Statistical models use observed data to estimate a mathematical relationship between Y (the dependent variable) and one or more predictors (independent variables). The model form is specified by the user (e.g., linear, logistic), and model parameters such as intercept and slope are estimated from data. There are different types of models you can use, see the chapter [Modeling](https://bookdown.org/igisc/EnvDataSci/modeling.html) by *Environmental Data Science* for a nice summary and explanation.
 
 ```{r}
