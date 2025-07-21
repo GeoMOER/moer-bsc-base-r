@@ -20,7 +20,8 @@ Environmental models differ in how they represent the relationship between a res
 
 1) Mechanistic Models
 
-Physical (mechanistic) models are based on known laws of physics, chemistry, or biology. They describe processes using equations derived from theoretical principles (e.g., energy balance, fluid flow, mass conservation). They are used when the underlying mechanisms are well understood — for example, modelling how temperature changes with elevation using the adiabatic lapse rate. A
+Physical (mechanistic) models are based on known laws of physics, chemistry, or biology. They describe processes using equations derived from theoretical principles (e.g., energy balance, fluid flow, mass conservation). They are used when the underlying mechanisms are well understood — for example, modelling how temperature changes with elevation using the adiabatic lapse rate. 
+
 ```{r}
 # Temperature as a function of elevation using a standard lapse rate
 elevation <- seq(0, 3000, by = 100)      # meters

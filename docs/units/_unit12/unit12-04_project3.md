@@ -19,7 +19,7 @@ These records were spatially aggregated per TK25 map sheet (1:25,000 topographic
 
 Additionally, per map grid there Forest cover data was also added, specifically the percentage of broadleaf/mixed forest per grid cell, derived from   Copernicus High-Resolution Layers (provided for two time periods; see: https://land.copernicus.eu/).
 
-Lastly, Worldclim data on elevation and total annual precipitation (WorldClim version 2.1 climate data for 1970-2000) was averaged for each grid cell.
+Lastly, Worldclim data on elevation and total annual precipitation (WorldClim version 2.1 climate data for 1970-2000) was averaged for each grid cell. Missing values indicated by 999.
 
 # Task 1 - required for all
 
