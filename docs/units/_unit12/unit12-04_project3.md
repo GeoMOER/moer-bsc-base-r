@@ -40,6 +40,8 @@ model <- glm(presence ~ elevation + I(elevation^2) + precip + forest_pct,
 ```
 Use this model to predict occurrence probability using new forest cover data and evaluate predictions vs. observed presence in 2000–2018.
 
+Note: the new variables must have the same names as those in the model.  
+
 How many quadrants have a > 70% occurrence probability?
 
 How many of the high-probability quadrants also have confirmed presence in 2000-2018?

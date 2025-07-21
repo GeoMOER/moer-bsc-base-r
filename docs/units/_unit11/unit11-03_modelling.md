@@ -58,7 +58,7 @@ plot(new_data$temperature, predicted, type = "l",
      main = "Predicted Insect Abundance vs. Temperature")
 
 ```
-
+Note: the new_data must have the same variable names (=colnames) as in the model definition.  
 
 Statistical models can include many more variables and interactions. For example, in species distribution modelling (SDM), one might model species presence or abundance based on environmental predictors like temperature, precipitation, and forest cover. These models are often used to estimate potential current — and under environmental change, future — species distributions.
 
