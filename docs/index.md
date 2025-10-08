@@ -38,7 +38,7 @@ At the end of this course you should be able to
 
 # Setting
 
-This course will take place in a synchronous setting in presence in room **F 14|00A19** every **Monday, 9:15-11:45.** 
+This course will take place in a synchronous setting in presence in room **F 14|00A19** every **Friday, 9:15-11:45.** 
 
 {: .notice--info}
 
@@ -57,24 +57,28 @@ Please also seriously check and follow the [Information on the Coronavirus](http
 | Session | Date | Topic | Content |
 |---------|------|-------|---------|
 ||| **The basics** |
-| 01 | 28.04.2025 | R Introduction               | introduction of R, R Studio and data types |
-| 02 | 05.05.2025 | objects & indexing           | object types & indexing |
+| 01 | 24.10.2025 | R Introduction               | introduction of R, R Studio and data types |
+| 02 | 31.10.2025 | objects & indexing           | object types & indexing |
 ||| **Data handling** |
-| 03 | 12.05.2025 | subsetting & sorting, data frames              | how to subset and sort your data by values, reading and writing tabulated data  |
-| 04 | 19.05.2025 | characters,transform & aggregate | how to deal with characters and regular expressions ,  transfrom from long to wide format and back|
-| 05 | 26.05.2025 | data manipulation, project 1       | use handy data checks to see whether your data and script are ok, work directly with your first project |
+| 03 | 07.11.2025 | subsetting & sorting, data frames              | how to subset and sort your data by values, reading and writing tabulated data  |
+| 04 | 14.11.2025 | characters,transform & aggregate | how to deal with characters and regular expressions ,  transfrom from long to wide format and back|
+| 05 | 21.11.2025 | data manipulation, project 1       | use handy data checks to see whether your data and script are ok, work directly with your first project |
 ||| **Plotting** |
-| 06 | 02.06.2025    | graphs  I                    | generate some graphs |
-| 07 | ~~09.06.2025~~| public holiday            | no course today  |
-| 08 | ~~16.06.2025~~| project week              | no course today  |
+| 06 | 28.11.2025    | graphs  I                    | generate some graphs |
+| 07 | 05.12.2025    | graphs  II                    | let's make some more graphs |
 ||| **Project I**|
-| 09 | 23.06.2025 | graphs II, feedback project 1 | let's make some more graphs |
+| 08 | 12.12.2025 | feedback project 1 | feedback project I |
 ||| **Automation** |
-| 10 | 30.06.2025 | for /if / else               | automate your script and use conditions |
-| 11 | 07.07.2025	| functions & apply            | automate your script even further |
+| 09 | 19.12.2025 | for /if / else               | automate your script and use conditions |
+| 10 | ~~26.12.2025~~| public holiday/ winter break            | no course today  |
+| 11 | ~~02.01.2026~~| winter break              | no course today  |
+| 12 | ~~09.01.2026~~| winter break              | no course today  |
+| 13 | 16.01.2026	| functions & apply            | automate your script even further |
 ||| **Master R** |
-| 12 | 14.07.2025	| maps, project II             | create a first map and use R to answer a more complicated question from start to finish  |
-| 13 | 21.07.2025 | project III, wrap up         | time for questions and feedback, individual data analysis problems, goodbye |
+| 14 | 23.01.2026	| maps, project II             | create a first map and use R to answer a more complicated question from start to finish  |
+| 15 | 30.01.2026	| maps            | more maps and complicated questions  |
+| 16 | 06.02.2026 | project III              | feedback project II  |
+| 17 | 13.02.2026 | wrap up         | time for questions and feedback, individual data analysis problems, goodbye |
 
 
 
