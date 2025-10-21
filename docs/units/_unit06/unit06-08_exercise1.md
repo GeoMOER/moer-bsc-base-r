@@ -19,14 +19,14 @@ Here's the task:
    <summary>Tip </summary>
      be aware of the UTF-8 encoding!
   </details>
-
+<!--
 {::options parse_block_html="true" /}
 <details><summary markdown="span">solution</summary>
      rawtext <- read.delim("Butterflies of Pakistan - all species.txt", sep="\t", header=FALSE, encoding = "UTF-8")
      # note, that this reads in the data as a dataframe with one column - we need to refer in the following functions to that column by saying rawtext[1,]
 </details>
 {::options parse_block_html="false" /}
-
+-->
 2) Extract the positions (row numbers) of Family, Subfamily, Species, Subspecies and coordinates and Records for Pakistan based on different markers within the Text. 
 
 A species name generally consists of Genus and Epitheton, Author name and year of description.  
@@ -41,7 +41,7 @@ Species might be further divided into subspecies - populations of a species that
 Example: *Panthera leo persica* (Asiatic lion) and *Panthera leo leo* (African lion).
 
 {::options parse_block_html="true" /}
-
+<!--
 <details><summary markdown="span">solution</summary>
     pos.Family <- grep("^FAMILY", rawtext[,1]) # positions of the Family are marked with family. Use grep to return those positions
     pos.Subfamily <- grep("^Subfamily", rawtext[,1]) #same as above for subfamily
@@ -69,16 +69,17 @@ Example: *Panthera leo persica* (Asiatic lion) and *Panthera leo leo* (African l
 
 
 {::options parse_block_html="false" /}
-
+-->
 
 
 
 3) Take the coordinate lines and extract the latitude and longitude from the coordinates themselves.
 Correct spelling if needed beforehand.
-
+<!--
 {::options parse_block_html="true" /}
 <details><summary markdown="span">solution</summary>
     latitude <- sub(".*?(\\d+° \\d+ [NS]).*", "\\1", rawtext[pos.coordinates,1])
     longitude <- sub(".*?(\\d+° \\d+ [NS]), (\\d+° \\d+ [EW]).*", "\\2", text)
 </details>
 {::options parse_block_html="false" /}
+-->

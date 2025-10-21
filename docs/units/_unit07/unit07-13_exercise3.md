@@ -9,7 +9,7 @@ header:
 Based on the datasets which were developed together in Assignment 06 (see Script in Ilias), create:
 
 1)  a histogram of all temperature measurements
-
+<!--
 {::options parse_block_html="true" /}
 <details><summary markdown="span">solution</summary>
     # Data cleaning
@@ -21,19 +21,19 @@ Based on the datasets which were developed together in Assignment 06 (see Script
     hist(temp$Ta_10, las=1, main="Temperature (°C) at ground level", xlab="Degrees Celsius")
 </details>
 {::options parse_block_html="false" /}
-
+-->
 
 2)  a dotplot depicting the average temperature of year 2009 per plot
-
+<!--
 {::options parse_block_html="true" /}
 <details><summary markdown="span">solution</summary>
     meanT_2009 <- aggregate(Ta_10~plotID, data=temp[temp$year==2009,], mean)
     dotchart(meanT_2009$Ta_10,labels=meanT_2009$plotID,cex=.6,xlab="average temperature") #.cex reduces size of elements such as labels
 </details>
 {::options parse_block_html="false" /}
-
+-->
 3)  a barplot of the number of sampled plots in june in per year
-
+<!--
 {::options parse_block_html="true" /}
 <details><summary markdown="span">solution</summary>
     plots.sampled <- tapply(temp$plotID,list(temp$month,temp$year), function(x)length(unique(x)))
@@ -44,9 +44,9 @@ Based on the datasets which were developed together in Assignment 06 (see Script
     barplot(plots.sampled[,,6], main="Number of sampled plots in June",xlab="Year")
 </details>
 {::options parse_block_html="false" /}
-
+-->
 4)  a boxplot of temperatures, measured as monthly means, showing the contrast between grasland and forest for 2009
-
+<!--
 {::options parse_block_html="true" /}
 <details><summary markdown="span">solution</summary>
      
@@ -64,10 +64,10 @@ Based on the datasets which were developed together in Assignment 06 (see Script
         ylab = "Mean Temperature (°C)")
 </details>
 {::options parse_block_html="false" /}
-
+-->
 
 5)  a linechart depicting the temperature along datetime for plot AEW10
-
+<!--
 {::options parse_block_html="true" /}
 <details><summary markdown="span">solution</summary>
 
@@ -106,3 +106,4 @@ Based on the datasets which were developed together in Assignment 06 (see Script
       lwd = 2)
 </details>
 {::options parse_block_html="false" /}
+-->
