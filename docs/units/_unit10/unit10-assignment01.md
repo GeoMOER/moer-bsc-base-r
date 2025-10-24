@@ -13,6 +13,8 @@ b) Choose your favorite book, movie, or game as a theme. Based on this theme, cr
 
 c) read the rest of Unit 02 and read Unit 03.
 
+d) try to create a dataframe, matrix and list from some of your vectors.
+
 upload your Rscript as described in the prior page.
 
 <!--
