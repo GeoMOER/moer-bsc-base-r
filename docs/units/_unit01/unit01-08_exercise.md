@@ -78,11 +78,11 @@ Please save your file as "FirstName_LastName_Task_Day1_Unit1.R" and upload it to
 
 
 ***3.***  
-    Define the population and area for Region A and Region B  
-    population_A <- 1500000  # Population of Region A 
-    area_A <- 2500           # Area of Region A in square kilometers 
-    population_B <- 800000    # Population of Region B  
-    area_B <- 1200           # Area of Region B in square kilometers
+    Define the population and area for Region A and Region B  <br>
+    population_A <- 1500000  # Population of Region A <br>
+    area_A <- 2500           # Area of Region A in square kilometers <br>
+    population_B <- 800000    # Population of Region B  <br>
+    area_B <- 1200           # Area of Region B in square kilometers<br>
     Calculate the population density for Region A and Region B  
   
    The formula for population density is:  
