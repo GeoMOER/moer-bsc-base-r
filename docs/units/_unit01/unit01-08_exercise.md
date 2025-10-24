@@ -78,9 +78,9 @@ Please save your file as "FirstName_LastName_Task_Day1_Unit1.R" and upload it to
 
 
 ***3.***  
-  a)  Define a vector containing the numbers 4, 8, 15, 16, and 23. Calculate the sum and the product of these numbers. Additionally, use R’s help features to explore different methods for calculating these values.  
-  b) Find the square root of 1444.   
-  b) Calculate the population density for two different regions. The formula for population density is:  
+  Define a vector containing the numbers 4, 8, 15, 16, and 23. Calculate the sum and the product of these numbers. Additionally, use R’s help features to explore different methods for calculating these values.  
+  Find the square root of 1444.   
+  Calculate the population density for two different regions. The formula for population density is:  
 <img src="https://latex.codecogs.com/svg.image?\text{Population&space;Density}&space;=&space;\frac{\text{Population}}{\text{Area}}"/>
 
 
