@@ -83,9 +83,7 @@ Please save your file as "FirstName_LastName_Task_Day1_Unit1.R" and upload it to
     area_A <- 2500           # Area of Region A in square kilometers 
     population_B <- 800000    # Population of Region B  
     area_B <- 1200           # Area of Region B in square kilometers
-    # Calculate the population density for Region A and Region B  
-    density_A <- population_A / area_A  
-    density_B <- population_B / area_B 
+    Calculate the population density for Region A and Region B  
   
    The formula for population density is:  
 <img src="https://latex.codecogs.com/svg.image?\text{Population&space;Density}&space;=&space;\frac{\text{Population}}{\text{Area}}"/>
