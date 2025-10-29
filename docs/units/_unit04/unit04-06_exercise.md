@@ -1,11 +1,29 @@
 ---
-title: "Exercise: sorting & subsetting"
+title: "Exercise: indexing"
 published: true
 header:
   image: "/assets/images/title/title_1600_500.jpg"
   caption: 'Image: [**Environmental Informatics Marburg**](https://www.uni-marburg.de/en/fb19/disciplines/physisch/environmentalinformatics)'
 ---
 
+
+
+**Recap - Assignment 01**
+
+Choose your favorite book, movie, or game as a theme. Based on this theme, create three vectors (vec1, vec2, and vec3) of different data types (e.g., numeric, character, logical). Each vector should contain at least 5 elements.
+
+Try to create a dataframe, matrix and list from some of your vectors.
+
+**Exercise**
+
+1) select the 4th element from one of your vectors.
+2) combine two of your vectors to "vec4". Does the class change?
+3) select your favourite element (e.g. character) from both your data frame and your matrix. For the data frame, present two different solutions.
+4) select the second element from your list.
+
+
+
+<!--
 The data for this exercise was downloaded from [Ourworldindata](https://ourworldindata.org/co2-and-greenhouse-gas-emissions),   
 Friedlingstein et al.: Global Carbon Budget 2023, Earth Syst. Sci. Data, 15, 5301-5369, https://doi.org/10.5194/essd-15-5301-2023 
 
@@ -31,3 +49,4 @@ b) Sort the dataset by emissions. In which year, in which country and from which
 c) Which countries produced the 10 greatest oil emissions in 2020? 
     
 d) How many countries produced fewer gas emissions in 2020 than the average (mean)? 
+-->

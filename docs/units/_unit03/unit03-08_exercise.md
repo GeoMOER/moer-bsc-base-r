@@ -6,6 +6,11 @@ header:
   caption: "Image created with DALL E"
 ---
 
+<!--
+add example
+-->
+
+<!--
 
 The learning aim of this exercise is to reinforce key concepts related to data structures and data transformation in R.
 
@@ -26,7 +31,6 @@ d) Access the last value of this matrix.
       mat1[length(mat1)]
       </code></pre>
   </details>
--->
 
 **2.**  
 a) Create a factor vector named vec2 with the letters A, B, and C repeated 3 times each.  
@@ -42,7 +46,6 @@ c) Turn the character vector back into a factor, but in reverse alphabetical ord
       vec2 <- factor(vec2, levels=rev(LETTERS[1:3]))
       </code></pre>
   </details>
--->
 
 **3.**  
 You have two separate data frames, each representing a different set of cities with population data. Combine the two data frames.
@@ -72,7 +75,9 @@ cities2 <- data.frame(
   </details>
   -->
 
-**Vectorization - this task will be developed together**
+
+
+**Vectorization - this task will be worked on in teams**
 
 You have current population figures for multiple cities called "A", "B", "C", "D", "E" and "F".
 
@@ -92,7 +97,6 @@ Cities B, D, and F experience a population decline of 1% per year.
 Calculate the projected population for each city after 6 years using the formula:
 
 <p>Future Population = Current Population × (1 + Growth Rate)<sup>6</sup></p>
-
 
 Use vectorization and vector recycling.
 
