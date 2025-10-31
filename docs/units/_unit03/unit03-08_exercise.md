@@ -1,6 +1,6 @@
 ---
 title: "Exercise: Object types in R"
-published: false
+published: true
 header:
   image: /assets/images/unit_images/u03/header.png
   caption: "Image created with DALL E"
