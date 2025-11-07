@@ -19,11 +19,10 @@ Try to create a dataframe, matrix and list from some of your vectors.
 1) select the 4th element from one of your vectors.
 2) combine two of your vectors to "vec4". Does the class change?
 3) select your favourite element (e.g. character) from both your data frame and your matrix. For the data frame, present two different solutions.
-4) select the second element from your list.
-
-5) Load the emissions data set from Assignment 02. Sort the dataset by emissions. In which year, in which country and from which source did the largest annual CO2 emissions per capita originate?
-6) Which countries produced the 10 greatest oil emissions in 2020? 
-7) How many countries produced fewer gas emissions in 2020 than the average (mean)? 
+4) select the second element from your list.  
+5) Load the emissions data set from Assignment 02. Sort the dataset by emissions. In which year, in which country and from which source did the largest annual CO2 emissions per capita originate?  
+6) Which countries produced the 10 greatest oil emissions in 2020?  
+7) How many countries produced fewer gas emissions in 2020 than the average (mean)?  
 
 
 
