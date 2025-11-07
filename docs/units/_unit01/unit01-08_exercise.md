@@ -16,7 +16,6 @@ In this exercise, we'll start with the basics of R, focusing on arithmetic opera
   a) calculate the sum and product of the numbers 3, 7, 9, 12, and 21. Explore R's help features to find an alternative solutions. <br/>
   b) Calculate the square root of 2025.<br/>  
 
-<!--
 <details>
   <summary>Solution Task 2</summary>
     <code>
@@ -45,7 +44,6 @@ In this exercise, we'll start with the basics of R, focusing on arithmetic opera
 <br>
 
 Please save your file as "FirstName_LastName_Task_Day1_Unit1.R" and upload it to the "Upload/Unit 1"-Folder in Ilias
--->
 
 
 <!--**3.** Then <br/>
@@ -89,7 +87,6 @@ Please save your file as "FirstName_LastName_Task_Day1_Unit1.R" and upload it to
 <img src="https://latex.codecogs.com/svg.image?\text{Population&space;Density}&space;=&space;\frac{\text{Population}}{\text{Area}}"/>
 
 
-<!--
 <details> 
   <summary> Solution </summary>
     <pre><code>
@@ -114,4 +111,4 @@ Please save your file as "FirstName_LastName_Task_Day1_Unit1.R" and upload it to
     density_B <- population_B / area_B  
     </code></pre>
 </details> 
--->
+
