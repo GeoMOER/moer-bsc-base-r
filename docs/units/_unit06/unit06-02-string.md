@@ -61,19 +61,19 @@ In R, the functions grep, grepl, and regexpr, gregexpr, are all used for matchin
 
 
 1.	**grep():**
-•	Searches for matches of a pattern within a vector of character strings.
-•	Returns the indices of the vector elements that contain the matches.
-•	If you use the argument value = TRUE, it returns the actual string values that match the pattern instead of their indices.
+•	Searches for matches of a pattern within a vector of character strings.  
+•	Returns the indices of the vector elements that contain the matches.  
+•	If you use the argument value = TRUE, it returns the actual string values that match the pattern instead of their indices.  
 2.	**grepl():**
-•	Similar to grep(), but instead of returning the indices or values, it returns a logical vector (TRUE or FALSE).
-•	Each element of the logical vector indicates whether the corresponding element of the input character vector contains the pattern.
+•	Similar to grep(), but instead of returning the indices or values, it returns a logical vector (TRUE or FALSE).  
+•	Each element of the logical vector indicates whether the corresponding element of the input character vector contains the pattern.  
 3.	**regexpr():**
-•	Matches a regular expression to a character vector and returns detailed information about the first match in each element.
-•	The result includes the starting index of the match and the length of the matched string.
-•	If there is no match, it returns -1 for that vector element.
+•	Matches a regular expression to a character vector and returns detailed information about the first match in each element.  
+•	The result includes the starting index of the match and the length of the matched string.  
+•	If there is no match, it returns -1 for that vector element.  
 4.	**gregexpr():**
-•	Extends regexpr() by finding every match within each element of a character vector, not just the first one.
-•	Returns a list of the same length as the input vector, with each list element containing the start indices and lengths of all matches.
+•	Extends regexpr() by finding every match within each element of a character vector, not just the first one.  
+•	Returns a list of the same length as the input vector, with each list element containing the start indices and lengths of all matches.  
 
 
 As an example, we turn to a Terry Pratchett quote, namely the “Sam Vimes Boots theory of socioeconomic unfairness” mentioned in the novel “Men at Arms” (slightly adjusted for this purpose):
