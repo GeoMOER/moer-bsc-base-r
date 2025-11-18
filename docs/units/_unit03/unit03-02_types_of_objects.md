@@ -246,6 +246,7 @@ df_vers2
 6    A    Y    6   60   FALSE
 7    A    Y    7   70   FALSE
 ```
+If needed, you can assign column names in retrospect using *colnames(df) <- c("A", "B", "C", "D", "E")*.
 
 -----
 
@@ -359,6 +360,8 @@ names(list1) <- c("numbers","my.double","my.sin")
 list1$numbers
 [1] 2 5 3
 ```
+
+To dispose an element of the list, it can be set as "NULL": *list1[[3]] <- NULL*
 
 ----
 
