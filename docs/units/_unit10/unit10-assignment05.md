@@ -14,9 +14,23 @@ For this, you will work with with real-world financial time-series data in the E
 
 <!-- we might ignore the 9999 here-->
 
+Colunn explanation:
+X.TICKER. – Identifier of the ETF, similar to a product name or code 
+X.PER. – Period of the data, e.g. D for daily observations.
+X.DATE. – The calendar date for this row (trading day).
+X.TIME. – Time of the record; for daily data this is usually 0 and not used.
+X.OPEN. – Price at the start of the trading day (opening price).
+X.HIGH. – Highest price reached during that trading day.
+X.LOW. – Lowest price reached during that trading day.
+X.CLOSE. – Price at the end of the trading day (closing price).
+X.VOL. – Trading volume: how many shares were traded that day (a measure of market activity).
+X.OPENINT. – “Open interest”: number of open contracts
+
+
 2) Merge the data with "div_data" to the common denominators. 
 
-
+Upload this assignment by 27.11.25 under the "Assignment" folder in Ilias in the following format:
+A05_Lastname_Firstname.zip
 
 <!--
 In this task, we'll work with an old familiar dataset, namely the emission-dataset first used in Assignment 2
