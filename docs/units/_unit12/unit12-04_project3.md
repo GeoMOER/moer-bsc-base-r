@@ -7,6 +7,27 @@ header:
   caption: 'image by <a href="https://pixabay.com/de/users/athree23-6195572/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4855963">Adrian</a> on <a href="https://pixabay.com/de//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4855963">Pixabay</a>'
 ---
 
+
+# Aufgabe 3: Graphischer Teil
+# Geeignete Darstellungsformen für die Korrellation von Wald- und Luftdaten finden
+
+3.2.1 Scatterplots: Schadstoff vs. Waldparameter
+zB
+Kronenverlichtung (%) vs. O₃-Mittelwert
+Mortalität vs. PM₂.₅
+
+erste visuelle Trends (linear, gekrümmt, Schwellenwerte)
+mögliche Ausreißer
+Verdichtung von Punkten in bestimmten Bereichen → Hinweis auf Klasseneffekte
+
+lokale Regression (LOESS/LOWESS) über die Punkte legen
+→ zeigt nichtlineare Trends ohne Modellannahmen
+
+# Masteraufgabe:
+# Darstellung auf der Karte
+
+
+<!-- SoSe25
 The  salamander *Salamandra salamandra* is an amphibian native to central and southern Europe. In Germany, it predominantly inhabits humid, deciduous and mixed forests in mid-elevation mountain regions, where cool streams provide suitable breeding habitats for its aquatic larvae.
 
 The species is classified as “specially protected” under the German Federal Nature Conservation Act (BNatSchG).
@@ -61,10 +82,10 @@ DGHT e.V. (Hrsg. 2018): Verbreitungsatlas der Amphibien und Reptilien Deutschlan
 
 Fick, S.E. and R.J. Hijmans, 2017. WorldClim 2: new 1km spatial resolution climate surfaces for global land areas. International Journal of Climatology 37 (12): 4302-4315.
 
+-->
 
 
-
-<!--
+<!-- WiSe 24
 
 ## Project Task: Analyzing Disturbance Patterns in Forests Using R
 

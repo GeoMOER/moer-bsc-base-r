@@ -7,6 +7,48 @@ header:
   caption: 'image by <a href="https://pixabay.com/de/users/athree23-6195572/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4855963">Adrian</a> on <a href="https://pixabay.com/de//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4855963">Pixabay</a>'
 ---
 
+*This marked assignment must be submitted by the XXXX*
+
+# Forest Health under the Pressure of Local Air Quality
+
+The air quality in urban areas has an influence on the people living there, for example in the form of fine particulate matter pollution. However, the surrounding ecosystems are also affected by substances such as nitrogen dioxide. In this project work, we therefore ask the question: Do forests suffer from local air pollution?
+
+We will try to answer this question using real, scientific data.
+
+Two datasets are available in the ILIAS course folder for each pre chosen region: detailed Air Quality Data (high temporal resolution) and Forest Inventory Data (high spatial resolution).
+The data originates from the Federal Environment Agency (Umweltbundesamt - https://www.umweltbundesamt.de/daten/luft/luftdaten) and the Thünen Institute (Bundeswaldinventur - https://www.thuenen.de/de/themenfelder/waelder/die-bundeswaldinventur) respectively and is publicly accessible. 
+
+This comprehensive data basis forms the foundation for the project work, which is divided into three consecutive phases. 
+
+The first section and project focusses on tree health. The "Bundeswaldinventur"/Forest Inventory Data, shows the age, height, damage status, species, and diameter at breast height (dbh) of *trees within an inventory interval around fixed sampling intervals* (e.g. 2012; 2022). Furthermore, it provides information about the location, such as its inclusion in an FFH or nature reserve, as well as the Inspire Grid Cells with their coordinates for spatial referencing.
+
+<!--
+add column description
+-->
+
+Your task is to evaluate the **change in average tree health** between the sampling intervals for each sampling point of your selected area.
+
+<!--
+description of potential indices of tree health (Schaden / Kronenlichtung etc)
+-->
+
+- Download the data of your chosen region provided in the Ilias-folder "Project 1".  
+- Create a project folder.  
+- Analyse the change in average tree health indicators between the inventories by description and by visualizing them.  
+- Do not forget, that a good project includes a summary and description of the raw data!  
+
+Note: the data given is is made publicly available under the Creative Commons Attribution License (CC BY). Add the citations and License reference in your Project
+
+Bonus task: Try to find a way to extract the coordinates from Inspire Grid Cells. This will be relevant in project #3 
+
+<!-- Ich konnte die Inspire grid cells nicht finden, bitte noch mal überprüfen ob das mit exportiert wird und entsprechend in die Spaltenbeschreibung mit einfügen>
+
+
+# Info: Diese Extraktion wird später im Projektabschnitt 3 für alle Teilnehmer relevant. Die Vorschläge könnten im Kurs kurz diskutiert werden.
+
+
+
+<!-- Altes Projekt SoSe25
 *This marked assignment must be submitted by 9th of June 2025.*
 
 In the Biodiversity Exploratores, data on temperature was collected on 300 plots. Half of those are in grasslands, the other half in forests. 
@@ -22,10 +64,10 @@ Data was taken from: : Biodiversity Exploratories Instrumentation Project (BExIS
 The data given is  made publicly available under the Creative Commons Attribution License (CC BY). Add the citations and License reference in your Project.
 
 ***Tip: the data you got came straight from the sensors. These sensors can fail to accurately capture the temperature.***
+-->
 
 
-
-<!--
+<!-- WiSe24
 In the Biodiversity Exploratores, vegetation surveys have been conducted twice per year from 2009-2020 (https://www.bexis.uni-jena.de/ddm/data/Showdata/30909). 
 
 Additionally, forest management intensitiy has been measured as the Proportion of non-natural tree species, Proportion of harvested tree biomass and Proportion of dead wood showing signs of saw cuts (https://www.bexis.uni-jena.de/ddm/data/Showdata/24646). Detailed information can be found in the meta data description of both data sets (see link).

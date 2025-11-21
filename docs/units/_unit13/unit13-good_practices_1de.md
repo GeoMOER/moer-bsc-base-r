@@ -25,7 +25,7 @@ Der erste und wichtigste Schritt ist das Verstehen des Problems und das Festlege
 <summary>Arbeit am Beispiel </summary>
     Stellt euch vor, ihr untersucht, wie sich die Landnutzung auf das Mikroklima auswirkt. Eine erste Forschungsfrage könnte sein:
     Wie unterscheidet sich die Lufttemperatur (10 cm über dem Boden) zwischen zwei verschiedenen Landnutzungstypen?
-</details
+</details>
 
 Macht euch z.B. eine Flowchart oder Ähnliches zur Übersicht.
 

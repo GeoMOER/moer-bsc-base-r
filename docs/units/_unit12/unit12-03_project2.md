@@ -7,8 +7,31 @@ header:
   caption: 'image by <a href="https://pixabay.com/de/users/athree23-6195572/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4855963">Adrian</a> on <a href="https://pixabay.com/de//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4855963">Pixabay</a>'
 ---
 
-*This marked assignment must be submitted by the 30th of August 2025.*
+*This marked assignment must be submitted by the XXX.*
 
+In the second project, we will analyse the local Air Quality.
+The data frame for the Air Quality Data contains the respective measurement times of the data acquisition, the Air Quality Index (AQI), and the sensor readings in µg/m³ (more Information found here: https://www.umweltbundesamt.de/node/120668#der-luftqualitatsindex-lqi-des-umweltbundesamtes). Additionally, the completeness status of the measurement is indicated, where 0 stands for complete/validated and 1 stands for incomplete/missing. 
+
+Your task:
+
+
+Wieviel mg Feinstaub gelangte laut Messdaten an der Messtation in den Jahren 2016 und 2024 pro m³ insgesamt in die Luft?
+
+  # a2) Damit die Sensoren einzeln betrachtet werden können, ist es am einfachsten die Tabelle in ein breites Format (wide-formate) zu konvertieren.
+  # Welche Spalte der Sensorbezeichnungen sollte für die Transformation verwendet werden?
+Grenzwertüberschreitungen berechnen
+
+  # a3) Wie hoch waren die minimalen, maximalen und durchschnittlichen Messungen der einzelnen Sensoren?
+  # Gibt es fehlende Werte und wenn ja, wie viele?
+
+Graph über die Zeit, inkl. Grenzwerte, Trendlinie
+
+durchschnitt pro 4 Jahre vor Datum der Waldinventur - extra punkt wenn loop genutzt wird
+
+MSc: NAs imputen - the easy way, aber Achtung: Tageszeit, Jahreszeit
+
+
+<!-- Altes Projekt SoSe25
 The Deutscher Wetterdienst (DWD) provides comprehensive climate and weather data, including both recent and historical records from various weather stations across Germany. These data are publicly available and can be accessed at the [DWD Climate Data Center](https://opendata.dwd.de/)(take note of the readme.txt).
 
 In this project, we focus on long-term temperature changes in the federal state of Hesse (Hessen). Specifically, we analyze historical daily weather data from stations that have been operational continuously up to the present day. 
@@ -97,9 +120,9 @@ all_data <- do.call(rbind, lapply(files, function(f) {
   read.table(f, header = TRUE, sep = ";", stringsAsFactors = FALSE)
 }))
 ```
+-->
 
-
-<!--
+<!-- WiSe24
 On 23 February there will be federal elections in Germany. We will take this as an opportunity to process the data on the last election (2021) provided by the Federal Electoral Administration in our Project 2.
 
 
