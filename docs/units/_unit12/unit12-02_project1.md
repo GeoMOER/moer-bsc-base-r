@@ -22,9 +22,16 @@ This comprehensive data basis forms the foundation for the project work, which i
 
 The first section and project focusses on tree health. The "Bundeswaldinventur"/Forest Inventory Data, shows the age, height, damage status, species, and diameter at breast height (dbh) of *trees within an inventory interval around fixed sampling intervals* (e.g. 2012; 2022). Furthermore, it provides information about the location, such as its inclusion in an FFH or nature reserve, as well as the Inspire Grid Cells with their coordinates for spatial referencing.
 
-<!--
-add column description
--->
+**Column description:**
+- id - Individual identification number for each data row
+- plot_id - Identification number for data, belonging to a certain plot area
+- tree_age - Individual age of the measured tree
+- tree_height - Individual height of the mesured tree
+- tree_status - Information about a rating status regarding its assessability
+- damage_... - Any column starting with "damage_" is followed by a category of which the possible damage occures. An occureing damage is marked by yes or no.
+- tree_species - The spezies code of the individual tree.
+- ......to be continued
+
 
 Your task is to evaluate the **change in average tree health** between the sampling intervals for each sampling point of your selected area.
 
@@ -34,12 +41,12 @@ description of potential indices of tree health (Schaden / Kronenlichtung etc)
 
 - Download the data of your chosen region provided in the Ilias-folder "Project 1".  
 - Create a project folder.  
-- Analyse the change in average tree health indicators between the inventories by description and by visualizing them.  
+- Analyse the change in average tree health via indicators between the inventories by description and by visualizing them.  
 - Do not forget, that a good project includes a summary and description of the raw data!  
 
-Note: the data given is is made publicly available under the Creative Commons Attribution License (CC BY). Add the citations and License reference in your Project
+Note: The data given is made publicly available under the Creative Commons Attribution License (CC BY). Add the citations and License reference in your Project
 
-Bonus task: Try to find a way to extract the coordinates from Inspire Grid Cells. This will be relevant in project #3 
+Bonus task: Try to find a way to extract the coordinates from the Inspire Grid Cells column. This will be relevant in project #3.
 
 <!-- Ich konnte die Inspire grid cells nicht finden, bitte noch mal überprüfen ob das mit exportiert wird und entsprechend in die Spaltenbeschreibung mit einfügen>
 
