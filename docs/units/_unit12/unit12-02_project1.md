@@ -22,15 +22,31 @@ This comprehensive data basis forms the foundation for the project work, which i
 
 The first section and project focusses on tree health. The "Bundeswaldinventur"/Forest Inventory Data, shows the age, height, damage status, species, and diameter at breast height (dbh) of *trees within an inventory interval around fixed sampling intervals* (e.g. 2012; 2022). Furthermore, it provides information about the location, such as its inclusion in an FFH or nature reserve, as well as the Inspire Grid Cells with their coordinates for spatial referencing.
 
-**Column description:**
-- id - Individual identification number for each data row
-- plot_id - Identification number for data, belonging to a certain plot area
-- tree_age - Individual age of the measured tree
-- tree_height - Individual height of the mesured tree
-- tree_status - Information about a rating status regarding its assessability
-- damage_... - Any column starting with "damage_" is followed by a category of which the possible damage occures. An occureing damage is marked by yes or no.
-- tree_species - The spezies code of the individual tree.
-- ......to be continued
+The following columns from your datatable might be needed for further analysis:  
+
+| **Column** | **Description** |
+|id | Individual identification number for each data row |
+| plot_id | Identification number for data, belonging to a certain plot area |
+| tree_age | Individual age of the measured tree |
+| tree_height | Individual height of the mesured tree |
+| tree_number | Number of measured tree inside a plot area |
+| tree_status | Information about a rating status regarding its assessability |
+| damage_... | Any column starting with "damage_" is followed by a category of which the possible damage occures. An occureing damage is marked by a TRUE or FALSE. |
+| tree_species | The spezies code of the individual tree. |
+| tree_top_drought | Indicator of whether the top of the tree has drought damage |
+| ffh_plot | FFH affiliation code |
+| natur_park_plot | Naturepark affiliation code |
+| interval_name_plot | The name of the interval in which the data was recorded |
+| national_park_plot | National park affiliation code |
+| forest_community_plot | A code, describing the kind of forest community in which the measured tree stands in |
+| natur_schutzgebiet_plot | A boolean, describing whether the measured tree stands within a nature reserve (1) or not (0) |
+| vogel_schutzgebiet_plot | A boolean, describing whether the measured tree stands within a bird sanctuary area (1) or not (0) |
+| dbh | The diameter of the tree trunk at breast height |
+| dbh_height | The (breast) height in which the diameter of the tree trunk was measured |
+| crown_dead_wood | Indicator of whether the crown area of the tree shows dead wood parts |
+| biotope_plot | A code, describing the kind of biotope and protective requirements in which the measured tree stands in |
+| stand_age_plot | The overall tree age of the plot population |
+| inspire_grid_cell | A 1 km x 1km grid layer coordinate in which the measured trees are located ([further info](https://gdz.bkg.bund.de/index.php/default/geographische-gitter-fur-deutschland-in-lambert-projektion-geogitter-inspire.html))
 
 
 Your task is to evaluate the **change in average tree health** between the sampling intervals for each sampling point of your selected area.
@@ -40,8 +56,9 @@ description of potential indices of tree health (Schaden / Kronenlichtung etc)
 -->
 
 - Download the data of your chosen region provided in the Ilias-folder "Project 1".  
-- Create a project folder.  
-- Analyse the change in average tree health via indicators between the inventories by description and by visualizing them.  
+- Create a project folder and clean or prepare your data for analysis.  
+- Analyse the percentage in all kinds of tree damage per category and damage change between the inventories by description and by visualizing them. But be careful! Check your data for comparability.
+<!-- - Analyse the change in average tree health via indicators between the inventories by description and by visualizing them. -->  
 - Do not forget, that a good project includes a summary and description of the raw data!  
 
 Note: The data given is made publicly available under the Creative Commons Attribution License (CC BY). Add the citations and License reference in your Project
