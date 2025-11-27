@@ -7,7 +7,7 @@ header:
   caption: 'image by <a href="https://pixabay.com/de/users/athree23-6195572/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4855963">Adrian</a> on <a href="https://pixabay.com/de//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4855963">Pixabay</a>'
 ---
 
-*This marked assignment must be submitted by the XXXX*
+*This marked assignment must be submitted by the 11.12.2025 !*
 
 # Forest Health under the Pressure of Local Air Quality
 
@@ -31,7 +31,7 @@ The following columns from your datatable might be needed for further analysis:
 | tree_height | Individual height of the mesured tree |
 | tree_number | Number of measured tree inside a plot area |
 | tree_status | Information about a rating status regarding its assessability |
-| damage_... | Any column starting with "damage_" is followed by a category of which the possible damage occures. An occureing damage is marked by a TRUE or FALSE. |
+| damage_... | Any column starting with "damage_" is followed by a category of which the possible **damage** occures. An occureing damage is marked by a TRUE or FALSE. |
 | tree_species | The spezies code of the individual tree. |
 | tree_top_drought | Indicator of whether the top of the tree has drought damage |
 | ffh_plot | FFH affiliation code |
@@ -43,7 +43,7 @@ The following columns from your datatable might be needed for further analysis:
 | vogel_schutzgebiet_plot | A boolean, describing whether the measured tree stands within a bird sanctuary area (1) or not (0) |
 | dbh | The diameter of the tree trunk at breast height |
 | dbh_height | The (breast) height in which the diameter of the tree trunk was measured |
-| crown_dead_wood | Indicator of whether the crown area of the tree shows dead wood parts |
+| crown_dead_wood | Indicator of whether the crown area of the tree shows dead wood parts - also an indicator that the tree is **damaged**|
 | biotope_plot | A code, describing the kind of biotope and protective requirements in which the measured tree stands in |
 | stand_age_plot | The overall tree age of the plot population |
 | inspire_grid_cell | A 1 km x 1km grid layer coordinate in which the measured trees are located ([further info](https://gdz.bkg.bund.de/index.php/default/geographische-gitter-fur-deutschland-in-lambert-projektion-geogitter-inspire.html))
@@ -51,18 +51,13 @@ The following columns from your datatable might be needed for further analysis:
 
 Your task is to evaluate the **change in average tree health** between the sampling intervals for each sampling point of your selected area.
 
-<!--
-description of potential indices of tree health (Schaden / Kronenlichtung etc)
--->
-
 - Download the data of your chosen region provided in the Ilias-folder "Project 1".  
 - Create a project folder and clean or prepare your data for analysis.  
 - Analyse the percentage in all kinds of tree damage per category and damage change between the inventories by description and by visualizing them. But be careful! Check your data for comparability.
-<!-- - Analyse the change in average tree health via indicators between the inventories by description and by visualizing them. -->  
 - Do not forget, that a good project includes a summary and description of the raw data!  
-
+<!--
 Note: The data given is made publicly available under the Creative Commons Attribution License (CC BY). Add the citations and License reference in your Project
-
+-->
 Bonus task: Try to find a way to extract the coordinates from the Inspire Grid Cells column. This will be relevant in project #3.
 
 <!-- Ich konnte die Inspire grid cells nicht finden, bitte noch mal überprüfen ob das mit exportiert wird und entsprechend in die Spaltenbeschreibung mit einfügen>
