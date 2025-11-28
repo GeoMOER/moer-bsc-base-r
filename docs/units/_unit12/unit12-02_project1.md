@@ -36,7 +36,7 @@ The following columns from your datatable might be needed for further analysis:
 | tree_top_drought | Indicator of whether the top of the tree has drought damage |
 | ffh_plot | FFH affiliation code |
 | natur_park_plot | Naturepark affiliation code |
-| interval_name_plot | The name of the interval in which the data was recorded |
+| interval_name_plot | The name of **the forest inventory interval** in which the data was recorded |
 | national_park_plot | National park affiliation code |
 | forest_community_plot | A code, describing the kind of forest community in which the measured tree stands in |
 | natur_schutzgebiet_plot | A boolean, describing whether the measured tree stands within a nature reserve (1) or not (0) |
