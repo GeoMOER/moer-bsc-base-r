@@ -64,12 +64,12 @@ Please also seriously check and follow the [Information on the Coronavirus](http
 | 04 | 14.11.2025 | characters,transform & aggregate | how to deal with characters and regular expressions ,  transfrom from long to wide format and back|
 | 05 | 21.11.2025 | data manipulation, project 1       | use handy data checks to see whether your data and script are ok, work directly with your first project |
 ||| **Plotting** |
-| 06 | 28.11.2025    | graphs  I                    | generate some graphs |
-| 07 | 05.12.2025    | graphs  II                    | let's make some more graphs |
+| 06 | 28.11.2025    | graphs  I                          | generate some graphs |
+| 07 | 05.12.2025    | discussion project I,  graphs  II  | let's make some more graphs |
 ||| **Project I**|
-| 08 | 12.12.2025 | feedback project 1 | feedback project I |
+| 08 | 12.12.2025 | for /if / else                   | automate your script and use conditions |
 ||| **Automation** |
-| 09 | 19.12.2025 | for /if / else               | automate your script and use conditions |
+| 09 | 19.12.2025 | feedback project 1, graphs III               | feedback project I, learn some more graph forms |
 | 10 | ~~26.12.2025~~| public holiday/ winter break            | no course today  |
 | 11 | ~~02.01.2026~~| winter break              | no course today  |
 | 12 | ~~09.01.2026~~| winter break              | no course today  |
