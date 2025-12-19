@@ -1,6 +1,6 @@
 ---
 title: Style your plot!
-published: false
+published: true
 toc: TRUE
 toc_float: TRUE
 header:
@@ -15,9 +15,7 @@ For example, you can adjust the *area around your plot* (=margin, **mar**) and t
 
 This is displayed expertly here [https://r-graph-gallery.com/74-margin-and-oma-cheatsheet.html](https://r-graph-gallery.com/74-margin-and-oma-cheatsheet.html)
 
-Generally, to change the size you have to give a vector of lines (correspond to a certain number of pixels??) you want to have as spacer around first, the bottom, left, top and right to the plot. A mar=c(4,5,1,0) would mean you have 4 lines space from the axis to the end of the margin, 5 to the left, 1 to the top, 0 to the right,
-
-
+Generally, to change the size you have to give a vector of lines  you want to have as spacer around first, the bottom, left, top and right to the plot. A mar=c(4,5,1,0) would mean you have 4 lines space from the axis to the end of the margin, 5 to the left, 1 to the top, 0 to the right
 
 
 ```{r}
@@ -26,10 +24,17 @@ plot(1:10)
 ?par
 
 par(mar=c(2,8,0,0))
-
-
 plot(1:100)
 
+```
+
+With **las** you can change the orientation of your labeling.
+
+
+
+If you want to restyle your axis - let's say you want to displac log transformed values, but want to display original values for better readability, you can remove the original axes by setting axes=F and add new ones, with changed labels:
+
+```{r}
 plot(1:100)
 par(las=1)
 
@@ -39,6 +44,12 @@ val.orig <- c(1,10,100)
 val.log <- log(val.orig)
 axis(2, at= val.log, labels=val.orig)
 axis(4, at= val.log, labels=round(val.log,2))
+```
+
+
+
+
+<!--
 
 
 values <- c(7,3,6,8)
@@ -77,3 +88,5 @@ plot(30:500)
 dev.off()
 
 ```
+
+-->
