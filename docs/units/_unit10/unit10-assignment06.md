@@ -1,5 +1,5 @@
 ---
-title: "Unmarked Assignment 05 - apply functions"
+title: "Unmarked Assignment 06 - apply functions"
 published: true
 header:
   image: "/assets/images/unit_images/u01/header.jpg"
