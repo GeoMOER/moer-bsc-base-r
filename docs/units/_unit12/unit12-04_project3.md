@@ -11,6 +11,8 @@ header:
 # Aufgabe 3: Graphischer Teil
 # Geeignete Darstellungsformen für die Korrellation von Wald- und Luftdaten finden
 
+Distanz zu Messpunkt / min 4 plots gegeben?
+
 3.2.1 Scatterplots: Schadstoff vs. Waldparameter
 zB
 Kronenverlichtung (%) vs. O₃-Mittelwert

@@ -1,11 +1,17 @@
 ---
-title: "Unmarked Assignment 06 - good practice"
-published: false
+title: "Unmarked Assignment 05 - apply functions"
+published: true
 header:
   image: "/assets/images/unit_images/u01/header.jpg"
   caption: 'image by <a href="https://pixabay.com/de/users/athree23-6195572/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4855963">Adrian</a> on <a href="https://pixabay.com/de//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4855963">Pixabay</a>'
 ---
 
+Please complete [exercise 2 of Unit 09](/moer-bsc-base-r/unit08/unit09-07_exercise2.html)
+
+Upload this assignment by 22.01.26 under the "Assignment" folder in Ilias in the following format:
+A06_Lastname_Firstname.zip
+
+<!--
 1.) Please download the Project (Ilias-> Data -> "Microclimate-landuse") which was developed in parts together in the course based on the ([Example in "good practices"](/moer-bsc-base-r/unit12/unit12-good_practices_0engl.html)).  
 
 2.) Open the project and locate the script titled 'microclimate_datacleaning.' In the section '1. Read in data + data checks,' conduct any additional data checks (e.g., handling missing values, identifying outliers) or make changes you deem necessary. Describe all changes and their rationale in the README.txt file.  
@@ -17,3 +23,4 @@ header:
 5.) What information is missing in order to do the analysis? Any idea where to get that? Please add your answer at the beginning of your README-file.
 
 6.) Upload your whole project as a .zip 
+-->

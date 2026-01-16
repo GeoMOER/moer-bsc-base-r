@@ -1,6 +1,6 @@
 ---
-title: "Exercise: apply"
-published: false
+title: "Exercise: apply and function"
+published: true
 toc: true
 header:
   image: /assets/images/unit_images/u08/header.png
@@ -62,7 +62,7 @@ mean_birds <- tapply(bird_counts, habitats, FUN = mean)
 # Exercise 4
 
 
-Redo the list of data frames created in the previous exercise:
+Create a list of data frames:
 
 ```{r}
 df1 <- data.frame(X = c(1, 2, 3, 4, 5), Y = c(10, 12, 8, 15, 20))
@@ -70,7 +70,11 @@ df2 <- data.frame(X = c(2, 3, 4, 5, 6), Y = c(5, 8, 10, 12, 15))
 df3 <- data.frame(X = c(3, 4, 5, 6, 7), Y = c(8, 10, 12, 15, 18))
 ```
 
-This time, name the elements "df1", "df2" and "df3"
+Name the elements "df1", "df2" and "df3"
+
+Calculate the mean of Y of each data frame using lapply
+
+# Exercise 5
 
 Now, create a function "niceplot" that attractively plots Y against X as a point plot and execute this function using lapply to plot all three dataframes at once. 
 This function should also automatically change the plot title.
