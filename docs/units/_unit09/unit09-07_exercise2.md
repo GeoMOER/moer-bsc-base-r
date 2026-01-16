@@ -13,7 +13,13 @@ header:
 Use *apply()* to calculate the total precipitation per location
 
 ```{r}
-rainfall <- matrix(sample(50:200, 25, replace = TRUE), nrow = 5)
+rainfall <- matrix(
+  sample(50:200, 25, replace = TRUE), 
+  nrow = 5,
+  dimnames = list(
+    c("Berlin", "Hamburg", "München", "Köln", "Frankfurt")
+  )
+)
 ```
 
 <!--
