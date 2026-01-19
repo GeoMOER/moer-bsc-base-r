@@ -11,9 +11,10 @@ header:
 
 In the second project, you will analyse local air quality.
 
-The air quality data set contains the respective measurement times of the data acquisition, the air quality index (AQI) and the sensor readings. More information can be found here: https://www.umweltbundesamt.de/node/120668#der-luftqualitatsindex-lqi-des-umweltbundesamtes. 
+The air quality data set contains the respective measurement times of the data acquisition, the air quality index (AQI), the sensor readings and a measurement completeness status (0 = complete/valid dataset for this hour; 1 = incomplete/corrupted data set for this hour). More information can be found here: https://www.umweltbundesamt.de/node/120668#der-luftqualitatsindex-lqi-des-umweltbundesamtes. 
 
-Please note that, depending on the sensor, different measurement intervals were used (e.g. every minute, hour or day).
+<!-- Please note that, depending on the sensor, different measurement intervals were used (e.g. every minute, hour or day).
+INFO: Eigentlich wurden nur stündliche Messwerte abgerufen. Vielleicht ein anzeigefehler? -->
 
 Your task is to calculate the average and maximum measurements per sensor, year and month, as well as the year-month combination. 
 Show how air quality changed over time in a meaningful manner.
@@ -22,22 +23,22 @@ Further calculate how many days per year the measurements were above the limits.
 There are guideline values for each pollutant. Detailed information can be found on the website of the Federal Environment Agency, e.g. under the following links:
 - Particulate matter: https://www.umweltbundesamt.de/themen/luft/luftschadstoffe-im-ueberblick/feinstaub
 - Nitrogen dioxide: https://www.umweltbundesamt.de/service/uba-fragen/welche-grenzwerte-gibt-es-fuer-die
-- Tabular overview: Air quality in Germany 2023: https://www.umweltbundesamt.de/sites/default/files/medien/12969/dokumente/luftqualitaet2023_endgueltige_auswertung_update.pdf
+- Tabular overview: Air quality in Germany 2023: https://www.umweltbundesamt.de/publikationen/luftqualitaet-2023
 
 The limit values for the protection of human health (according to the 39th BImSchV) are particularly relevant for calculations. The following is an example of air quality limit values (Germany/EU) for the components PM10 and NO₂:
 
 | Component | Period | Limit value | Permitted exceedances |
 |-----------|--------|-------------|-----------------------|
-| NO₂       | 1 hour | 200 µg/m³   | max. 18 times per calendar year|
+| PM10      | 1 day  | 50 µg/m³    | max. 35 times per calender year |
+| NO₂       | 1 hour | 200 µg/m³   | max. 18 times per calendar year |
 
-<!--
-add others
--->
+More information here: https://www.umweltbundesamt.de/themen/luft/luftqualitaet/luftqualitaetswerte-verstehen#1-richtwerte-der-weltgesundheitsorganisation-who
+
 
 # Hints and things to look out for (read carefully)
-* **Different sampling intervals:** some components may be measured every minute, others hourly or daily. Depict them in a common time resolution that still makes sense scientifically. Don’t “flatten” more than necessary: it’s easy to throw away information by aggregating too early (e.g., directly to yearly). Prefer building your analysis from a sensible base interval.  
+* **Different sampling intervals:** Some components may not be measured throughout the whole overall station runnung time. <!-- every minute, others hourly or daily.--> Depict them in a common time resolution that still makes sense scientifically. Don’t “flatten” more than necessary: it’s easy to throw away information by aggregating too early (e.g., directly to yearly). Prefer building your analysis from a sensible base interval.  
 * **Data gaps matter:** quantify missingness and gaps (per pollutant and over time). A good report doesn’t just show results; it also shows where results may be unreliable.
-* **Timestamps can be messy:** you may encounter mixed formats or strings that don’t parse cleanly. If your time conversion creates NA, don’t ignore it—investigate which rows and why and use your character-manipulation skills to act accordingly.
+* **Timestamps can be messy:** you may encounter mixed formats or strings that don’t parse cleanly. If your time conversion creates NA, don’t ignore it — investigate which rows and why and use your character-manipulation skills to act accordingly.
 * **Daylight saving time (Europe/Berlin)**: Germany switches to summer time on the last Sunday in March. The hour from 02:00 to 02:59 does not exist that day.
 If your raw data contains such local times, base R may return NA when converting to POSIXct in "Europe/Berlin". Consider strategies (e.g., parsing as UTC, or working at a daily level) and document
 * **Be careful with aggregateing/summarizing and missing values:** depending on how you write your summary functions, NA can silently propagate (e.g., max() returns NA unless you use na.rm=TRUE). Also note that summarizing multiple columns at once can produce matrix-columns that need unpacking.
