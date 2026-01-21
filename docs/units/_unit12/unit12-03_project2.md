@@ -16,7 +16,11 @@ The air quality data set contains the respective measurement times of the data a
 <!-- Please note that, depending on the sensor, different measurement intervals were used (e.g. every minute, hour or day).
 INFO: Eigentlich wurden nur stündliche Messwerte abgerufen. Vielleicht ein anzeigefehler? -->
 
-Your task is to calculate the average and maximum measurements per sensor, year and month, as well as the year-month combination. Show how air quality changed over time in a meaningful manner. Further calculate how many days per year the measurements were above the limits.
+Your task is to calculate the average and maximum measurements per sensor, year and month, as well as the year-month combination. Show how air quality changed over time over the whole observation period. Provide also more detailed plots for at least 4 years of the observation period.
+
+**Bonuspoint** if you use a for-loop or apply a function to do it.
+
+Further calculate how many days per year the measurements were above the limits. 
 
 There are guideline values for each pollutant. Detailed information can be found on the website of the Federal Environment Agency, e.g. under the following links:
 
@@ -33,6 +37,10 @@ The limit values for the protection of human health (according to the 39th BImSc
 
 More information here: https://www.umweltbundesamt.de/themen/luft/luftqualitaet/luftqualitaetswerte-verstehen#1-richtwerte-der-weltgesundheitsorganisation-who
 
+# Extra task: Model temporal patterns (obligatory for MSc, voluntary for BSc)
+
+Use all but the most recent year as as training data, the last year as test data. Use your trainig data to create a simple, linear additive model with a measurement as dependent variable and day of the week, month, and year as independent variables. How well does it predict the measures of the most recent year?
+
 
 # Hints and things to look out for (read carefully)
 * **Different sampling intervals:** Some components may not be measured throughout the whole overall station runnung time. <!-- every minute, others hourly or daily.--> Depict them in a common time resolution that still makes sense scientifically. Don’t “flatten” more than necessary: it’s easy to throw away information by aggregating too early (e.g., directly to yearly). Prefer building your analysis from a sensible base interval.  
@@ -45,7 +53,9 @@ Note: different formats in timestamps might lead to NAs - use charactermanipulat
 
 
 
-# Bonus task: Try to find a way to impute NAs (obligatory for MSc)
+
+
+
 
 
 <!-- Altes Projekt SoSe25

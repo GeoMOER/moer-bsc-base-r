@@ -22,7 +22,7 @@ Environmental models differ in how they represent the relationship between a res
 
 Physical (mechanistic) models are based on known laws of physics, chemistry, or biology. They describe processes using equations derived from theoretical principles (e.g., energy balance, fluid flow, mass conservation). They are used when the underlying mechanisms are well understood — for example, modelling how temperature changes with elevation using the adiabatic lapse rate. 
 
-```{r}
+```
 # Temperature as a function of elevation using a standard lapse rate
 elevation <- seq(0, 3000, by = 100)      # meters
 T0 <- 20                                 # sea-level temperature in °C
@@ -38,9 +38,27 @@ plot(elevation, temperature, type = "l",
 
 ## 2. Statistical Models
 
-Statistical models use observed data to estimate a mathematical relationship between Y (the dependent variable) and one or more predictors (independent variables). The model form is specified by the user (e.g., linear, logistic), and model parameters such as intercept and slope are estimated from data. There are different types of models you can use, see the chapter [Modeling](https://bookdown.org/igisc/EnvDataSci/modeling.html) by *Environmental Data Science* for a nice summary and explanation.
+Statistical models use observed data to estimate a mathematical relationship between Y (the dependent variable) and one or more predictors (independent variables). The model form is specified by the user (e.g., linear, logistic), and model parameters such as intercept and slope are estimated from data. The most simple form is the linear model in an additive form:
 
-```{r}
+$$
+{\displaystyle y_{i}=\alpha +\beta x_{i}+\varepsilon _{i}.}
+$$
+
+where $y_{i}$ is your dependent variable, $\alpha $ is the y-intercept,$\beta $ is the slope for the independent variable x_{i} and $\varepsilon _{i}$ is the error term
+
+Suppose we want to answer the question, whether fuel efficiency depends on car weight, engine power, and transmission type
+
+
+```
+data(mtcars)
+m <- lm(mpg ~ wt + hp + factor(am), data = mtcars)
+summary(m)
+```
+The coefficients table given by `summary()` gives you estimates for the intercept and the slope of the variables, when wt and horsepower are both 0, and transmission is automatic (the first factor level). In other words, a linear model describes how the average outcome changes when predictors change, holding all others constant.
+
+There are different types of models you can use, see the chapter [Modeling](https://bookdown.org/igisc/EnvDataSci/modeling.html) by *Environmental Data Science* for a nice summary and explanation.
+
+```
 # Simulated data: Insect abundance vs. temperature
 data <- data.frame(
   abundance   = c(5, 0, 3, 7, 2, 0, 4, 8, 1, 6),
