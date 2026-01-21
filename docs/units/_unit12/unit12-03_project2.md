@@ -40,7 +40,7 @@ add others
 * **Timestamps can be messy:** you may encounter mixed formats or strings that don’t parse cleanly. If your time conversion creates NA, don’t ignore it—investigate which rows and why and use your character-manipulation skills to act accordingly.
 * **Daylight saving time (Europe/Berlin)**: Germany switches to summer time on the last Sunday in March. The hour from 02:00 to 02:59 does not exist that day.
 If your raw data contains such local times, base R may return NA when converting to POSIXct in "Europe/Berlin". Consider strategies (e.g., parsing as UTC, or working at a daily level) and document
-* **Be careful with aggregateing/summarizing and missing values:** depending on how you write your summary functions, NA can silently propagate (e.g., max() returns NA unless you use na.rm=TRUE). Also note that summarizing multiple columns at once can produce matrix-columns that need unpacking.
+* **Be careful with aggregateing/summarizing and missing values:** depending on how you write your summary functions, NA can silently propagate (e.g., max() returns NA unless you use na.rm=TRUE). 
 Note: different formats in timestamps might lead to NAs - use charactermanipulations to adjust formats if necessary
 
 

@@ -74,3 +74,33 @@ In supervised ML, the algorithm is trained on a dataset with known outcomes (X a
 
 Examples of ML methods used in environmental modelling include random forests, boosted regression trees, support vector machines, and neural networks. If you want to dive deeper into this, take [this course](https://geomoer.github.io/moer-bsc-project-seminar-SDM/)
 
+## 4. Evaluate the models
+
+When we build a model for air quality, we need a way to quantify how good the predictions are.
+
+For this, we compare a part of the observed values $y_i$ with the model predictions $\hat{y}_i$ using error measures.
+
+**IMPORTANT**: the data used for testing must not be used in generating/training the model!
+
+Two common  measures are MAE and RMSE.
+
+### Mean Absolute Error (MAE)
+
+This measure is defined as:  
+
+$$
+\mathrm{MAE} = \frac{1}{n} \sum_{i=1}^{n} |y_i - \hat{y}_i|
+$$
+
+It measures the average magnitude of prediction errors, or in other words, by how much the predictions deviate from the observed value on average, with units being the same as in the data (beware of any transformations you did before modelling, though).
+
+## Root Mean Squared Error (RMSE)
+
+This measure is defined as:
+$$ \mathrm{RMSE} = \sqrt{ \frac{1}{n} \sum_{i=1}^{n} \left( y_i - \hat{y}_i \right)^2 } $$
+
+This measurement penalizes large errors more strongly. It thus is a better indicator on how your model is performing in predicting extreme events. 
+
+
+
+

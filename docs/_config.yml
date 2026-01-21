@@ -50,6 +50,10 @@ excerpt_separator: <!--more-->
 
 # Build settings
 markdown: kramdown
+kramdown:
+  math_engine: mathjax
+mathjax: true
+
 # theme: minima
 remote_theme: "GeoMOER/moer-jekyll-theme"
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
