@@ -80,6 +80,11 @@ When there are missing or undefined values in your data, they’ll be indicated 
 | string     |"Hello World"  ;   "Ursus maritimus"  ;   "black" |  
 | boolean    |true  ;   false         |
 
+
+### Dates ###
+Dates are a special kind of data, which got its own page [here](/moer-bsc-base-r/unit02/unit02-07_dates.html)
+
+
 ----
 
 Take the test, to check if you understand everything correctly:
