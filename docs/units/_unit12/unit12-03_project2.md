@@ -11,7 +11,7 @@ header:
 
 In the second project, you will analyse local air quality.
 
-The air quality data set contains the respective measurement times of the data acquisition, the air quality index (AQI), the sensor readings and a measurement completeness status (0 = complete/valid dataset for this hour; 1 = incomplete/corrupted data set for this hour). More information can be found (here)(https://www.umweltbundesamt.de/node/120668#der-luftqualitatsindex-lqi-des-umweltbundesamtes). 
+The air quality data set contains the respective measurement times of the data acquisition, the air quality index (AQI), the sensor readings and a measurement completeness status (0 = complete/valid dataset for this hour; 1 = incomplete/corrupted data set for this hour). More information can be found [here](https://www.umweltbundesamt.de/node/120668#der-luftqualitatsindex-lqi-des-umweltbundesamtes). 
 
 <!-- Please note that, depending on the sensor, different measurement intervals were used (e.g. every minute, hour or day).
 INFO: Eigentlich wurden nur stündliche Messwerte abgerufen. Vielleicht ein anzeigefehler? -->
