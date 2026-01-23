@@ -11,7 +11,7 @@ header:
 
 In the second project, you will analyse local air quality.
 
-The air quality data set contains the respective measurement times of the data acquisition, the air quality index (AQI), the sensor readings and a measurement completeness status (0 = complete/valid dataset for this hour; 1 = incomplete/corrupted data set for this hour). More information can be found here: https://www.umweltbundesamt.de/node/120668#der-luftqualitatsindex-lqi-des-umweltbundesamtes. 
+The air quality data set contains the respective measurement times of the data acquisition, the air quality index (AQI), the sensor readings and a measurement completeness status (0 = complete/valid dataset for this hour; 1 = incomplete/corrupted data set for this hour). More information can be found (here)(https://www.umweltbundesamt.de/node/120668#der-luftqualitatsindex-lqi-des-umweltbundesamtes). 
 
 <!-- Please note that, depending on the sensor, different measurement intervals were used (e.g. every minute, hour or day).
 INFO: Eigentlich wurden nur stündliche Messwerte abgerufen. Vielleicht ein anzeigefehler? -->
@@ -24,9 +24,9 @@ Further calculate how many days per year the measurements were above the limits.
 
 There are guideline values for each pollutant. Detailed information can be found on the website of the Federal Environment Agency, e.g. under the following links:
 
-- Particulate matter: https://www.umweltbundesamt.de/themen/luft/luftschadstoffe-im-ueberblick/feinstaub
-- Nitrogen dioxide: https://www.umweltbundesamt.de/service/uba-fragen/welche-grenzwerte-gibt-es-fuer-die
-- Tabular overview: Air quality in Germany 2023: https://www.umweltbundesamt.de/publikationen/luftqualitaet-2023
+- [Particulate matter](https://www.umweltbundesamt.de/themen/luft/luftschadstoffe-im-ueberblick/feinstaub)
+- [Nitrogen dioxide](https://www.umweltbundesamt.de/service/uba-fragen/welche-grenzwerte-gibt-es-fuer-die)
+- Tabular overview: [Air quality in Germany 2023](https://www.umweltbundesamt.de/publikationen/luftqualitaet-2023)
 
 The limit values for the protection of human health (according to the 39th BImSchV) are particularly relevant for calculations. The following is an example of air quality limit values (Germany/EU) for the components PM10 and NO₂:
 
@@ -35,7 +35,7 @@ The limit values for the protection of human health (according to the 39th BImSc
 | PM10      | 1 day  | 50 µg/m³    | max. 35 times per calender year |
 | NO₂       | 1 hour | 200 µg/m³   | max. 18 times per calendar year |
 
-More information here: https://www.umweltbundesamt.de/themen/luft/luftqualitaet/luftqualitaetswerte-verstehen#1-richtwerte-der-weltgesundheitsorganisation-who
+More information [here](https://www.umweltbundesamt.de/themen/luft/luftqualitaet/luftqualitaetswerte-verstehen#1-richtwerte-der-weltgesundheitsorganisation-who)
 
 # Extra task: Model temporal patterns (obligatory for MSc, voluntary for BSc)
 
