@@ -16,7 +16,7 @@ The air quality data set contains the respective measurement times of the data a
 <!-- Please note that, depending on the sensor, different measurement intervals were used (e.g. every minute, hour or day).
 INFO: Eigentlich wurden nur stündliche Messwerte abgerufen. Vielleicht ein anzeigefehler? -->
 
-Your task is to calculate the average and maximum measurements per sensor, year and month, as well as the year-month combination. Show how air quality changed over time over the whole observation period. Provide also more detailed plots for at least 4 years of the observation period.
+Your task is to calculate the average and maximum measurements per sensor, year and month, as well as the year-month combination. Show how air quality changed over time over the whole observation period. Provide also more detailed plots for at least 4 years of the observation period. A chapter on time formatting is found [here](/moer-bsc-base-r/docs/unit02/unit02-07_dates.html).
 
 **Bonuspoint** if you use a for-loop or apply a function to do it.
 
