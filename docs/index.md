@@ -75,9 +75,9 @@ Please also seriously check and follow the [Information on the Coronavirus](http
 | 12 | ~~09.01.2026~~| winter break              | no course today  |
 | 13 | 16.01.2026	| functions & apply            | automate your script even further |
 ||| **Master R** |
-| 14 | 23.01.2026	| maps, project II             | create a first map and use R to answer a more complicated question from start to finish  |
+| 14 | 23.01.2026	| ~~maps,~~ models, project II             | use modelling to answer a more complicated question from start to finish  |
 | 15 | 30.01.2026	| maps            | more maps and complicated questions  |
-| 16 | 06.02.2026 | project III              | feedback project II  |
+| 16 | 06.02.2026 | project III              | your last project |
 | 17 | 13.02.2026 | wrap up         | time for questions and feedback, individual data analysis problems, goodbye |
 
 
