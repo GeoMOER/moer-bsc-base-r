@@ -6,6 +6,7 @@ header:
   caption: ""
 ---
 
+Download the "Maps.zip" folder.
 Provide a map with the voter turnout per constituency.
 Tip: it might be necessary to define the data types while reading in the data via *colClasses* (see help of read.csv). The the number of district should be a character.
 
