@@ -7,7 +7,26 @@ header:
   caption: 'image by <a href="https://pixabay.com/de/users/athree23-6195572/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4855963">Adrian</a> on <a href="https://pixabay.com/de//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4855963">Pixabay</a>'
 ---
 
+*This marked assignment must be submitted by the 06.03.2026*
 
+You now have analysed changes in forest health and air quality along time. Now, we'll take a deeper dive
+
+Tip: ideally prepare your script in a way that it is easily applicable on different cities/ automatable. But do not overcomplicate things - a long yet working script without automization is better than one highly automated one, which could not be submitted in time.
+
+1) For each city and each inventory year, summarize air quality in the five full years prior to the inventory (mean and max of NO₂ and/or PM10) and summarize forest health for the inventory. Depict these.
+
+2) calculate *differences* in air quality (calculated for the timespan as in 1) and *differences* in forest health for at least 4 more cities and explore whether ΔAirQuality and ΔForestHealth are associated across cities.
+
+3) Extra point: Plot a map of measurement locations (air stations and forest plots). You are free to utilize online ressources and packages to get background maps.
+
+4) Obligatory for MSc/optional for BSc:
+Within your city (and within one inventory year), examine whether plots that are closer in space tend to have more similar forest health.
+Do this by plotting pairwise spatial distance between plots against pairwise differences in plot-level forest health and reporting a descriptive correlation. Tipp: the function **dist()** is your friend. 
+
+
+<!-- 
+
+alte Stichpunkte
 # Aufgabe 3: Graphischer Teil
 # Geeignete Darstellungsformen für die Korrellation von Wald- und Luftdaten finden
 
@@ -27,7 +46,7 @@ lokale Regression (LOESS/LOWESS) über die Punkte legen
 
 # Masteraufgabe:
 # Darstellung auf der Karte
-
+-->
 
 <!-- SoSe25
 The  salamander *Salamandra salamandra* is an amphibian native to central and southern Europe. In Germany, it predominantly inhabits humid, deciduous and mixed forests in mid-elevation mountain regions, where cool streams provide suitable breeding habitats for its aquatic larvae.
