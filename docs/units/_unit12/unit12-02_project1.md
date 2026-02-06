@@ -27,6 +27,7 @@ The following columns from your datatable might be needed for further analysis:
 | **Column** | **Description** |
 |id | Individual identification number for each data row |
 | plot_id | Identification number for data, belonging to a certain plot area |
+| intkey | An ID consisting of the cluster name followed by the plot number within the cluster, tree number within the plot and refferring inventory name |
 | tree_age | Individual age of the measured tree |
 | tree_height | Individual height of the mesured tree |
 | tree_number | Number of measured tree inside a plot area |
