@@ -23,6 +23,8 @@ Within your city (and within one inventory year), examine whether plots that are
 Do this by plotting pairwise differences in plot-level forest health againsr pairwise spatial distance between plots and reporting a descriptive correlation. Tipp: the function **dist()** is your friend. 
 
 4) Extra point: Plot a map of measurement locations (air stations and forest plots). You are free to utilize online ressources and packages to get background maps.
+
+
 <!-- 
 
 alte Stichpunkte
