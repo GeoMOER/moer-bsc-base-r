@@ -54,31 +54,27 @@ Please also seriously check and follow the [Information on the Coronavirus](http
 # Syllabus
 
 
-| Session | Date | Topic | Content |
-|---------|------|-------|---------|
-||| **The basics** |
-| 01 | 24.10.2025 | R Introduction               | introduction of R, R Studio and data types |
-| 02 | 31.10.2025 | objects & indexing           | object types & indexing |
-||| **Data handling** |
-| 03 | 07.11.2025 | subsetting & sorting, data frames              | how to subset and sort your data by values, reading and writing tabulated data  |
-| 04 | 14.11.2025 | characters,transform & aggregate | how to deal with characters and regular expressions ,  transfrom from long to wide format and back|
-| 05 | 21.11.2025 | data manipulation, project 1       | use handy data checks to see whether your data and script are ok, work directly with your first project |
+| Session | Date | Topic | Content | Tasks |
+|---------|------|-------|---------|-------|
+|||| **The basics** |
+| 01 | 13.04.2026 | R Introduction               | introduction of R, R Studio, data types | A01 |
+| 02 | 20.04.2026 | objects & indexing           | object types & indexing | A02 |
+<!-- ab hier Datenbeispiel Klima Marburg -->
+||| **Data handling** | 
+| 03 | 27.04.2026 | subsetting & sorting, data frames              | how to subset and sort your data by values, reading and writing tabulated data  |  A03 |
+| 04 | 04.05.2026 | characters,transform & aggregate | how to deal with characters and regular expressions,  transfrom from long to wide format and back| A04 |
+| 05 | 11.05.2026 | data checks, project 1       | use handy data checks to see whether your data and script are ok, work directly with your first project | P01 |
 ||| **Plotting** |
-| 06 | 28.11.2025    | graphs  I                          | generate some graphs |
-| 07 | 05.12.2025    | discussion project I,  graphs  II  | let's make graphs pretty |
-||| **Project I**|
-| 08 | 12.12.2025 | for /if / else                   | automate your script and use conditions |
+| 06 | 18.05.2026    | graphs                          |  graphs principles | P01 |
+|    | ~~25.05.2026~~    | public holiday, no course today ||
+| 07 | 01.06.2026    | Independent study: graphs  II  | let's make graphs pretty | A05 |
+| 08 | 08.06.2026 | feedback P01, for /if/ else      | automate your script and use conditions | A06 |
 ||| **Automation** |
-| 09 | 19.12.2025 | feedback project 1, graphs III               | feedback project I, learn some more graph types |
-| 10 | ~~26.12.2025~~| public holiday/ winter break            | no course today  |
-| 11 | ~~02.01.2026~~| winter break              | no course today  |
-| 12 | ~~09.01.2026~~| winter break              | no course today  |
-| 13 | 16.01.2026	| functions & apply            | automate your script even further |
-||| **Master R** |
-| 14 | 23.01.2026	| ~~maps,~~ models, project II             | use modelling to answer a more complicated question from start to finish  |
-| 15 | 30.01.2026	| maps            | more maps and complicated questions  |
-| 16 | 06.02.2026 | project III              | your last project |
-| 17 | 13.02.2026 | wrap up         | time for questions and feedback, individual data analysis problems, goodbye |
+| 09 | 15.06.2026 | for/if/else II, project II          |  discuss P2 | P02 |
+| 10 | 22.06.2026 | functions & apply             |   | P02|
+| 11 | 29.06.2026 | maps              |   |
+| 12 | 06.07.2026| project 03 + prediction  | your last project | P03 |
+| 13 | 13.07.2026	| wrap up            | time for questions and feedback, individual data analysis problems, goodbye | P03 |
 
 
 
