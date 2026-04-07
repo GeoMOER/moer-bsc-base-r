@@ -102,7 +102,7 @@ Use vectorization and vector recycling.
 
 What problems could arise?
 
-
+<!--
   <details>
    <summary>Solution Task 4</summary>
       <pre><code>
@@ -112,7 +112,7 @@ What problems could arise?
       # If the cities are not ordered accordingly, the vectorization/recycling will cause issues!
       </code></pre>
   </details>
-
+-->
 
 
 > “Thou shalt never assume that simply because the computer code ran and spit out data of the right shape you have the right answer.” — [Brian McGill](https://dynamicecology.wordpress.com/2016/08/22/ten-commandments-for-good-data-management/)
