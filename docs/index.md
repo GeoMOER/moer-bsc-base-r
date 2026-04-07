@@ -55,21 +55,20 @@ Please also seriously check and follow the [Information on the Coronavirus](http
 
 
 | Session | Date | Topic | Content | Tasks |
-|---------|------|-------|---------|-------|
-|||| **The basics** |
+|---|---|---|---|---|
+| | | | **The basics** |
 | 01 | 13.04.2026 | R Introduction               | introduction of R, R Studio, data types | A01 |
 | 02 | 20.04.2026 | objects & indexing           | object types & indexing | A02 |
-<!-- ab hier Datenbeispiel Klima Marburg -->
-||| **Data handling** | 
+| <!-- ab hier Datenbeispiel Klima Marburg --> | | | **Data handling** |
 | 03 | 27.04.2026 | subsetting & sorting, data frames              | how to subset and sort your data by values, reading and writing tabulated data  |  A03 |
 | 04 | 04.05.2026 | characters,transform & aggregate | how to deal with characters and regular expressions,  transfrom from long to wide format and back| A04 |
 | 05 | 11.05.2026 | data checks, project 1       | use handy data checks to see whether your data and script are ok, work directly with your first project | P01 |
-||| **Plotting** |
+| | | | **Plotting** |
 | 06 | 18.05.2026    | graphs                          |  graphs principles | P01 |
 |    | ~~25.05.2026~~    | public holiday, no course today ||
 | 07 | 01.06.2026    | Independent study: graphs  II  | let's make graphs pretty | A05 |
 | 08 | 08.06.2026 | feedback P01, for /if/ else      | automate your script and use conditions | A06 |
-||| **Automation** |
+| | | | **Automation** |
 | 09 | 15.06.2026 | for/if/else II, project II          |  discuss P2 | P02 |
 | 10 | 22.06.2026 | functions & apply             |   | P02|
 | 11 | 29.06.2026 | maps              |   |
