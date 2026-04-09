@@ -47,18 +47,18 @@ Stack Overflow is a well organized site for help and discussions about programmi
 {% include figure image_path="/assets/images/unit_images/u01/help.png" caption="Using a search engine for help" %}
 
 ---
-### ChatGPT
+### ChatGPT, Claude & Co.
 
-ChatGPT is a language model designed for natural language understanding and generation. It can – theoretically – be used for generating and annotating code and troubleshooting and you are free to use it for solving this courses tasks. There are also several possibilities to [implement ChatGPT in R](https://cran.r-project.org/web/packages/chatgpt/chatgpt.pdf). Note, however, that there are several potential issues:
+Large language models are designed for natural language understanding and generation. They can – theoretically – be used for generating and annotating code and troubleshooting and you are free to use it for solving this courses tasks. There are also several possibilities to [implement ChatGPT in R](https://cran.r-project.org/web/packages/chatgpt/chatgpt.pdf). Note, however, that there are several potential issues:
 
-1.  Accuracy: ChatGPT's responses may not always be accurate, leading to incorrect code generation or data analysis.
+1.  Accuracy: ChatGPT's (and other LMMs) responses may not always be accurate, leading to incorrect code generation or data analysis.
 2.  Privacy: If sensitive or proprietary data is shared with ChatGPT during coding sessions, privacy concerns may arise.
 3.	Legal: Depending on how ChatGPT is used, legal issues like copyright infringement or intellectual property violations could arise
 4.	Ethical Considerations: There may be ethical concerns about the use of AI models like ChatGPT, such as biases in responses or misuse in certain contexts.
-5.  Learning outcome: The possibility of solving tasks with ChatGPT can tempt learners to rely too much on ChatGPT instead of actively solving problems and thinking for themselves, with negative consequences for their general learning outcome. 
+5.  Learning outcome: The possibility of solving tasks with ChatGPT (and other LMMs) can tempt learners to rely too much on ChatGPT instead of actively solving problems and thinking for themselves, with negative consequences for their general learning outcome. 
 
-While ChatGPT might be a great help, it's thus important to use it responsibly, to validate generated code, and to be mindful of legal and ethical considerations while utilizing it in real-world projects. 
-To effectively use ChatGPT for programming-related questions and tasks, and to evaluate whether it's accurate,  you need to have a basic understanding of how R works.
+While LLMs might be a great help, it's thus important to use them responsibly, to validate generated code, and to be mindful of legal and ethical considerations while utilizing it in real-world projects. 
+To effectively use LMMs for programming-related questions and tasks, and to evaluate whether it's accurate,  you need to have a basic understanding of how R works.
 
 {% include figure image_path="/assets/images/unit_images/u01/ChatGPT.png" caption="Using ChatGPT for help" %}
 

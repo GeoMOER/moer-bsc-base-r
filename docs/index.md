@@ -38,7 +38,7 @@ At the end of this course you should be able to
 
 # Setting
 
-This course will take place in a synchronous setting in presence in room **F 14|00A19** every **Friday, 9:15-11:45.** 
+This course will take place in a synchronous setting in presence in room **F 14|00A19** every **Monday, 9:15-11:45.** 
 
 {: .notice--info}
 
@@ -54,31 +54,32 @@ Please also seriously check and follow the [Information on the Coronavirus](http
 # Syllabus
 
 
-| Session | Date | Topic | Content | Tasks |
+| Session | Date | Topic | Units covered | Tasks |
 |---|---|---|---|---|
 | | | | **The basics** |
-| 01 | 13.04.2026 | R Introduction               | introduction of R, R Studio, data types | A01 |
-| 02 | 20.04.2026 | objects & indexing           | object types & indexing | A02 |
+| 01 | 13.04.2026 | introduction of R, R Studio, data types  | 01-02 | A01 |
+| 02 | 20.04.2026 | objects & indexing           | 03-04 | A02 |
 | <!-- ab hier Datenbeispiel Klima Marburg --> | | | **Data handling** |
-| 03 | 27.04.2026 | subsetting & sorting, data frames              | how to subset and sort your data by values, reading and writing tabulated data  |  A03 |
-| 04 | 04.05.2026 | characters,transform & aggregate | how to deal with characters and regular expressions,  transfrom from long to wide format and back| A04 |
-| 05 | 11.05.2026 | data checks, project 1       | use handy data checks to see whether your data and script are ok, work directly with your first project | P01 |
+| 03 | 27.04.2026 | how to subset and sort your data by values, reading and writing tabulated data              | 04 -05 |  A03 |
+| 04 | 04.05.2026 | how to deal with characters and regular expressions,  transfrom from long to wide format and back | 06| A04 |
+| 05 | 11.05.2026 | use handy data checks to see whether your data and script are ok, work directly with your first project     | good practices | P01 |
 | | | | **Plotting** |
-| 06 | 18.05.2026    | graphs                          |  graphs principles | P01 |
+| 06 | 18.05.2026    | graphs principles                          |  07 | P01 |
 |    | ~~25.05.2026~~    | public holiday, no course today ||
-| 07 | 01.06.2026    | Independent study: graphs  II  | let's make graphs pretty | A05 |
-| 08 | 08.06.2026 | feedback P01, for /if/ else      | automate your script and use conditions | A06 |
+| 07 | 01.06.2026    | Independent study: graphs  II  | 07 | A05 |
 | | | | **Automation** |
-| 09 | 15.06.2026 | for/if/else II, project II          |  discuss P2 | P02 |
-| 10 | 22.06.2026 | functions & apply             |   | P02|
+| 08 | 08.06.2026 | feedback P01, automate your script and use conditions      | 08 | A06 |
+| 09 | 15.06.2026 | for/if/else II, project II          |  good practices | P02 |
+| 10 | 22.06.2026 | functions & apply             |  09 | P02|
 | 11 | 29.06.2026 | maps              |   |
-| 12 | 06.07.2026| project 03 + prediction  | your last project | P03 |
-| 13 | 13.07.2026	| wrap up            | time for questions and feedback, individual data analysis problems, goodbye | P03 |
+| 12 | 06.07.2026| project 03 + prediction  | good practices | P03 |
+| 13 | 13.07.2026	| time for questions and feedback, individual data analysis problems, goodbye            | -- | P03 |
 
 
 
 # Deliverables
 
+The coursework consists of regular, individual assignments to be submitted.
 The graded course certificate will be based on a portfolio of three marked project assignments. 
 
 # Preparation and prerequisites

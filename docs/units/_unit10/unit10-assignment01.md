@@ -7,15 +7,15 @@ header:
   caption: 'image by <a href="https://pixabay.com/de/users/athree23-6195572/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4855963">Adrian</a> on <a href="https://pixabay.com/de//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4855963">Pixabay</a>'
 ---
 
-a) Please finish the exercise for [Unit 01](/moer-bsc-base-r/unit01/unit01-08_exercise.html)   
+a) read the rest of Unit 02 and read Unit 03.
 
-b) Choose your favorite book, movie, or game as a theme. Based on this theme, create three vectors (vec1, vec2, and vec3) of different data types (e.g., numeric, character, logical). Each vector should contain at least 5 elements.  
+b) take the quiz in Ilias
 
-c) read the rest of Unit 02 and read Unit 03.
+c) Choose your favorite book, movie, or game as a theme. Based on this theme, create three vectors (vec1, vec2, and vec3) of different data types (e.g., numeric, character, logical). Each vector should contain at least 5 elements.  
 
 d) try to create a dataframe, matrix and list from some of your vectors.
 
-upload your Rscript as described in the prior page.
+upload your Rscript until 19th April latest, 16th April for feedback.
 
 <!--
 

@@ -6,44 +6,11 @@ header:
   caption: 'Image generated with DALL E: [**Environmental Informatics Marburg**](https://www.uni-marburg.de/en/fb19/disciplines/physisch/environmentalinformatics)'
 ---
 
-## Assignments
 We distinguish between unmarked and marked deliverables ("Studien- und Prüfungsleistung"). 
 Both are required for passing the course but only the latter are marked - though not for those who selected this course as a "profile" course.
 
-### Coding exercises, tasks
-Students will need to deliver [unmarked assignments](/moer-bsc-base-r/unit10/unit10-01_Intro.html) in form of coding exercises and different tasks on a regular basis up until the following Thursday.
-
-### Projects
-The three projects are the marked deliverables. They challange you with a real-world example. <!--They will be marked based on the evaluation criteria [here](/moer-bsc-base-r/unit11/unit11-01_project_guidelines.html).--> They need to be delivered by the deadlines and there will be time in the course syllabus to work on them together. It might make sense for you to do single bits of them in parallel to the units.
-
-
-You are allowed to use ChatGPT or similar AIs to solve the assignments. However, you need to present your solution to make sure you understand what you have done.
-{: .notice--info}
-
-<!--
-| Assignment | Topic                                                                             | Units | To be finish until |
-|------------|-----------------------------------------------------------------------------------|-------|---------------------|
-| 01         | [Data & Object types](/moer-bsc-base-r/unit10/unit10-assignment01.html)           | 1-3   | 02.05.2025         |
-| 02         | [Sorting & subsetting](/moer-bsc-base-r/unit10/unit10-assignment02.html)          | 4     | 09.05.2025         |
-| 03           | [Reading & structuring data](/moer-bsc-base-r/unit10/unit10-assignment03.html) | 5      | 16.05.2025       |
-| 04         | [Characters, Merge & Transform](/moer-bsc-base-r/unit10/unit10-assignment04.html) | 6     | 23.05.2025         |
-| Project 1  | [Project 1](/moer-bsc-base-r/unit12/unit12-02_project1.html)                      | -     | 09.06.2025         |
-| 05         | [Vizualizations](/moer-bsc-base-r/unit10/unit10-assignment05.html)                | 7     | 04.07.2025         |
-| 06         | [Projekt 2](/moer-bsc-base-r/unit12/unit12-03_project2.html)                | -     | 30.08.2025         |
--->
-
-
-<!--
-| 03         | [Writing & Reading Data](/moer-bsc-base-r/unit10/unit10-assignment03.html)        | 5     | 16.05.2024         |
-| 05         | [Merge & Transform](/moer-bsc-base-r/unit10/unit10-assignment05.html)             | 6     | 30.05.2025         |
-| 06         | [Starting Projects](/moer-bsc-base-r/unit10/unit10-assignment06.html)             | -     | 02.06.2024         |
-| --         | Prepare Your First Project                                                        | -     | ??.??.2024         |
-| 07         | [ifelse](/moer-bsc-base-r/unit10/unit10-assignment07.html)                        | 8     | ??.??.2025         |
-| --         | for loops - no assignment                                                         | 9     |                    |
-| --         | apply functions - no assignment                                                   | 9     |                    |
-| Project 2  | [Project 2](/moer-bsc-base-r/unit12/unit12-03_project2.html)                      | -     | ??.??.2025         |
-| Project 3  | Project 3                                                                         | -     | ??.??.2025         |
--->
+### Assignments
+Students will need to deliver [unmarked assignments](/moer-bsc-base-r/unit10/unit10-01_Intro.html) in form of coding exercises and different tasks on a regular basis. In order for your work to be incorporated into the feedback, please submit your assignment no later than **Thursday, 6 am**. Submissions are due by **Sunday, 23:59** at the latest. 
 
 <!-- | Assignment | Exercise                   | Read & take quiz to chapter  | To be finish until |
 |------------|----------------------------|------------------------------|--------------------|
@@ -61,12 +28,32 @@ You are allowed to use ChatGPT or similar AIs to solve the assignments. However,
 
 
 
+### Projects
+The three projects are the marked deliverables. They challange you with a real-world example. <!--They will be marked based on the evaluation criteria [here](/moer-bsc-base-r/unit11/unit11-01_project_guidelines.html).--> They need to be delivered by the deadlines and there will be time in the course syllabus to work on them together. It might make sense for you to do single bits of them in parallel to the units.
+
+You are allowed to use ChatGPT or similar AIs to solve the assignments. However, you need to present your solution to make sure you understand what you have done.
+{: .notice--info}
+
+<!--
+
+<!--
+| 03         | [Writing & Reading Data](/moer-bsc-base-r/unit10/unit10-assignment03.html)        | 5     | 16.05.2024         |
+| 05         | [Merge & Transform](/moer-bsc-base-r/unit10/unit10-assignment05.html)             | 6     | 30.05.2025         |
+| 06         | [Starting Projects](/moer-bsc-base-r/unit10/unit10-assignment06.html)             | -     | 02.06.2024         |
+| --         | Prepare Your First Project                                                        | -     | ??.??.2024         |
+| 07         | [ifelse](/moer-bsc-base-r/unit10/unit10-assignment07.html)                        | 8     | ??.??.2025         |
+| --         | for loops - no assignment                                                         | 9     |                    |
+| --         | apply functions - no assignment                                                   | 9     |                    |
+| Project 2  | [Project 2](/moer-bsc-base-r/unit12/unit12-03_project2.html)                      | -     | ??.??.2025         |
+| Project 3  | Project 3                                                                         | -     | ??.??.2025         |
+-->
+
 ## Final grade
 Your final grade will consist of the project portfolio.
 You may use the following lines of code for calculating your final grade, for example:
 
 ```r
-assignment_1 <- 5
+assignment_1 <- 12
 assignment_2 <- 6
 assignment_3 <- 8
 
@@ -74,8 +61,9 @@ final_grade <- round(mean(c(assignment_1, assignment_2, assignment_3)))
 final_grade
 ```
 
-Note that you do not have to achieve five points in each assignment.
-However, passing the course requires at least five points in regard to your final grade and submitting the unmarked assignments in time.
+Passing the course requires at least five points in regard to your final grade and submitting the unmarked assignments in time.
+Note: Depending on your module registration, this course may be ungraded. Submissions are still mandatory and will be marked as pass/fail as described above.
+
 {: .notice--info}
 
 

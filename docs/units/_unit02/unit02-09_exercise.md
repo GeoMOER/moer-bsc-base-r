@@ -48,19 +48,6 @@ set.seed(1234)
 </details>
 -->  
 
-**5.** What classes do the vectors have? Which classes should they have?
-
-<!--
-<details>
-  <summary>Solution Task 5</summary>
-    <code>
-    class(precipitation)  
-    class(p_type)  
-    class(years)  
-
-    </code>
-</details>
--->
 
 <!--
 WiSe 24

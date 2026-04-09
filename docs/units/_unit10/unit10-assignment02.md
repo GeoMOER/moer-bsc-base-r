@@ -7,6 +7,9 @@ header:
 ---
 
 
+
+
+<!-- WiSe 2025
 The data for this exercise was downloaded from [Ourworldindata](https://ourworldindata.org/co2-and-greenhouse-gas-emissions),   
 Friedlingstein et al.: Global Carbon Budget 2023, Earth Syst. Sci. Data, 15, 5301-5369, https://doi.org/10.5194/essd-15-5301-2023 
 
@@ -33,7 +36,7 @@ exclude <- c(
    <summary>Hint </summary>
      read [this chapter](/moer-bsc-base-r/unit04/unit04-03_subsetting.html) carefully
   </details>
--->
+
     
 b) Which country produced the highest gas and the highest oil CO2 emissions in 2020? Answer by using R code, not sorting or filtering the table!
 
