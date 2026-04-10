@@ -8,6 +8,7 @@ header:
 ## Course Etiquette
 
 This course is held in a hybrid format, meaning some of you are joining in person and some online — here are a few guidelines to make this work smoothly for everyone.
+Please use your official students-mail for correspondence.
 
 Attendance is expected throughout the entire course, including the final sessions. Unless you are enrolled via MO:VE, in-person attendance is expected. Joining online is fine in exceptional circumstances (e.g., emergencies). 
 
@@ -19,6 +20,8 @@ There are no stupid questions — if something is unclear, please speak up soone
 
 Please make use of the tools provided on ILIAS, as they are there to support your learning.
 Out of consideration for everyone, please avoid eating during sessions — this goes for both online participants (microphone!) and those in the classroom.  
+
+<!-- add that I will only respond to students. mail from now on!! -->
 
 
 ## FAQ
