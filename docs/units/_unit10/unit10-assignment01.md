@@ -1,6 +1,5 @@
 ---
 title: Unmarked Assignment 01
-published: true
 header:
   image: "/assets/images/unit_images/u01/header.jpg"
   image_description: "assignment"
@@ -9,13 +8,11 @@ header:
 
 a) read the rest of Unit 02 and read Unit 03.
 
-b) take the quiz in Ilias
+b) use your Script started in Exercise of Unit 1
 
-c) use your Script started in Exercise of Unit 1
+c) Choose your favorite book, movie, or game as a theme. Based on this theme, create three vectors (vec1, vec2, and vec3) of different data types (e.g., numeric, character, logical). Each vector should contain at least 5 elements.  
 
-d) Choose your favorite book, movie, or game as a theme. Based on this theme, create three vectors (vec1, vec2, and vec3) of different data types (e.g., numeric, character, logical). Each vector should contain at least 5 elements.  
-
-e) try to create a dataframe, matrix and list from some of your vectors.
+d) try to create a dataframe, matrix and list from some of your vectors.
 
 upload your Rscript until 19th April latest, 16th April for feedback via Ilias - Assignments
 
