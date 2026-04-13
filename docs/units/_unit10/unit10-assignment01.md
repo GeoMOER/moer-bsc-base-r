@@ -6,7 +6,7 @@ header:
   caption: 'image by <a href="https://pixabay.com/de/users/athree23-6195572/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4855963">Adrian</a> on <a href="https://pixabay.com/de//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4855963">Pixabay</a>'
 ---
 
-a) read the rest of Unit 02 and read Unit 03.
+a) read the  Unit 02 and  Unit 03.
 
 b) use your Script started in Exercise of Unit 1
 
