@@ -30,17 +30,27 @@ Name your assignment and save it at a preferred folder. Notice that the Script-N
 ## How to upload your assignment
 
 As a student of the University of Marburg, you are supposed to upload your assignments into ILIAS.
-Do so by opening the "Assignment" folder on the course page and choose the matching subfolder.
+Do so by opening the "Assignment" module on the course page.
 
-{% include figure image_path="/assets/images/unit_images/u10/Assignment_10_cut.png" caption="Folder structure in ILIAS" %}
+{% include figure image_path="/assets/images/unit_images/u10/Assignment_07_cut.png" caption="Assignment module in the ILIAS course" %}
 
-Insight this folder use the drop-down menu from "Neues Objekt hinzufügen" to choose "Datei".
+Insight this module use the "Submit file" button.
 
-{% include figure image_path="/assets/images/unit_images/u10/Assignment_09_cut.png" caption="Use upload otion *Datei* " %}
+{% include figure image_path="/assets/images/unit_images/u10/Assignment_08_cut.png" caption="Use upload option *Submit file* " %}
 
-Click onto "Dateien wählen" to find your assignment R-Script. The scripts name will show above the button.
-Now klick "Dateien hochladen" on the right hand side.
+Now decide whether you want to upload a single file or multiple files at once.
+"Upload file" lets you select a single file (1), while "Upload multiple files as a ZIP archive" allows you to upload multiple files simultaneously (2).
 
-{% include figure image_path="/assets/images/unit_images/u10/Assignment_11_cut.png" caption="1. Upload; 2. Submit" %}
+{% include figure image_path="/assets/images/unit_images/u10/Assignment_09_cut.png" caption="1. Single file; 2. multiple files." %}
+
+1) If you decided to upload a single file, click onto "Select file" to find your assignment R-Script. The scripts name will show above the button.
+Now klick "Save" on the right hand side.
+
+{% include figure image_path="/assets/images/unit_images/u10/Assignment_10_cut.png" caption="1. Upload; 2. Submit" %}
+
+2) If you decided to upload multiple files at once, select all files via the "Select file" button first and than click "Upload".
+ILIAS will combine all selected files into a ZIP archive.
+
+{% include figure image_path="/assets/images/unit_images/u10/Assignment_11_cut.png" caption="1. Select multiple files; 2. Upload into ZIP archive" %}
 
 Congratulations! You have submitted your Assignment.
