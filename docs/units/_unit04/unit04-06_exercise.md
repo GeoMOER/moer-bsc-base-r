@@ -8,8 +8,6 @@ header:
 
 
 
-**Recap - Assignment 01**
-
 Choose your favorite book, movie, or game as a theme. Based on this theme, create three vectors (vec1, vec2, and vec3) of different data types (e.g., numeric, character, logical). Each vector should contain at least 5 elements.
 
 Try to create a dataframe, matrix and list from some of your vectors.
@@ -20,7 +18,7 @@ Try to create a dataframe, matrix and list from some of your vectors.
 2) combine two of your vectors to "vec4". Does the class change? <br>
 3) select your favourite element (e.g. character) from both your data frame and your matrix. For the data frame, present two different solutions. <br>
 4) select the second element from your list.  <br>
-5) Load the emissions data set from Assignment 02. Sort the dataset by emissions. In which year, in which country and from which source did the largest annual CO2 emissions per capita originate?  <br>
+5) Load the emissions data set from the data folder. Sort the dataset by emissions. In which year, in which country and from which source did the largest annual CO2 emissions per capita originate?  <br>
 6) Which countries produced the 10 greatest oil emissions in 2020?  <br>
 7) How many countries produced fewer gas emissions in 2020 than the average (mean)?  <br>
 
