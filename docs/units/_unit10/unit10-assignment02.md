@@ -1,10 +1,19 @@
 ---
 title: Unmarked Assignment 02 - Object types
-published: false
+published: true
 header:
   image: "/assets/images/unit_images/u01/header.jpg"
   caption: 'image by <a href="https://pixabay.com/de/users/athree23-6195572/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4855963">Adrian</a> on <a href="https://pixabay.com/de//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4855963">Pixabay</a>'
 ---
+
+The data for this assignment was provided by the city of Marburg, which installed a sensor network across the city to get information about temperature and humidity hot spots.
+
+a) Download the file "MarburgTemperature.RData" from "Data / Exercises and Assignments". When you click on the folder icon in your Environment and navigate to this file, you can load the `MarburgTemperature` dataset into your workspace. 
+{% include figure image_path="/assets/images/unit_images/u10/loaddata.png" caption="You need to click here" %}
+
+b) find the hottest temperture and the date when it has been measured over all three data sets.
+
+
 
 
 
