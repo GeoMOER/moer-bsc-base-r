@@ -1,5 +1,5 @@
 ---
-title: Unmarked Assignment 02 - Object types
+title: Unmarked Assignment 02 
 published: true
 header:
   image: "/assets/images/unit_images/u01/header.jpg"
