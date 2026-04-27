@@ -11,7 +11,7 @@ The data for this assignment was provided by the city of Marburg, which installe
 a) Download the file "MarburgTemperature.RData" from "Data / Exercises and Assignments". When you click on the folder icon in your Environment and navigate to this file, you can load the `MarburgTemperature` dataset into your workspace. 
 {% include figure image_path="/assets/images/unit_images/u10/loaddata.png" caption="You need to click here" %}
 
-b) find the hottest temperture and the date when it has been measured over all three data sets.
+b) find the hottest temperature and the date when it has been measured over all three data sets.
 
 
 

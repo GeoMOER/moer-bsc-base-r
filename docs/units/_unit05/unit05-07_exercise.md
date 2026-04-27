@@ -9,6 +9,15 @@ header:
   caption: "Photo by [Free-Photos](https://pixabay.com/photos/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=336373) [Pixabay](https://pixabay.com/de/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=336373)"
 ---
 
+1) read in the emissions data set from unit 4.
+2) write them out as .csv and as .txt data - do that in an folder which you created.
+3) open both files in excel, make them readable to you and safe them.
+4) try to read them in again.
+
+
+
+
+<!-- WiSe 25 
 Copy the code snippets provided bellow into your script and create a combined dataset named `Emission_per_Country` using rbind(). That code has some errors. Note all necessary corrections you must apply to the code.<br>
 Write out the dataframe `Emission_per_Country` to your local drive using the `write.csv2()` and the `write.table()` function. Compare both results. What are the differences?
 Create a folder called "Output". Now, writeout the dataframes again, but this time, they shall be saved within the folder "output".
@@ -80,3 +89,5 @@ df_6 <- data.frame(
   Change_1990_2021_Percent = c(-33.1, -44.1, -14.3, 0.4)
   )
 ```
+
+-->

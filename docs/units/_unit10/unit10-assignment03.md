@@ -5,7 +5,32 @@ header:
   image: "/assets/images/unit_images/u01/header.jpg"
   caption: 'image by <a href="https://pixabay.com/de/users/athree23-6195572/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4855963">Adrian</a> on <a href="https://pixabay.com/de//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4855963">Pixabay</a>'
 ---
-Please read through the chapter 5 and do the exercise.
+
+The data for this assignment was provided by the city of Marburg, which installed a sensor network across the city to get information about temperature and humidity hot spots.
+
+1. Create a template for how you want to organize your future projects (folderstructure). 
+  Submit this in form of an .txt file with your .zip (see below)
+  This example shows how you *could* structure it - it's by no means good and shall just illustrate what is meant by this task. Adapt it to your specific style, requirements and what you think is good.
+  Add a README.txt which contains what you think is important for data descriptions.
+
+  ```
+  Folderstructure
+
+  └── my_awesome_project          | Name of the project, see rules
+      ├── data                    | all data files go here
+      ├── run_analyses.R          | Script to run your super analysis, add versioning numbers etc
+
+  ```
+
+2. Create a folder structure accordingly for this assignment, download the files "Firmanaiplatz" and "Schlossparkbuehne" and save them in the folder of your choice.  
+
+3. Read in the data frames using a suitable function-argument combination. Check with **str()** whether the data is in the right format.  
+
+4. Extract from one of the dataframes the temperature of the year 2024 and safe it as a .csv in your folder structure. Zip your whole folder, including the folderstructure description created in (1) and upload it.
+
+
+
+
 <!--
 The data for this exercise was downloaded from [Ourworldindata](https://ourworldindata.org/co2-and-greenhouse-gas-emissions),   
 Friedlingstein et al.: Global Carbon Budget 2023, Earth Syst. Sci. Data, 15, 5301-5369, https://doi.org/10.5194/essd-15-5301-2023 
@@ -30,5 +55,3 @@ Friedlingstein et al.: Global Carbon Budget 2023, Earth Syst. Sci. Data, 15, 530
 4. Extract from one of the dataframes the C02 emissions of the year 2020 and safe it as a .csv in your folder structure. Zip your whole folder and upload it
 --->
 
-Upload this exercise by 13.05.25 under the "Assignment" folder in Ilias in the following format:
-E03_Lastname_Firstname.zip
