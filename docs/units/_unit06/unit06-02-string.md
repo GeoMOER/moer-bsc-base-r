@@ -157,7 +157,10 @@ The result is a list with the different sentences.
 If you do target one specific word, but certain positions or characters, you can use regular expressions. Regular expressions are a sequence of characters that define a search pattern, mainly for the use in pattern matching with strings, or string matching. In R, regular expressions are used with several functions to identify, replace, or split strings according to specified patterns.
 
 
-Metacharacter/Construct	Description
+<u>Metacharacter/Construct	Description</u>
+
+***Note:** When using these patterns in R, remember that backslashes must be doubled (e.g. "\ \s" instead of "\s"), because R treats the backslash as an escape character itself.*
+
 1. **^**	Matches the beginning of a line
 2. **$**	Matches the end of a line
 3. **.**	Matches any single character except newline
