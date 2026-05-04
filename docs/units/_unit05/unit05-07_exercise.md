@@ -1,6 +1,6 @@
 ---
 title: "Exercise: Greenhouse gases in CO₂ equivalents"
-published: true
+published: false
 toc: TRUE
 toc_float: TRUE
 header:
