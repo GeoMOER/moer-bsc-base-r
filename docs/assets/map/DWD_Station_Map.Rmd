@@ -1,0 +1,46 @@
+---
+title: "DWD_Station_Map"
+author: "ECM102"
+date: "2026-05-08"
+output: html_document
+---
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+library(readr)
+library(leaflet)
+
+# Daten laden
+Wetterstationen <- read_table("Stationen.txt", col_names = FALSE, skip = 2)
+
+# Spaltennamen vergeben
+colnames(Wetterstationen) <- c("Station_ID", "von_datum", "bis_datum", 
+                               "Stationshoehe", "geoBreite", "geoLaenge", 
+                               "Stationsname", "Bundesland")
+
+# Karte erstellen
+leaflet(data = Wetterstationen) %>%
+  addTiles() %>%
+  addMarkers(
+    lng = ~geoLaenge, 
+    lat = ~geoBreite, 
+    popup = ~paste0("<b>Name:</b> ", Stationsname, "<br>", "<b>ID:</b> ", Station_ID),
+    clusterOptions = markerClusterOptions()
+  )
+
+```
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+# Karte als Widget exportieren
+DWD_Station_Map <- leaflet(data = Wetterstationen) %>%
+  addTiles() %>%
+  addMarkers(
+    lng = ~geoLaenge, 
+    lat = ~geoBreite, 
+    popup = ~paste0("<b>Name:</b> ", Stationsname, "<br>", "<b>ID:</b> ", Station_ID),
+    clusterOptions = markerClusterOptions()
+  )
+  
+library(htmlwidgets)
+saveWidget(DWD_Station_Map, "dwd_map.html", selfcontained = TRUE)
+
+```
