@@ -20,7 +20,7 @@ Your reports can be made by extensive comments in the R script or by creating an
 
 ### Evaluation Criteria
 
-<u>1. Data Cleaning, Preparation and Transformation (25%)</u>
+<u>1. Data Cleaning, Preparation and Transformation</u>
 
   Correctness and completeness of data cleaning.
   Appropriateness of handling data inconsistencies.
@@ -28,19 +28,27 @@ Your reports can be made by extensive comments in the R script or by creating an
   Accuracy and efficiency in transforming the data.
   Proper reshaping of data for analysis.
 
-<u>2. Effective and structured coding (25%)</u>
+<u>2. Effective and structured coding</u>
   
   Executable script without necessary corrections besides setting the working directory
   clear structure, fitting naming of objects, code with high reproducibility and low susceptibility to errors.
 
-<u>3. Data Visualization (25%)</u>
+<u>3. Data Visualization</u>
   
   Appropriateness of plots created.
   Customization and clarity of visualizations.
   Ability to highlight key trends and insights through visualizations.
 
-<u>4. Report and Presentation (25%)</u>
+<u>4. Report and Presentation</u>
   
+  Data sources —  Origin of data clearly stated.
+  Data overview —  Time period, temporal/spatial resolution, and any gaps or quality issues reported
+  Data transformations — Key processing steps documented concisely.
+  Tone — Descriptive and precise. 
+  Conclusions — A clear, direct answer to the guiding question, discussion of results.
+
+
+
   For more information or questions, please refer to the FAQ section or leave a comment below.
 
 <script src="https://utteranc.es/client.js" repo="GeoMOER/moer-bsc-base-r" issue-term="Projects" theme="github-light" crossorigin="anonymous" async> </script> 
