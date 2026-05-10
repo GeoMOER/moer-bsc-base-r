@@ -11,7 +11,7 @@ header:
  
 ## Background
 Rivers don't react to rain instantly — water has to travel through the landscape and collect in tributaries before affecting the water level. Understanding how and how fast a river responds to rainfall is at the heart of flood forecasting and water resource management.
-In this project, you will work with **real hydrological and meteorological data** to explore the relationship between precipitation and river water levels. By the end, each of you will have analyzed a stretch of a real German river 
+In this project, you will work with **real hydrological and meteorological data** to explore the relationship between precipitation and river water levels. By the end, each of you will have analyzed a stretch of a real German river.
 
 ---
  
@@ -27,26 +27,14 @@ When selecting your stations, make sure they:
 - All belong to the **same river** (*Gewässer*)
 - Include **long-term water level records** — look for the option *"Download langfristiger Wasserstände (Rohdaten)"*
 - Are **not already claimed** by another student (see coordination note below)
-> **Coordination:** To avoid duplicate stations and ensure good spatial coverage, please register your 5 chosen stations in the shared list in the ILIAS course folder before downloading anything. Rivers with many stations (e.g. the Elbe has ~25) can be split across multiple students
+> **Coordination:** To avoid duplicate stations and ensure good spatial coverage, please register your 5 chosen stations in the shared list in the ILIAS course folder before downloading anything. Rivers with many stations (e.g. the Elbe has ~25) can be split across multiple students.
+
+---
 
 ## Interactive Map — DWD Weather Stations
 
-### DWD Weather Station Map
+### Your Weather Station
 
-To make life a bit more easy, this map showes all DWD weather stations.
-Use this map to identify DWD weather stations near your study area.
-
-***Task:*** Zoom into the map and click on a marker to see the station name and ID.
-Find the closest station to your water level monitoring site.
-Use the retrieved ID to download the relevant meteorological datasets directly from the DWD Open Data portal.
-
-<iframe src="dwd_map.html" width="100%" height="400px" style="border:none;"></iframe>
-
-
----
- 
-## Your Weather Station
- 
 For each of your gauging stations, you'll also need **hourly precipitation data** from a nearby DWD (German Weather Service) station.
  
 **Where to find the data:**
@@ -55,8 +43,21 @@ For each of your gauging stations, you'll also need **hourly precipitation data*
 
 ---
 
+### DWD Weather Station Map
+
+To make life a bit more easy, this map showes all DWD weather stations.
+Use this map to identify DWD weather stations near your study area.
+
+> **Task:** Zoom into the map and click on a marker to see the station name and ID.
+Find the closest station to your gauging station.
+Use the retrieved ID to download the relevant meteorological datasets directly from the DWD Open Data portal.
+
+<iframe src="dwd_map.html" width="100%" height="400px" style="border:none;"></iframe>
+
+---
+
 ## Part 1 — Getting to Know Your Data
- 
+
 ### The question:
 > **Is there a direct relationship between precipitation and water level at your station? When do water levels peak — and was it actually raining at the time?**
  
@@ -79,18 +80,23 @@ Download and import the datasets for **one** of your gauging stations and its ne
 | Weather station | `R1` | Precipitation [mm] |
 | Weather station | `RS_IND` | Precipitation indicator (0 = none, 1 = yes, -999 = missing) |
 
+---
 
 ### Task 2 — Inspect & Clean
  
-Take a close look at your data before doing anything with it and summarize it in your [report](unit12/unit12-01_project_guidelines.html).
+Take a close look at your data before doing anything with it and summarize it in your [report](/moer-bsc-base-r/unit12/unit12-01_project_guidelines.html).
 
-*Things to think about: What data types did R assign on import — are they correct? Do you have missing values? is your time series without gaps?*
+*Things to think about: What data types did R assign on import — are they correct? Do you have missing values? Is your time series without gaps?*
 
-### Task 3 - one dataframe to rule them all
+---
 
-Create a single merged dataframe exists, at hourly resolution, covering the overlapping time period of both datasets.
+### Task 3 — One dataframe to rule them all
+
+Create a single merged dataframe with an hourly resolution that covers the overlapping time period of both datasets.
 
 *Things to think about: What does merging on a timestamp require?*
+
+---
 
 ### Task 4 — Is Rain Making the River Rise?
  
@@ -115,9 +121,11 @@ Calculate monthly averages for both precipitation and water level across your fu
 - In which month is flood risk theoretically highest at your station?
 - Is the rainiest month also the month with the highest water levels? 
 
+---
+
 ### Bonus — Visualisation
  
-Create one or two plot that brings your findings to life and summarize your results.
+Create one or two plots that bring your findings to life and summarize your results.
  
 
 
