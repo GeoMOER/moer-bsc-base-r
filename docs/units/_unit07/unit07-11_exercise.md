@@ -1,10 +1,20 @@
 ---
 title: "Exercise: Data Visualization in R"
-published: false
+published: true
 header:
   image: "/assets/images/title/title_1600_500.jpg"
   caption: 'Image: [**Environmental Informatics Marburg**](https://www.uni-marburg.de/en/fb19/disciplines/physisch/environmentalinformatics)'
 ---
+
+1. Go back to the climate data of the three stations in Marburg.
+2. Compare the number of temperature measurements across the three stations graphically.
+3. Plot temperature over time for one station
+
+
+
+
+
+<!--
 
 1. <br/>
     a) Download the dataset "eu_election_forecast" and read it into R. Convert the Column "Quelle" to "Source". Make sure that each column as the correct data type. <br/>
@@ -18,3 +28,5 @@ header:
     h) Create a boxplot to compare the distribution of percentages of CDU/CSU between all forecasts of 2024.<br/>
 <br/>
 2. First, create a simple scatter plot where you plot percentage of AFD votes (Y-axis) against time (X-axis) in 2024. Then change the plot type to a plot where the points are sensibly connected with lines. What step is essential in this process?
+
+-->
