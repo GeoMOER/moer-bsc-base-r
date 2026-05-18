@@ -13,7 +13,7 @@ header:
 Rivers don't react to rain instantly — water has to travel through the landscape and collect in tributaries before affecting the water level. Understanding how and how fast a river responds to rainfall is at the heart of flood forecasting and water resource management.
 In this project, you will work with **real hydrological and meteorological data** to explore the relationship between precipitation and river water levels. By the end, each of you will have analyzed a stretch of a real German river.
 
->**Submission deadline:** Please submit your first project till 26.05.2025 via ILIAS.
+>**Submission deadline:** Please submit your first project till 02.06.2025 via ILIAS.
 
 ---
  
