@@ -1,17 +1,18 @@
 ---
 title: "Exercise: Fancy Data Visualization in R"
-published: false
+published: true
 header:
   image: "/assets/images/title/title_1600_500.jpg"
   caption: 'Image: [**Environmental Informatics Marburg**](https://www.uni-marburg.de/en/fb19/disciplines/physisch/environmentalinformatics)'
 ---
 
-Consider the following plot:
+Consider the following plot, which depicts the predictions which depicts the overall predictions on how different parties will fare in the EU elcetion 2024 and the final results in Hessia:
 
 
 {% include figure image_path="/assets/images/unit_images/u07/EU_Election.png" %}
 
- To create the right plot, download the data "HessenErgebnisse" and "eu_election_forecast" from Ilias. IMPORTANT: The last two lines contain the information for whole Hessia in "HessenErgebnisse", and the city of Marburg respectively - handle them accordingly. 
+
+ To create the right plot, download the data "HessiaErgebnisse" (results for Hessia) and "eu_election_forecast" from Ilias. IMPORTANT: The last two lines contain the information for whole Hessia in "HessenErgebnisse", and the city of Marburg respectively - handle them accordingly. 
 
 Try to recreate the shown plot.
 

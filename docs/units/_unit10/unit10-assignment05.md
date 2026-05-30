@@ -1,18 +1,20 @@
 ---
-title: "Unmarked Assignment 05 - Transforming Data again"
-published: false
+title: "Unmarked Assignment 05 - Plot"
+published: true
 header:
   image: "/assets/images/unit_images/u01/header.jpg"
   caption: 'image by <a href="https://pixabay.com/de/users/athree23-6195572/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4855963">Adrian</a> on <a href="https://pixabay.com/de//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4855963">Pixabay</a>'
 ---
 
+Please carefully go through Unit 07 and submit the [2nd Exercise in Unit 07](/moer-bsc-base-r/unit07/unit07-12_exercise2.html) by 07.06.2027 latest.
+
+<!--
 Let's practice data handling a little bit more!
 
 For this, you will work with with real-world financial time-series data in the ETF.zip "data_ewj_manipulated" and  "data_spy_manipulated", that has been manipulated by wicked people. 
 
 1) You know that the data is not "clean". Get an overview of the data using handy functions shown in Tipp 2.4 of [good practices](/moer-bsc-base-r/unit13/unit13-good_practices_0engl.html) and make sure the data to do necessary adjustments. Get also an overview of NAs.  
 
-<!-- we might ignore the 9999 here-->
 
 Colunn explanation:
 X.TICKER. – Identifier of the ETF, similar to a product name or code   
