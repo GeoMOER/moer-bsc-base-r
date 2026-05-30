@@ -9,7 +9,7 @@ header:
 
 ## Writing Project Reports
 
-Your reports can be made by extensive comments in the R script or by creating an markdown.
+Your reports can be made by extensive comments in the R script, by creating a markdown or composing a text document e.g. with word or pdf.
 
 
 - add a short description of the datasets used in the project - use summary statistics to get an better overview
