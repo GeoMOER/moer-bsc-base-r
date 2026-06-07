@@ -1,6 +1,6 @@
 ---
 title: Exercise If/Else and While-loops
-published: false
+published: true
 header:
   image: /assets/images/unit_images/u08/header.png
   image_description: "loop"
@@ -9,5 +9,5 @@ header:
 
 1.  
 - Read in the "Trends.csv". Use both "if else" and "ifelse" to print out the text "percentages lost" or "percentages won" when the CDU/CSU lost or won votes from the last period to the new elections.
-- Now create a third category, called "stable", which comprises all changes which are fewer than 5% lost or won Again, print the text.
-- Now print whether there were trend changes, i.e. when the party has lost from period 2014-2019 to 2019-2024 but increased afterwards, print "recovery", else, if the trend was positive, but changed to negative, print "hard losses", if the trend -be it negative or positive- was stable, print "no change"
+- Now create a third category, called "stable", which comprises all changes which are fewer than 5% lost or won again, print the text.
+- Now print whether there were trend changes, i.e. when the party has lost from period 2014-2019 to 2019-2024 but increased afterwards, print "recovery", else, if the trend was positive, but changed to negative, print "hard losses", if the trend -be it negative or positive- was stable, print "no change".

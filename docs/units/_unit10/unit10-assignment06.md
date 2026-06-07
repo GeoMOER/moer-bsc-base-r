@@ -1,15 +1,14 @@
 ---
 title: "Unmarked Assignment 06 - apply functions"
-published: false
+published: true
 header:
   image: "/assets/images/unit_images/u01/header.jpg"
   caption: 'image by <a href="https://pixabay.com/de/users/athree23-6195572/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4855963">Adrian</a> on <a href="https://pixabay.com/de//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4855963">Pixabay</a>'
 ---
 
-Please complete [exercise 2 of Unit 09](/moer-bsc-base-r/unit08/unit09-07_exercise2.html)
+Please complete the [exercise of Unit 09](/moer-bsc-base-r/unit08/unit09-07_exercise1.html)
 
-Upload this assignment by 22.01.26 under the "Assignment" folder in Ilias in the following format:
-A06_Lastname_Firstname.zip
+Upload this assignment by 14.06.26.
 
 <!--
 1.) Please download the Project (Ilias-> Data -> "Microclimate-landuse") which was developed in parts together in the course based on the ([Example in "good practices"](/moer-bsc-base-r/unit12/unit12-good_practices_0engl.html)).  

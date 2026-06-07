@@ -8,11 +8,16 @@ header:
   caption: "Photo by [Christopher Kuszajewski](https://pixabay.com/de/users/kuszapro-369349/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=583537) [from Pixabay](https://pixabay.com/de/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=583537)"
 ---
 
+Revisit the exercise in unit 8. Try to plot the lines in the left graph using a for-loop.
+
+
+
+<!-->
 1. Download the data set "Hessia_votes.csv".  
 2. Create -for each party!- a barplot comparing the percentage of votes of 2021 and 2025.  
 3. Add the text "looser" or "winner" to the plot if the party hast lost/won votes
 4. Extra, voluntary task: only display looser/winner if the difference is larger than 5% decrease/increase. If it is below 5% decrease/increase, add the text "stable" 
-
+-->
 
 
 
