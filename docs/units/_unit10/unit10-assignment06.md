@@ -6,7 +6,8 @@ header:
   caption: 'image by <a href="https://pixabay.com/de/users/athree23-6195572/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4855963">Adrian</a> on <a href="https://pixabay.com/de//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4855963">Pixabay</a>'
 ---
 
-Please complete the [exercise of Unit 09](/moer-bsc-base-r/unit08/unit09-07_exercise1.html)
+Please complete the [exercise of Unit 08](/moer-bsc-base-r/unit08/unit08-05_exercise.html)
+Please complete the [exercise of Unit 09](/moer-bsc-base-r/unit09/unit09-06_exercise1.html)
 
 Upload this assignment by 14.06.26.
 

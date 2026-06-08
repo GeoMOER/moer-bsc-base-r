@@ -8,20 +8,16 @@ header:
   caption: "Photo by [Christopher Kuszajewski](https://pixabay.com/de/users/kuszapro-369349/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=583537) [from Pixabay](https://pixabay.com/de/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=583537)"
 ---
 
-Revisit the exercise in unit 8. Try to plot the lines in the left graph using a for-loop.
-
-
-
-<!-->
-1. Download the data set "Hessia_votes.csv".  
-2. Create -for each party!- a barplot comparing the percentage of votes of 2021 and 2025.  
-3. Add the text "looser" or "winner" to the plot if the party hast lost/won votes
-4. Extra, voluntary task: only display looser/winner if the difference is larger than 5% decrease/increase. If it is below 5% decrease/increase, add the text "stable" 
--->
+Revisit the exercise in unit 7. Try to plot the lines in the left graph using a for-loop.
 
 
 
 <!--
+1. Download the data set "Hessia_votes.csv".  
+2. Create -for each party!- a barplot comparing the percentage of votes of 2021 and 2025.  
+3. Add the text "looser" or "winner" to the plot if the party hast lost/won votes
+4. Extra, voluntary task: only display looser/winner if the difference is larger than 5% decrease/increase. If it is below 5% decrease/increase, add the text "stable" 
+
 1. - Copy the following lines:
       ```
       df1 <- data.frame(X = c(1, 2, 3, 4, 5), Y = c(10, 12, 8, 15, 20))
@@ -35,8 +31,7 @@ Revisit the exercise in unit 8. Try to plot the lines in the left graph using a 
    - Use this list to generate a loop that plots X against Y for each dataset.
    - Color the points red if the sum of X is greater than 20.
    - add the title of the plot a defined in object "titles".
--->
-<!--
+
 ## Part2
 Background: Within the project "Nature 4.0", an "Automated Moth Trap" (AMT) was tested, which attracts moths using UV light and photographs them at regular intervals. Ideally, the resulting images are analyzed by AI, which requires considerable training. The annotations (bounding boxes) made by the AI are stored in .yaml files. 
 
