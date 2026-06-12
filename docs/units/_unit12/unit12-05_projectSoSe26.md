@@ -131,10 +131,86 @@ Create one or two plots that bring your findings to life and summarize your resu
  
 
 
-<!--
-## Teil 2 ###
+# Part 2 — Automation Across the River
+ 
+## Background
+ 
+In Part 1, you developed a workflow for **one** gauging station and its nearest weather station. In Part 2, you'll scale that workflow up to **all five** of your chosen stations — and use the combined dataset to look for patterns along your river.
 
+---
 
+## Task 1 — Automate Import & Merging
+ 
+Apply the import, cleaning, and merging steps from Part 1 to all five gauging stations and their corresponding weather stations.
+ 
+*Things to think about: How can you avoid copy-pasting your Part 1 code five times? What are shared steps and what are unique identifier of your 5 data sets?*
 
+NOTE: IMPORT & MERGE MANUALLY IF YOU FAIL TO AUTOMATE THESE STEPS
+
+---
+
+## Task 2 — Visualizing Along the River
+ 
+### The question:
+> **Does the water level follow the geographical course of the river?**
+
+Depict the average, annual water level ordered along the river's course. 
+
+To order your stations correctly, you'll need the **river kilometre (Flusskilometer)** and **gauge zero point (Pegelnullpunkt, PNP)** for each station. These are listed on the station's *Stammdatenblatt* (master data sheet), available via:
+ 
+- [pegelonline.wsv.de](https://www.pegelonline.wsv.de/gast/pegeltabelle) — click on a station for its details
+
+If a station's PNP isn't listed there, try other sources such as regional state portals (e.g. [pegelonline.nlwkn.niedersachsen.de](https://www.pegelonline.nlwkn.niedersachsen.de/Messwerte) for Lower Saxony) — a quick web search for the station name plus *"Stammdatenblatt"* usually helps. If you can't find the PNP for a station within reasonable time, note this in your report and proceed with raw water levels.
+
+---
+
+## Task 3 — Heavy Rainfall Events (Starkregen)
+
+### The question:
+> **Did heavy rainfall events occur along your river — and if so, how severe were they?**
+ 
+The German Weather Service (DWD) classifies heavy rainfall ("Starkregen") into three warning levels based on hourly precipitation. You can read more [here](https://www.dwd.de/DE/service/lexikon/begriffe/S/Starkregen.html):
+ 
+| Warning Level | Precipitation (1 hour) |
+|---|---|
+| Level 1 | > 15 to < 25 l/m² |
+| Level 2 | > 25 to < 40 l/m² |
+| Level 3 | > 40 l/m² |
+ 
+**a)** Using your combined dataset from Task 1, check whether any of these thresholds were exceeded at any of your five stations.
+ 
+**b)** If so — which warning level occurred most often, and at which station(s)?
+ 
+ ---
+ 
+## Bonus — Visualizing Heavy Rainfall Events
+ 
+Create a plot that visualizes when and where these heavy rainfall events occurred across your five stations — for example, a timeline or tile plot showing station vs. time, colored by warning level.
+ 
+---
+
+# Task 4 (Master's) — Quantifying the Relationship: Correlation
+ 
+### Background: The `cor()` function
+ 
+So far you've looked at the relationship between precipitation and water level visually and by inspecting extremes. Now you'll quantify it.
+ 
+R's built-in `cor()` function calculates the correlation coefficient between two numeric vectors:
+ 
+```r
+cor(x, y, use = "complete.obs")
+```
+ 
+- `x` and `y` are your two variables (e.g. precipitation and water level)
+- The result ranges from **-1** (perfect negative relationship) to **+1** (perfect positive relationship); **0** means no linear relationship
+- `use = "complete.obs"` tells R to ignore rows where either value is `NA` — important, since real-world data often has gaps
+By default, `cor()` computes the **Pearson** correlation, which measures *linear* relationships. Given that hydrological relationships are often non-linear, you may also want to try `method = "spearman"`, which measures whether two variables tend to increase/decrease together, regardless of whether that relationship is linear.
+ 
+### Tasks
+ 
+For each of your five stations, calculate the correlation between daily precipitation of 1-3 days prior to the water level measurement and water level. Depict these.
+ 
+
+<--
 ## Teil 3 ###
 -->
