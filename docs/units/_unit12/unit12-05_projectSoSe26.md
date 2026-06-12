@@ -130,7 +130,7 @@ Calculate monthly averages for both precipitation and water level across your fu
 Create one or two plots that bring your findings to life and summarize your results.
  
 
-
+<!--
 # Part 2 — Automation Across the River
  
 ## Background
@@ -211,6 +211,5 @@ By default, `cor()` computes the **Pearson** correlation, which measures *linear
 For each of your five stations, calculate the correlation between daily precipitation of 1-3 days prior to the water level measurement and water level. Depict these.
  
 
-<--
 ## Teil 3 ###
 -->
