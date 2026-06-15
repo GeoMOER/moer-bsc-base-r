@@ -130,7 +130,7 @@ Calculate monthly averages for both precipitation and water level across your fu
 Create one or two plots that bring your findings to life and summarize your results.
  
 
-<!--
+
 # Part 2 — Automation Across the River
  
 ## Background
@@ -139,7 +139,7 @@ In Part 1, you developed a workflow for **one** gauging station and its nearest 
 
 ---
 
-## Task 1 — Automate Import & Merging
+### Task 1 — Automate Import & Merging
  
 Apply the import, cleaning, and merging steps from Part 1 to all five gauging stations and their corresponding weather stations.
  
@@ -149,9 +149,8 @@ NOTE: IMPORT & MERGE MANUALLY IF YOU FAIL TO AUTOMATE THESE STEPS
 
 ---
 
-## Task 2 — Visualizing Along the River
+### Task 2 — Visualizing Along the River
  
-### The question:
 > **Does the water level follow the geographical course of the river?**
 
 Depict the average, annual water level ordered along the river's course. 
@@ -164,9 +163,8 @@ If a station's PNP isn't listed there, try other sources such as regional state 
 
 ---
 
-## Task 3 — Heavy Rainfall Events (Starkregen)
+### Task 3 — Heavy Rainfall Events (Starkregen)
 
-### The question:
 > **Did heavy rainfall events occur along your river — and if so, how severe were they?**
  
 The German Weather Service (DWD) classifies heavy rainfall ("Starkregen") into three warning levels based on hourly precipitation. You can read more [here](https://www.dwd.de/DE/service/lexikon/begriffe/S/Starkregen.html):
@@ -183,15 +181,15 @@ The German Weather Service (DWD) classifies heavy rainfall ("Starkregen") into t
  
  ---
  
-## Bonus — Visualizing Heavy Rainfall Events
+### Bonus — Visualizing Heavy Rainfall Events
  
 Create a plot that visualizes when and where these heavy rainfall events occurred across your five stations — for example, a timeline or tile plot showing station vs. time, colored by warning level.
  
 ---
 
-# Task 4 (Master's) — Quantifying the Relationship: Correlation
+### Task 4 (Master's) — Quantifying the Relationship: Correlation
  
-### Background: The `cor()` function
+> Background: The `cor()` function
  
 So far you've looked at the relationship between precipitation and water level visually and by inspecting extremes. Now you'll quantify it.
  
@@ -206,10 +204,6 @@ cor(x, y, use = "complete.obs")
 - `use = "complete.obs"` tells R to ignore rows where either value is `NA` — important, since real-world data often has gaps
 By default, `cor()` computes the **Pearson** correlation, which measures *linear* relationships. Given that hydrological relationships are often non-linear, you may also want to try `method = "spearman"`, which measures whether two variables tend to increase/decrease together, regardless of whether that relationship is linear.
  
-### Tasks
  
 For each of your five stations, calculate the correlation between daily precipitation of 1-3 days prior to the water level measurement and water level. Depict these.
  
-
-## Teil 3 ###
--->
