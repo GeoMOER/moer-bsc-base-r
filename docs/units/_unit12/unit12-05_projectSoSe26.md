@@ -13,8 +13,6 @@ header:
 Rivers don't react to rain instantly — water has to travel through the landscape and collect in tributaries before affecting the water level. Understanding how and how fast a river responds to rainfall is at the heart of flood forecasting and water resource management.
 In this project, you will work with **real hydrological and meteorological data** to explore the relationship between precipitation and river water levels. By the end, each of you will have analyzed a stretch of a real German river.
 
->**Submission deadline:** Please submit your first project till 02.06.2026 via ILIAS.
-
 ---
  
 ## Your River & Gauging Stations
@@ -57,155 +55,159 @@ Use the retrieved ID to download the relevant meteorological datasets directly f
 <iframe src="dwd_map.html" width="100%" height="400px" style="border:none;"></iframe>
 
 ---
+<details markdown="1">
+  <summary><h1><strong>Part 1 — Getting to Know Your Data</strong></h1></summary>
 
-## Part 1 — Getting to Know Your Data
+  >**Submission deadline:** Please submit your first project till 02.06.2026 via ILIAS.
 
-### The question:
-> **Is there a direct relationship between precipitation and water level at your station? When do water levels peak — and was it actually raining at the time?**
+  <h2><strong>The question:</strong></h2>
+  > **Is there a direct relationship between precipitation and water level at your station? When do water levels peak — and was it actually raining at the time?**
  
-Tasks 1–3 get your data into a shape where you can answer that question. Task 4 is where you answer it.
+  Tasks 1–3 get your data into a shape where you can answer that question. Task 4 is where you answer it.
  
 
 
 
-### Task 1 — Data Import
+  <h2><strong>Task 1 — Data Import</strong></h2>
  
-Download and import the datasets for **one** of your gauging stations and its nearest weather station.
+  Download and import the datasets for **one** of your gauging stations and its nearest weather station.
 
-**Key columns to work with:**
+  **Key columns to work with:**
  
-| Dataset | Column | Description |
-|---|---|---|
-| Gauging station | `timestamp` | Date & time of measurement |
-| Gauging station | `value` | Water level [cm] |
-| Weather station | `MESS_DATUM` | Date & time of measurement |
-| Weather station | `R1` | Precipitation [mm] |
-| Weather station | `RS_IND` | Precipitation indicator (0 = none, 1 = yes, -999 = missing) |
+  | Dataset | Column | Description |
+  |---|---|---|
+  | Gauging station | `timestamp` | Date & time of measurement |
+  | Gauging station | `value` | Water level [cm] |
+  | Weather station | `MESS_DATUM` | Date & time of measurement |
+  | Weather station | `R1` | Precipitation [mm] |
+  | Weather station | `RS_IND` | Precipitation indicator (0 = none, 1 = yes, -999 = missing) |
 
----
+  ---
 
-### Task 2 — Inspect & Clean
+  <h2><strong>Task 2 — Inspect & Clean</strong></h2>
  
-Take a close look at your data before doing anything with it and summarize it in your [report](/moer-bsc-base-r/unit12/unit12-01_project_guidelines.html).
+  Take a close look at your data before doing anything with it and summarize it in your [report](/moer-bsc-base-r/unit12/unit12-01_project_guidelines.html).
 
-*Things to think about: What data types did R assign on import — are they correct? Do you have missing values? Is your time series without gaps?*
+  *Things to think about: What data types did R assign on import — are they correct? Do you have missing values? Is your time series without gaps?*
 
----
+  ---
 
-### Task 3 — One dataframe to rule them all
+  <h2><strong>Task 3 — One dataframe to rule them all</strong></h2>
 
-Create a single merged dataframe with an hourly resolution that covers the overlapping time period of both datasets.
+  Create a single merged dataframe with an hourly resolution that covers the overlapping time period of both datasets.
 
-*Things to think about: What does merging on a timestamp require?*
+  *Things to think about: What does merging on a timestamp require?*
 
----
+  ---
 
-### Task 4 — Is Rain Making the River Rise?
+  <h2><strong>Task 4 — Is Rain Making the River Rise?</strong></h2>
  
-Now put your merged dataset to work. You're looking for evidence of a relationship between precipitation and water level — but that relationship may not be instantaneous.
+  Now put your merged dataset to work. You're looking for evidence of a relationship between precipitation and water level — but that relationship may not be instantaneous.
  
-**a) Hourly scale**
+  **a) Hourly scale**
  
-Find the single highest and lowest water levels in your record.
+  Find the single highest and lowest water levels in your record.
  
-- What were precipitation conditions like **at that exact hour**?
-- And in the **1-3 hours before**?
+  - What were precipitation conditions like **at that exact hour**?
+  - And in the **1-3 hours before**?
 
-**b) Daily scale**
+  **b) Daily scale**
   
-- On the day of the highest and lowest water levels — how much did it rain?
-- What about the **1–3 days before** each extreme?
+  - On the day of the highest and lowest water levels — how much did it rain?
+  - What about the **1–3 days before** each extreme?
 
-**c) Seasonal patterns**
+  **c) Seasonal patterns**
  
-Calculate monthly averages for both precipitation and water level across your full record.
+  Calculate monthly averages for both precipitation and water level across your full record.
  
-- In which month is flood risk theoretically highest at your station?
-- Is the rainiest month also the month with the highest water levels? 
+  - In which month is flood risk theoretically highest at your station?
+  - Is the rainiest month also the month with the highest water levels? 
 
----
+  ---
 
-### Bonus — Visualisation
+  <h2><strong>Bonus — Visualisation</strong></h2>
  
-Create one or two plots that bring your findings to life and summarize your results.
+  Create one or two plots that bring your findings to life and summarize your results.
  
+</details>
 
+<details markdown="1">
+  <summary><h1><strong>Part 2 — Automation Across the River</strong></h1></summary>
+ 
+  <h2><strong>Background</strong></h2>
+ 
+  In Part 1, you developed a workflow for **one** gauging station and its nearest weather station. In Part 2, you'll scale that workflow up to **all five** of your chosen stations — and use the combined dataset to look for patterns along your river.
 
-# Part 2 — Automation Across the River
- 
-## Background
- 
-In Part 1, you developed a workflow for **one** gauging station and its nearest weather station. In Part 2, you'll scale that workflow up to **all five** of your chosen stations — and use the combined dataset to look for patterns along your river.
+  >**Submission deadline:** Please submit your second project till 19.07.2026 via ILIAS.
 
->**Submission deadline:** Please submit your second project till 19.07.2026 via ILIAS.
+  ---
 
----
+  <h2><strong>Task 1 — Automate Import & Merging</strong></h2>
+ 
+  Apply the import, cleaning, and merging steps from Part 1 to all five gauging stations and their corresponding weather stations.
+ 
+  *Things to think about: How can you avoid copy-pasting your Part 1 code five times? What are shared steps and what are unique identifier of your 5 data sets?*
 
-### Task 1 — Automate Import & Merging
- 
-Apply the import, cleaning, and merging steps from Part 1 to all five gauging stations and their corresponding weather stations.
- 
-*Things to think about: How can you avoid copy-pasting your Part 1 code five times? What are shared steps and what are unique identifier of your 5 data sets?*
+  NOTE: IMPORT & MERGE MANUALLY IF YOU FAIL TO AUTOMATE THESE STEPS
 
-NOTE: IMPORT & MERGE MANUALLY IF YOU FAIL TO AUTOMATE THESE STEPS
+  ---
 
----
+  <h2><strong>Task 2 — Visualizing Along the River</strong></h2>
+ 
+  > **Does the water level follow the geographical course of the river?**
 
-### Task 2 — Visualizing Along the River
- 
-> **Does the water level follow the geographical course of the river?**
+  Depict the average, annual water level ordered along the river's course. 
 
-Depict the average, annual water level ordered along the river's course. 
+  To order your stations correctly, you'll need the **river kilometre (Flusskilometer)** and **gauge zero point (Pegelnullpunkt, PNP)** for each station. These are listed on the station's *Stammdatenblatt* (master data sheet), available via:
+ 
+  - [pegelonline.wsv.de](https://www.pegelonline.wsv.de/gast/pegeltabelle) — click on a station for its details
 
-To order your stations correctly, you'll need the **river kilometre (Flusskilometer)** and **gauge zero point (Pegelnullpunkt, PNP)** for each station. These are listed on the station's *Stammdatenblatt* (master data sheet), available via:
- 
-- [pegelonline.wsv.de](https://www.pegelonline.wsv.de/gast/pegeltabelle) — click on a station for its details
+  If a station's PNP isn't listed there, try other sources such as regional state portals (e.g. [pegelonline.nlwkn.niedersachsen.de](https://www.pegelonline.nlwkn.niedersachsen.de/Messwerte) for Lower Saxony) — a quick web search for the station name plus *"Stammdatenblatt"* usually helps. If you can't find the PNP for a station within reasonable time, note this in your report and proceed with raw water levels.
 
-If a station's PNP isn't listed there, try other sources such as regional state portals (e.g. [pegelonline.nlwkn.niedersachsen.de](https://www.pegelonline.nlwkn.niedersachsen.de/Messwerte) for Lower Saxony) — a quick web search for the station name plus *"Stammdatenblatt"* usually helps. If you can't find the PNP for a station within reasonable time, note this in your report and proceed with raw water levels.
+  ---
 
----
+  <h2><strong>Task 3 — Heavy Rainfall Events (Starkregen)</strong></h2>
 
-### Task 3 — Heavy Rainfall Events (Starkregen)
+  > **Did heavy rainfall events occur along your river — and if so, how severe were they?**
+ 
+  The German Weather Service (DWD) classifies heavy rainfall ("Starkregen") into three warning levels based on hourly precipitation. You can read more [here](https://www.dwd.de/DE/service/lexikon/begriffe/S/Starkregen.html):
+ 
+  | Warning Level | Precipitation (1 hour) |
+  |---|---|
+  | Level 1 | > 15 to < 25 l/m² |
+  | Level 2 | > 25 to < 40 l/m² |
+  | Level 3 | > 40 l/m² |
+ 
+  **a)** Using your combined dataset from Task 1, check whether any of these thresholds were exceeded at any of your five stations.
+ 
+  **b)** If so — which warning level occurred most often, and at which station(s)?
+ 
+  ---
+ 
+  <h2><strong>Bonus — Visualizing Heavy Rainfall Events</strong></h2>
+ 
+  Create a plot that visualizes when and where these heavy rainfall events occurred across your five stations — for example, a timeline or tile plot showing station vs. time, colored by warning level.
+ 
+  ---
 
-> **Did heavy rainfall events occur along your river — and if so, how severe were they?**
+  <h2><strong>Task 4 (Master's) — Quantifying the Relationship: Correlation</strong></h2>
  
-The German Weather Service (DWD) classifies heavy rainfall ("Starkregen") into three warning levels based on hourly precipitation. You can read more [here](https://www.dwd.de/DE/service/lexikon/begriffe/S/Starkregen.html):
+  > Background: The `cor()` function
  
-| Warning Level | Precipitation (1 hour) |
-|---|---|
-| Level 1 | > 15 to < 25 l/m² |
-| Level 2 | > 25 to < 40 l/m² |
-| Level 3 | > 40 l/m² |
+  So far you've looked at the relationship between precipitation and water level visually and by inspecting extremes. Now you'll quantify it.
  
-**a)** Using your combined dataset from Task 1, check whether any of these thresholds were exceeded at any of your five stations.
+  R's built-in `cor()` function calculates the correlation coefficient between two numeric vectors:
  
-**b)** If so — which warning level occurred most often, and at which station(s)?
+  ```r
+  cor(x, y, use = "complete.obs")
+  ```
  
- ---
+  - `x` and `y` are your two variables (e.g. precipitation and water level)
+  - The result ranges from **-1** (perfect negative relationship) to **+1** (perfect positive relationship); **0** means no linear relationship
+  - `use = "complete.obs"` tells R to ignore rows where either value is `NA` — important, since real-world data often has gaps
+  By default, `cor()` computes the **Pearson** correlation, which measures *linear* relationships. Given that hydrological relationships are often non-linear, you may also want to try `method = "spearman"`, which measures whether two variables tend to increase/decrease together, regardless of whether that relationship is linear.
  
-### Bonus — Visualizing Heavy Rainfall Events
  
-Create a plot that visualizes when and where these heavy rainfall events occurred across your five stations — for example, a timeline or tile plot showing station vs. time, colored by warning level.
- 
----
+  For each of your five stations, calculate the correlation between daily precipitation of 1-3 days prior to the water level measurement and water level. Depict these.
 
-### Task 4 (Master's) — Quantifying the Relationship: Correlation
- 
-> Background: The `cor()` function
- 
-So far you've looked at the relationship between precipitation and water level visually and by inspecting extremes. Now you'll quantify it.
- 
-R's built-in `cor()` function calculates the correlation coefficient between two numeric vectors:
- 
-```r
-cor(x, y, use = "complete.obs")
-```
- 
-- `x` and `y` are your two variables (e.g. precipitation and water level)
-- The result ranges from **-1** (perfect negative relationship) to **+1** (perfect positive relationship); **0** means no linear relationship
-- `use = "complete.obs"` tells R to ignore rows where either value is `NA` — important, since real-world data often has gaps
-By default, `cor()` computes the **Pearson** correlation, which measures *linear* relationships. Given that hydrological relationships are often non-linear, you may also want to try `method = "spearman"`, which measures whether two variables tend to increase/decrease together, regardless of whether that relationship is linear.
- 
- 
-For each of your five stations, calculate the correlation between daily precipitation of 1-3 days prior to the water level measurement and water level. Depict these.
- 
+</details>
