@@ -27,7 +27,7 @@ The **apply()** function is used when working with matrices or data frames to ap
 apply(X, MARGIN, FUN, ...)
 ```
 
-The **sapply()** function is a simplified version of **lapply()**, which we will discuss in detail [here]((/moer-bsc-base-r/unit09/unit09-05_lapply.html)), returning a vector or matrix instead of a list whenever possible.
+The **sapply()** function is a simplified version of **lapply()**, which we will discuss in detail [here](/moer-bsc-base-r/unit09/unit09-05_lapply.html), returning a vector or matrix instead of a list whenever possible.
 
 ```
 sapply(X, FUN, ...)
