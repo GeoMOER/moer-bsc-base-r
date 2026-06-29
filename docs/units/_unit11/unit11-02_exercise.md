@@ -34,6 +34,6 @@ All data was taken from the [open-data of the Bundeswahlleiterin](https://www.bu
 | Type               | Whether the sum refers to the number of eligible voters, votes cast, invalid votes, valid votes, etc. |
 | First_or_Second    | Whether the sum refers to the first or the second vote                 |
 | Sum_2025           | Total number of votes in 2025                                          |
-| Sum_2011           | Total number of votes in 2011                                          |
+| Sum_2021           | Total number of votes in 2021                                          |
 
 ---
