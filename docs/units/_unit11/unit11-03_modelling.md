@@ -50,9 +50,22 @@ Suppose we want to answer the question, whether fuel efficiency depends on car w
 
 
 ```
-data(mtcars)
-m <- lm(mpg ~ wt + hp + factor(am), data = mtcars)
-summary(m)
+set.seed(1)
+
+n <- 25
+altitude <- round(runif(n, min = 0, max = 3000)) 
+temperature <- 20 - 0.0065 * altitude + rnorm(n, mean = 0, sd = 3)
+temperature <- round(temperature, 1)
+geo_data <- data.frame(altitude, temperature)
+geo_data
+
+plot(geo_data$altitude, geo_data$temperature)
+
+model <- lm(temperature ~ altitude, data = geo_data)
+summary(model)
+
+abline(model, col = "red", lwd = 2)
+
 ```
 The coefficients table given by `summary()` gives you estimates for the intercept and the slope of the variables, when wt and horsepower are both 0, and transmission is automatic (the first factor level). In other words, a linear model describes how the average outcome changes when predictors change, holding all others constant.
 
