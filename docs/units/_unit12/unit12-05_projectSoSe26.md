@@ -138,7 +138,7 @@ Use the retrieved ID to download the relevant meteorological datasets directly f
  
   In Part 1, you developed a workflow for **one** gauging station and its nearest weather station. In Part 2, you'll scale that workflow up to **all five** of your chosen stations — and use the combined dataset to look for patterns along your river.
 
-  >**Submission deadline:** Please submit your second project till 26.07.2026 via ILIAS.
+  >**Submission deadline:** Please submit your second project till 02.08.2026 via ILIAS.
 
   ---
 
