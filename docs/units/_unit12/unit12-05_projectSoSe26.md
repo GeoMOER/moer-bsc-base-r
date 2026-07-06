@@ -211,3 +211,76 @@ Use the retrieved ID to download the relevant meteorological datasets directly f
   For each of your five stations, calculate the correlation between daily precipitation of 1-3 days prior to the water level measurement and water level. Depict these.
 
 </details>
+
+<details markdown="1">
+  <summary><h1><strong>Part 3 — Prediction</strong></h1></summary>
+
+  <h2><strong>Background</strong></h2>
+
+  In Parts 1 and 2 you established whether precipitation, river km, and water level 
+  are related, and Master's students quantified the strength of that relationship 
+  with cor(). In Part 3 you'll go one step further: build simple statistical models 
+  that predict water level from these variables, and test how well one of them 
+  actually forecasts unseen data.
+
+  > **Submission deadline:** Please submit your third project till 02.08.2026 via ILIAS.
+
+  ---
+
+  <h2><strong>Task 1: Modelling</strong></h2>
+
+  Using your merged five-station dataset from Part 2, aggregate to daily resolution: 
+  calculate the **sum** of precipitation and the **mean** water level per day and 
+  station. River kilometer should also be added.
+
+  Choose a **10-day test window** that (a) is covered by all five stations, and 
+  (b) contains a rather strong precipitation event — e.g. one identified in Project #2. Set this window aside as your "test" set and remove it from the rest ("train").
+
+  Using the **train** data, model water level as a response to:  
+  1) the sum of precipitation of the day prior (model 1)  
+  2) river km (model 2)  
+  3) both (model 3)  
+
+  > ⚠️ **Simplification:** fixing the lag at 1 day keeps this comparable across 
+  > stations, even though your earlier work showed the *best* lag varies by 
+  > station. Keep this in mind when interpreting model 1's fit — a station whose 
+  > true best lag is, say, 4 days will look artificially weak here.
+
+  > **Compare R² across all three models. Does precipitation add explanatory power 
+  > beyond river position alone — and does river position add anything beyond 
+  > precipitation alone?**
+
+  Add a simple visualization (e.g. observed vs. fitted water level).
+
+  ---
+
+  <h2><strong>Task 2 (Obligatory for Master's, bonus for Bachelor's): Predict</strong></h2>
+
+  Use your full test set to predict water level using the three models. Add a seasonal term using a cyclic day-of-year predictor so the model can represent a smooth 
+  seasonal curve rather than treating day 365 and day 1 as far apart:
+
+```r
+  df$doy <- as.numeric(format(df$date, "%j"))
+  df$doy_sin <- sin(2 * pi * df$doy / 365)
+  df$doy_cos <- cos(2 * pi * df$doy / 365)
+
+  model_season <- lm(value ~ doy_sin + doy_cos + ..., data = df)
+```
+
+  Compare predicted vs. observed and compute RMSE by hand:
+
+  RMSE = sqrt( mean( (observed − predicted)² ) )
+
+  > **Are these models suitable to act as a warning tool?**
+
+  ---
+
+  <h2><strong>Task 3 (Bonus) — Mapping Record Water Levels and Rainfall</strong></h2>
+
+  For each station, identify the day with its highest precipitation sum, and create 
+  a map showing the water level one day later, along the river.
+
+  Tip: `leaflet` could be a nice package — you already have station coordinates 
+  and river_km from Part 2.
+
+</details>
